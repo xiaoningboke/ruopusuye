@@ -1,0 +1,42 @@
+	<include file = "Public/header" />
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<js file="__ROOT__/Public/Ueditor/ueditor.config.js"/>  
+	<js file="__ROOT__/Public/Ueditor/ueditor.all.min.js"/>  
+	<js file="__ROOT__/Public/Ueditor/lang/zh-cn/zh-cn.js"/>  
+	<script type="text/javascript" charset="utf-8">  
+	   window.UEDITOR_HOME_URL = "__PUBLIC__/Ueditor/";  
+	    $(document).ready(function () {  
+	      UE.getEditor('info', {  
+	      initialFrameHeight: 500,  
+	      initialFrameWidth: 800,  
+	      serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"  
+	    });  
+	  });    
+	</script>
+	<body>
+		<div style="margin: 15px;">
+			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+				<legend>网站的基本信息</legend>
+			</fieldset>
+
+			<form class="layui-form" action="{:U('Admin/Index/exitInformation')}" method="post">
+				<div class="layui-form-item">
+					<label class="layui-form-label">公司图片</label>
+					<div class="layui-input-block">
+						<input type="file" name="name" value="{$data.name}" lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">公司图片</label>
+					<div class="layui-input-block">
+					<textarea name="info" id="info" style="width:1000px;height:500px;"></textarea>  
+					</div>
+				</div>
+				<div style="padding: 20px;">
+				</div>
+
+			</form>
+		</div>
+	</body>
+
+</html>
