@@ -136,5 +136,38 @@ function lunbo(){
 		        }
 		    })
 }
-
+//  ========== 
+//  = 无缝滚动 = 
+//  ========== 
+function scroll(){
+		$(function(){
+			var oul = $('.main_2_bottom ul');
+			var oulHtml = oul.html();
+			oul.html(oulHtml+oulHtml)
+			var timeId = null;
+			var ali = $('.main_2_bottom ul li');
+			var aliWidth = ali.eq(0).width();
+			var aliSize = ali.size();
+			var ulWidth = aliWidth*aliSize;
+			oul.width(ulWidth);	
+			var speed = 1;
+			function slider(){
+				if(speed>0){
+					if(oul.css('left')=='0px'){
+			 		oul.css('left',-ulWidth/2+'px');
+				 	}
+				 	oul.css('left','+='+speed+'px');
+				}
+			 	
+			 }
+			// setInterval()函数的作用是：每隔一段时间，执行该函数里的代码
+			 timeId = setInterval(slider,30);
+			$('.main_2_bottom').mouseover(function(){
+				clearInterval(timeId);	
+			});
+			$('.main_2_bottom').mouseout(function(){
+				timeId = setInterval(slider,30);
+			});
+		});
+}
 

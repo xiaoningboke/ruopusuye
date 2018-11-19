@@ -15,18 +15,16 @@
 		<!--首页页面-->
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<!--首页-->
+		<script type="text/javascript" src="js/public.js"></script>
 		<script type="text/javascript" src="js/lunbo.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-1.8.3/jquery.min.js"></script>
 		
 <script type="text/javascript">
-	window.onload=function(){
-//		main();
-		pro();
-		top_1();
-		top_2();
-		lunbo();
-	}
+	$(document).ready(function () {
+            scroll();
+			top_1();
+			lunbo();
+    });
 </script>
 	</head>
 	<body>
@@ -49,19 +47,20 @@
 <!--导航栏开始-->
 		<div id="nav" class="bg">
 			<ul class="w">
-				<li><a href="#">首页</a></li>
-				<li><a href="./introduction.html">公司简介</a></li>
-				<li><a href="./news.html">新闻中心</a></li>
-				<li><a href="./product.html">产品展示</a></li>
-				<li><a href="./contact.html">联系我们</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="introduction.html">公司简介</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product.html">产品展示</a></li>
+				<li><a href="contact">联系我们</a></li>
 				<li class="addWidth">
 					<div class="li_input">
-						<div class="li_text"><input type="text" name="" id="" value="" /></div>
-						<div class="li_button"><input type="button" name="" id="" value="搜索" /></div>
+						<div class="li_text"><input type="text" name="" id=""  placeholder="请输入关键词" value="" /></div>
+						<div class="li_button"><input type="button" name="" id="" value="搜索"/></div>
 					</div>
 				</li>
 			</ul>
 		</div>
+<!--导航栏结束-->
 <!--轮播图开始-->
 		<div id="lunbobox">
 		        <div id="toleft">&lt;</div>
@@ -79,19 +78,29 @@
 		        <span></span>
     </div>
 <!--轮播图结束-->
-    
-
-<!--内容开始-->
-		<a id="top_1" href="#">
+<!--小插件-->
+		<a id="top_top" href="#">
 			<img src="img/index_fixed_top.png" alt="" />
 		</a>
-		<a id="top_2" href="#">
+		<a id="top_weixin" href="#">
 			<img src="img/index_fixed_weixin.png" alt="" />
 		</a>
-		<a id="top_3" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
-			<img src="img/index_fixed_qq.png" alt="" />
+		<a id="top_iphone" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
+			<img src="img/index_fixed_iphone.png" alt="" />
 		</a>
-		<div id="kongbai_1"></div>
+		<div id="kongbai_weixin"></div>
+		<div id="kongbai_iphone">
+			<h5>电话热线：</h5>
+			<p>053-6521-7508</p>
+			<h5>手机号：</h5>
+			<p>15263647456</p>
+		</div>
+		<div class="kefu">
+        	<h2>QQ在线</h2><span class="cancel">×</span>
+        	<a class="kefu_0"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes"><img src="img/kefu_11.jpg"></a>
+    	</div>
+<!--小插件结束-->
+<!--内容开始-->
 		<div id="main" class="w">
 			<ul class="w">
 			<!--公司简介-->
@@ -107,7 +116,7 @@
 						<div class="main_1_bottom_RBox">
 							<h1>寿光市若普有限责任公司</h1>
 							<p>寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“，中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司自成立至今，引进国外先进技术，是国内首家从事PET材料绳索的中外合资企业，经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。经过不断的创新和发展，各方面取得了很多国内外客户的认可，我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p>
-							<a class="more" href="./introduction.html#aboutUs">查看更多</a>
+							<a class="more" href="introduction.html">查看更多</a>
 						</div>
 					</div>
 				</li>
@@ -122,25 +131,25 @@
 						    <li class="liss">
 						    	<img src="img/index_main_pre1.jpg" alt="">
 						    	<h4>PET压膜绳</h4>
-						    	<a href="">查看详情</a>
+						    	<a href="product.html">查看详情</a>
 						    </li>
 						   	<li class="liss">
 						    	<img src="img/index_main_pre2.jpg" alt="">
 						    	<h4>PET船用渔网线</h4>
-						    	<a href="">查看详情</a>
+						    	<a href="product.html">查看详情</a>
 						    	
 						    	
 						    </li>
 						    <li class="liss">
 						    	<img src="img/index_main_pre3.jpg" alt="">
 						    	<h4>盐场专用绳</h4>
-						    	<a href="">查看详情</a>
+						    	<a href="product.html">查看详情</a>
 						    	
 						    </li>
 						    <li class="liss">
 						    	<img src="img/index_main_pre4.jpg" alt="">
 						    	<h4>海上养殖专用用绳</h4>
-						    	<a href="">查看详情</a>
+						    	<a href="product.html">查看详情</a>
 						    	
 						    </li>
 						  
@@ -155,17 +164,17 @@
 						<p>新闻资讯</p>
 					</div>
 					<div class="main_4_center w">
-						<a class="main_4_center_Box w" href="#">
+						<a class="main_4_center_Box w" href="newspage.html">
 							<img src="img/1.png"/>
 							<h6>寿光市若普塑业有限责任公司</h6>
 							<p>寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“，中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司自成立至今，引进国外先进技术，是国内首家从事PET材料绳索的中外合资企业，经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。经过不断的创新和发展，各方面取得了很多国内外客户的认可，我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p>
 						</a>
-						<a class="main_4_center_Box w" href="#">
+						<a class="main_4_center_Box w" href="newspage.html">
 							<img src="img/2.png"/>
 							<h6>寿光市若普塑业有限责任公司</h6>
 							<p>寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“，中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司自成立至今，引进国外先进技术，是国内首家从事PET材料绳索的中外合资企业，经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。经过不断的创新和发展，各方面取得了很多国内外客户的认可，我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p>
 						</a>
-						<a class="main_4_center_Box w" href="#">
+						<a class="main_4_center_Box w" href="newspage.html">
 							<img src="img/3.png"/>
 							<h6>寿光市若普塑业有限责任公司</h6>
 							<p>寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“，中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司自成立至今，引进国外先进技术，是国内首家从事PET材料绳索的中外合资企业，经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。经过不断的创新和发展，各方面取得了很多国内外客户的认可，我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p>
@@ -174,7 +183,7 @@
 						
 					</div>
 					<div class="main_4_bottom">
-						<a class="more" href="./news.html">更多新闻</a>
+						<a class="more" href="news.html">更多新闻</a>
 					</div>
 
 					
@@ -187,16 +196,16 @@
 					</div>
 					<div class="main_3_bottom w">
 						<div class="main_3_bottom_Box">
-							<img src="img/index_main_address.png"/>
+							<img src="img/优势_1.jpg"/>
 							<p>图片：（350-380）*（200-300）</p>
 						</div>
 						<div class="main_3_bottom_Box">
-							<img src="img/index_main_address.png"/>
-							<p>图片：（350-380）*（200-300）</p>
-						</div>
-						<div class="main_3_bottom_Box">
-							<img src="img/index_main_address.png"/>
+							<img src="img/优势_3.jpg"/>
 							
+							<p>图片：（350-380）*（200-300）</p>
+						</div>
+						<div class="main_3_bottom_Box">
+							<img src="img/优势_2.jpg"/>
 							<p>图片：（350-380）*（200-300）</p>
 						</div>
 						
@@ -205,6 +214,7 @@
 			
 			</ul>
 		</div>
+<!--内容结束-->
 <!--尾部开始-->
 		<div id="footer">
 			<div class="footer w">
@@ -222,17 +232,17 @@
 							<div class="footer_RBox_span"><span>联系QQ：403539296</span></div>
 						</li>
 						<li>
-
+							
 							<div class="footer_RBox_img"><img src="img/index_footer_iPhone.png"/></div>
 							<div class="footer_RBox_span"><span>联系电话：05365217508&nbsp;&nbsp;&nbsp;&nbsp;15263647456</span></div>
 						</li>
 						<li>
-
+							
 							<div class="footer_RBox_img"><img src="img/index_footer_email.png"/></div>
 							<div class="footer_RBox_span"><span>联系邮箱：403539296@qq.com</span></div>
-						</li>
+						</li>	
 						<li>
-
+							
 							<div class="footer_RBox_img"><img src="img/index_footer_address.png"/></div>
 							<div class="footer_RBox_span"><span>联系地址：山东省潍坊市寿光市孙家集街道黄埔村118号</span></div>
 						</li>
@@ -248,8 +258,6 @@
 				技术支持：千行软件工作室
 			</div>
 		</div>
-		
-		
-
+<!--尾部结束-->
 	</body>
 </html>

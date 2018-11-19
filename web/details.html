@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>产品详情</title>
-    <link type="text/css" rel="stylesheet" href="CSS/csh.css">
-    <link type="text/css" rel="stylesheet" href="CSS/details.css">
-    <link type="text/css" rel="stylesheet" href="CSS/public.css">
+    <link type="text/css" rel="stylesheet" href="css/csh.css">
+    <link type="text/css" rel="stylesheet" href="css/details.css">
+    <link type="text/css" rel="stylesheet" href="css/public.css">
+    <script type="text/javascript" src="./js/public.js"></script>
+    <script src="js/jquery-1.8.3/jquery.min.js"></script>
+    <script>
+       $(document).ready(function () {
+           top_1();
+       });
+    </script>
 </head>
 <body>
 <div class="main">
@@ -25,20 +32,19 @@
         </div>
     </div>
     <!--导航栏开始-->
-    <!--导航栏开始-->
     <div id="nav" class="bg">
         <ul class="w">
-            <li><a href="./index.html">首页</a></li>
-            <li><a href="./introduction.html">公司简介</a></li>
-            <li><a href="./news.html">新闻中心</a></li>
-            <li><a href="./product.html">产品展示</a></li>
-            <li><a href="./contact.html">联系我们</a></li>
+            <li><a href="#">首页</a>
+            <li><a href="#">公司简介</a>
+            <li><a href="#">新闻中心</a>
+            <li><a href="product.html">产品展示</a>
+            <li><a href="contact.html">联系我们</a>
             <li class="addWidth">
                 <div class="li_input">
-                    <div class="li_text"><input type="text" name="" id="" value="" /></div>
-                    <div class="li_button"><input type="button" name="" id="" value="搜索" /></div>
+                    <div class="li_text"><input type="text"/></div>
+                    <div class="li_button"><input type="button" value="搜索" /></div>
                 </div>
-            </li>
+
         </ul>
     </div>
     <div class="content">
@@ -46,7 +52,7 @@
             <img src="img/03pro.jpg">
         </div>
         <div class="right">
-            <div class="r_head"><h2>PET压膜绳、线</h2><a class="a0" href="#">查看其他产品>></a></div>
+            <div class="r_head"><h2>PET压膜绳、线</h2><a class="a0" href="product.html">查看其他产品>></a></div>
             <form>
             <table>
                 <tr><td>标准价格</td><td>￥3000</td></tr>
@@ -56,12 +62,18 @@
             </table>
             </form>
             <div class="r_a0">
-                <a class="r_a1" href="#">询问低价</a>
-                <a class="r_a2" href="#">查看联系方式</a>
+                <a class="r_a1"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes">询问低价</a>
+                <a class="r_a2" href="./contact.html">查看联系方式</a>
             </div>
+            <div class="in_p">
             <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;产品简介：日光温室是采用较简易的设施，充分利用太阳能，在寒冷地区一般不加温进行蔬菜越冬栽培，而生产新鲜蔬菜的栽培设施日光温室具有鲜明的中国特色。是我国独有的设施。日光温室的结构各地不尽相同，分类方法也比较多。按墙体材料分主要有干打垒土温室，砖石结构温室，复合结构温室等。按后屋面长度分，有长后坡温室和短后坡温室；按前屋面形式分，有二折式，三折式、拱圆式、微拱式等。按结构分，有竹木结构、钢木结构、钢筋混凝土结构、全钢结构、全钢筋混凝土结构、悬索结构，热镀锌钢管装配结构。
+
             </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主要用途:适用于港口拖带、海洋运输、电力通讯、铁路救援、大型精密件吊装迪尼玛缆绳。
+             </p>
+            </div>
         </div>
     </div>
     <!--尾部开始-->
@@ -102,6 +114,29 @@
             技术支持：千行软件工作室
         </div>
     </div>
+    <!--尾部结束-->
+<!--小插件-->
+		<a id="top_top" href="#">
+			<img src="img/index_fixed_top.png" alt="" />
+		</a>
+		<a id="top_weixin" href="#">
+			<img src="img/index_fixed_weixin.png" alt="" />
+		</a>
+		<a id="top_iphone" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
+			<img src="img/index_fixed_iphone.png" alt="" />
+		</a>
+		<div id="kongbai_weixin"></div>
+		<div id="kongbai_iphone">
+			<h5>电话热线：</h5>
+			<p>053-6521-7508</p>
+			<h5>手机号：</h5>
+			<p>15263647456</p>
+		</div>
+		<div class="kefu">
+        	<h2>QQ在线</h2><span class="cancel">×</span>
+        	<a class="kefu_0"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes"><img src="img/kefu_11.jpg"></a>
+    	</div>
+<!--小插件结束-->
 </div>
 </body>
 </html>

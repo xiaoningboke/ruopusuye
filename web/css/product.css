@@ -28,14 +28,15 @@
     width: 270px;
     float: left;
     margin-left: 30px;
+    margin-top: 20px;
 }
 /*左侧标题栏*/
 .le_sp{
-    width:250px ;
-    height: 60px;
+    width:250px;
+    height: 50px;
     margin-top: 20px;
     display: block;
-    line-height: 60px;
+    line-height: 50px;
     border-bottom:#EAEAEA solid  1px;
     background-color: #4BB344;
     color: white;
@@ -44,10 +45,9 @@
 }
 .ch{
     padding-left: 8px;
-    font-size: 18px;
-    font-weight: 600;
+    font: 700 16px/50px "微软雅黑";
 }
-/*右侧切换按钮*/
+/*左侧切换按钮*/
 #left a{
     display: block;
     width: 250px;
@@ -79,6 +79,44 @@
     line-height: 45px;
     text-decoration: none;
     font-size: 16px;
+}
+.information {
+    width: 247px;
+    height: 350px;
+    margin:20px 0;
+    padding:20px 0;
+}
+.contain {
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    font:500 14px/14px "微软雅黑";
+    border-bottom:solid 1px #4bb344;
+}
+.information img {
+    margin:15px 0 30px 10px;
+    width: 230px;
+    height: 50px;
+}
+.information p {
+    width: 250px;
+    padding-left:15px;
+    font:500 14px/14px "微软雅黑";
+}
+.information ul {
+    margin-top:10px;
+}
+.information li {
+    width: 235px;
+    height: 30px;
+    color:#ababab;
+    font:500 12px/30px "微软雅黑";
+    padding: 0 15px;
+}
+
+.information span {
+    color:#555555;
+    font:500 13px/13px "微软雅黑";
 }
 /*右侧部分*/
 .right{
