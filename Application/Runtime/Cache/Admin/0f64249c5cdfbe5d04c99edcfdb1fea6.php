@@ -31,25 +31,34 @@
 	<body>
 		<div style="margin: 15px;">
 			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-				<legend>网站的基本信息</legend>
+				<legend>公司简介</legend>
 			</fieldset>
 
-			<form class="layui-form" action="<?php echo U('Admin/Index/exitInformation');?>" method="post">
+			<form class="layui-form" action="<?php echo U('Admin/Index/exitContent');?>" enctype="multipart/form-data" method="post">
+				<input type="hidden" name="id" value="1">
+				<input type="hidden" name="title" value="公司简介">
 				<div class="layui-form-item">
 					<label class="layui-form-label">公司图片</label>
 					<div class="layui-input-block">
-						<input type="file" name="name" value="<?php echo ($data["name"]); ?>" lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input">
+						<input type="file" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input">
+					</div>
+					<div style="text-align: center;">
+						<img src="/ruopusuye/Public/Uploads/<?php echo ($data["imgurl"]); ?>" alt="" style="width: 300px;">
 					</div>
 				</div>
 				<div class="layui-form-item">
 					<label class="layui-form-label">公司图片</label>
 					<div class="layui-input-block">
-					<textarea name="info" id="info" style="width:1000px;height:500px;"></textarea>  
+					<textarea name="content" id="info" style="width:1000px;height:500px;"><?php echo ($data["content"]); ?>--<?php echo ($data["imgurl"]); ?></textarea>  
 					</div>
 				</div>
 				<div style="padding: 20px;">
 				</div>
-
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<input type="submit" value="立即提交" class="layui-btn">
+					</div>
+				</div>
 			</form>
 		</div>
 	</body>

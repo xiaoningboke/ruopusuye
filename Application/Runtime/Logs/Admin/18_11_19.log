@@ -1,0 +1,1188 @@
+[ 2018-11-19T18:00:45+08:00 ] ::1 /ruopusuye/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001741s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001939s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004391s ]
+
+[ 2018-11-19T18:00:45+08:00 ] ::1 /ruopusuye/admin/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载控制器:Main
+
+[ 2018-11-19T18:00:47+08:00 ] ::1 /ruopusuye/admin/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-11-19T18:00:48+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542621648476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002595s ]
+
+[ 2018-11-19T18:05:46+08:00 ] ::1 /ruopusuye/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2018-11-19T18:05:46+08:00 ] ::1 /ruopusuye/admin/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+ERR: 无法加载控制器:Main
+
+[ 2018-11-19T18:05:47+08:00 ] ::1 /ruopusuye/admin/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2018-11-19T18:05:47+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542621947811
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2018-11-19T18:39:52+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-11-19T18:39:58+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+
+[ 2018-11-19T18:40:19+08:00 ] ::1 /ruopusuye/admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+
+[ 2018-11-19T18:40:37+08:00 ] ::1 /ruopusuye/admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2018-11-19T18:40:37+08:00 ] ::1 /ruopusuye/admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+ERR: 非法操作:main
+
+[ 2018-11-19T18:40:47+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-11-19T18:40:48+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624048100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-11-19T18:40:55+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\PHPTutorial\WWW\ruopusuye\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: pictitle D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002214s ]
+
+[ 2018-11-19T18:41:37+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-11-19T18:41:37+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624097397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-11-19T18:41:58+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\PHPTutorial\WWW\ruopusuye\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: pictitle D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2018-11-19T18:42:01+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitAbout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: 非法操作:exitAbout
+
+[ 2018-11-19T18:42:22+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624141978
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-11-19T18:42:22+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-11-19T18:42:22+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624142638
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2018-11-19T18:42:31+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\PHPTutorial\WWW\ruopusuye\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: pictitle D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2018-11-19T18:42:33+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\PHPTutorial\WWW\ruopusuye\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0256s ]
+SQL: UPDATE `rp_content` SET `title`='公司简介',`imgUrl`='2018-11-19/5bf29398d69b8.jpg',`content`=NULL WHERE ( id = 1 ) [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2018-11-19T18:42:34+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2018-11-19T18:42:34+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624154491
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2018-11-19T18:50:05+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-11-19T18:50:06+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+
+[ 2018-11-19T18:50:06+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+
+[ 2018-11-19T18:50:18+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2018-11-19T18:50:36+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-11-19T18:50:37+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624637132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-11-19T18:50:40+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-11-19T18:50:40+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624640750
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2018-11-19T18:50:40+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2018-11-19T18:50:41+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2018-11-19T18:50:41+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624641085
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2018-11-19T18:50:41+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624641431
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2018-11-19T18:51:39+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2018-11-19T18:51:39+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624699563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2018-11-19T18:51:39+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2018-11-19T18:51:40+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624700154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003928s ]
+
+[ 2018-11-19T18:51:41+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2018-11-19T18:51:41+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624701308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2018-11-19T18:52:01+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2018-11-19T18:52:01+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624721761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2018-11-19T18:52:18+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2018-11-19T18:52:18+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624738505
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2018-11-19T18:52:18+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2018-11-19T18:52:19+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624738939
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002883s ]
+
+[ 2018-11-19T18:52:19+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2018-11-19T18:52:19+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624739464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-11-19T18:52:56+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011609s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2018-11-19T18:52:56+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624776646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-11-19T18:52:57+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2018-11-19T18:52:57+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624777938
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2018-11-19T18:52:58+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-11-19T18:52:58+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624778945
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2018-11-19T18:53:11+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2018-11-19T18:53:11+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624791260
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2018-11-19T18:53:28+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0306s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2018-11-19T18:53:29+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624809134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2018-11-19T18:53:38+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0303s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: imgUrl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Admin\0f64249c5cdfbe5d04c99edcfdb1fea6.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2018-11-19T18:53:38+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624818604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2018-11-19T18:53:49+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2018-11-19T18:53:50+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624830043
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2018-11-19T18:54:14+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-11-19T18:54:14+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624854315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2018-11-19T18:54:15+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-11-19T18:54:15+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624855929
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2018-11-19T18:54:47+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002478s ]
+
+[ 2018-11-19T18:54:47+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624887627
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2018-11-19T18:54:55+08:00 ] ::1 /ruopusuye/admin/index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2018-11-19T18:54:56+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1542624896223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+

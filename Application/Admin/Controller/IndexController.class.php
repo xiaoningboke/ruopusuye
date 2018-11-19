@@ -2,6 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Admin\Model\InformationModel;
+use Admin\Model\ContentModel;
 class IndexController extends Controller {
     public function index(){
         $this->display();
@@ -29,10 +30,44 @@ class IndexController extends Controller {
     		$this->error("更新失败");
     	}
     }
+    /**
+     * 修改公司简介
+     * @return [type] [description]
+     */
     public function about(){
+        $data = $this->findContent(1);
+        $this->assign('data',$data);
     	$this->display();
     }
 
+    /**
+     * 查询Content
+     * @param  [type] $id [description]
+     * @return [type]     [description]
+     */
+    public function findContent($id){
+        $Content = new ContentModel();
+        $data = $Content->findContent($id);
+        return $data;
+    }
+
+   /**
+    * 修改content
+    * @return [type] [description]
+    */
+    public function exitContent(){
+        $id = $_POST['id'];
+        $data['title'] = $_POST['title'];
+        $data['imgUrl'] = $this->upload();
+        $data['content'] = $_POST['content'];
+        $Content = new ContentModel();
+        $i = $Content->exitContent($id,$data);
+        if($i>0){
+            $this->success("更新成功");
+        }else{
+            $this->error("更新失败");
+        }
+    }
 
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
