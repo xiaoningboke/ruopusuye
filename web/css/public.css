@@ -197,38 +197,66 @@ input{border:none;}
 	margin-top:5px;
 }
 .kefu{
-	width: 150px;
-	height: 70px;
+	width: 130px;
+	height: 190px;
 	position: fixed;
 	left: 0;
 	top: 220px;
+	border-radius: 3px;
+	border-right: 1px solid #CECECE;
+	border-bottom: 1px solid #CECECE;
+	background-color: #EEECED;
 }
-.kefu h2{
+.tact{
 	width: 130px;
-	height: 20px;
-	text-align: center;
-	color: white;
-	display: inline-block;
-	background-color:#7ed579;
+	height: 30px;
+	position: relative;
+}
+.tact img{
+	width: 130px;
+	height: 30px;
 }
 .cancel{
-	width: 20px;
-	height: 20px;
+	width: 27px;
+	height: 27px;
+	font-weight: 800;
 	display: inline-block;
-	background-color:#757575;
+	background-color:#7eb47a;
 	color: white;
 	text-align: center;
-	line-height: 20px;
+	line-height: 30px;
 	cursor:pointer;
+	position: absolute;
+	right: 0;
+	top:0;
 }
+.times{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 700;
+	padding-left: 8px;
+}
+
 .kefu_0{
 	width: 150px;
-	height: 50px;
+	height: 60px;
 	display: block;
 }
 .kefu_0 img {
-	width: 150px;
+	width: 130px;
+	height: 60px;
 	border-radius: 3px;
+}
+.gzsj{
+	text-align: center;
+	display: block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;
 }
 /*小插件结束*/
 

@@ -3,17 +3,22 @@ var navs = [{
 	"icon": "fa-cubes",
 	"spread": false,
 	"children": [ {
-		"title": "网站信息",
+		"title": "网站信息(中文)",
 		"icon": "&#xe63c;",
-		"href": "Index/information"
+		"href": "Index/chInformation?language=0"
 	}, {
-		"title": "公司简介",
+		"title": "网站信息(英文)",
+		"icon": "&#xe63c;",
+		"href": "Index/chInformation?language=1"
+	},
+	{
+		"title": "关于我们",
 		"icon": "&#xe63c;",
 		"href": "Index/about"
 	}, {
-		"title": "导航",
+		"title": "所用技术",
 		"icon": "&#xe609;",
-		"href": "nav.html"
+		"href": "Index/technology"
 	}, {
 		"title": "辅助性元素",
 		"icon": "&#xe60c;",

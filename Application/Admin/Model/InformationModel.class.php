@@ -6,9 +6,13 @@ class InformationModel extends Model {
 	 * 查询公司的信息
 	 * @return [Array] [公司基本信息]
 	 */
-	public function findInformation(){
+	public function findInformation($language){
 		$information = M("Information");
-		$data = $information->where('id=1')->find();
+		if($language==0){
+			$data = $information->where('id=1')->find();
+		}else{
+			$data = $information->where('id=2')->find();
+		}
 		return $data;
 	}
 	/**
@@ -16,9 +20,13 @@ class InformationModel extends Model {
 	 * @param  [type] $data [description]
 	 * @return [type]       [description]
 	 */
-	public function exitInformation($data){
+	public function exitInformation($data,$language){
 		$information = M("Information");
-		$i = $information->where('id = 1')->save($data);
+		if($language == 0){
+			$i = $information->where('id = 1')->save($data);
+		}else{
+			$i = $information->where('id = 2')->save($data);
+		}
 		return $i;
 	}
 }

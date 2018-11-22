@@ -11,9 +11,11 @@ class IndexController extends Controller {
      * 基本配置控制器
      * @return [type] [description]
      */
-    public function information(){
+    public function chInformation(){
+        $language = $_GET['language'];
     	$Information = new InformationModel();
-    	$data = $Information->findInformation();
+    	$data = $Information->findInformation($language);
+        $data['language']=$language;
     	$this->assign('data',$data);
     	$this->display();
     }
@@ -22,8 +24,9 @@ class IndexController extends Controller {
      * @return [type] [description]
      */
     public function exitInformation(){
+        $language = $_POST['language'];
     	$Information = new InformationModel();
-    	$i = $Information->exitInformation($_POST);
+    	$i = $Information->exitInformation($_POST,$language);
     	if($i>0){
     		$this->success("更新成功");
     	}else{
@@ -69,6 +72,9 @@ class IndexController extends Controller {
         }
     }
 
+    public function technology(){
+        $this->display();
+    }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//文件上传操作

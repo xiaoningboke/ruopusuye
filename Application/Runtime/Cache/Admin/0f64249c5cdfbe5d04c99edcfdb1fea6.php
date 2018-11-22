@@ -49,7 +49,7 @@
 				<div class="layui-form-item">
 					<label class="layui-form-label">公司图片</label>
 					<div class="layui-input-block">
-					<textarea name="content" id="info" style="width:1000px;height:500px;"><?php echo ($data["content"]); ?>--<?php echo ($data["imgurl"]); ?></textarea>  
+					<textarea name="content" id="info" style="width:1000px;height:500px;"><?php echo ($data["content"]); ?></textarea>  
 					</div>
 				</div>
 				<div style="padding: 20px;">
