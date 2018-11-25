@@ -3,6 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 use Admin\Model\InformationModel;
 use Admin\Model\ContentModel;
+use Admin\Model\FileModel;
 class IndexController extends Controller {
     public function index(){
         $this->display();
@@ -38,7 +39,13 @@ class IndexController extends Controller {
      * @return [type] [description]
      */
     public function about(){
-        $data = $this->findContent(1);
+        $language = $_GET['language'];
+        $data['language'] = $language;
+        if($language == 0){
+            $data = $this->findContent(1);
+        }else if($language == 1){
+            $data = $this->findContent(2);
+        }
         $this->assign('data',$data);
     	$this->display();
     }
@@ -61,7 +68,10 @@ class IndexController extends Controller {
     public function exitContent(){
         $id = $_POST['id'];
         $data['title'] = $_POST['title'];
-        $data['imgUrl'] = $this->upload();
+        $img = $this->upload();
+        if($img != "error"){
+            $data['imgUrl'] = $img;
+        }
         $data['content'] = $_POST['content'];
         $Content = new ContentModel();
         $i = $Content->exitContent($id,$data);
@@ -72,7 +82,12 @@ class IndexController extends Controller {
         }
     }
 
-    public function technology(){
+    public function Technology(){
+        $language = $_GET['language'];
+        
+        $Content = new ContentModel();
+        $File = new FileModel();
+        $fileData = $File->findFile
         $this->display();
     }
 
@@ -87,7 +102,7 @@ class IndexController extends Controller {
 	    // 上传文件  $oldFN
 	    $info   =   $upload->upload();
 	    if(!$info) {// 上传错误提示错误信息
-	        return $upload->getError();
+	        return "error";
 	    }else{// 上传成功
 	    	foreach($info as $file){
 		        return $file['savepath'].$file['savename'];

@@ -12,18 +12,23 @@ var navs = [{
 		"href": "Index/chInformation?language=1"
 	},
 	{
-		"title": "关于我们",
+		"title": "关于我们（中文）",
 		"icon": "&#xe63c;",
-		"href": "Index/about"
+		"href": "Index/about?language=0"
 	}, {
-		"title": "所用技术",
+		"title": "关于我们（英文）",
 		"icon": "&#xe609;",
-		"href": "Index/technology"
+		"href": "Index/about?language=1"
 	}, {
-		"title": "辅助性元素",
+		"title": "先进技术（中文）",
 		"icon": "&#xe60c;",
-		"href": "auxiliar.html"
-	}]
+		"href": "Index/technology?language=0"
+	},{
+		"title": "先进技术（英文）",
+		"icon": "&#xe60c;",
+		"href": "Index/technology?language=1"
+	}
+	]
 }, {
 	"title": "组件",
 	"icon": "fa-cogs",
