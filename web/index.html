@@ -18,8 +18,10 @@
 		<script type="text/javascript" src="js/public.js"></script>
 		<script type="text/javascript" src="js/lunbo.js"></script>
 		<script src="js/jquery-1.8.3/jquery.min.js"></script>
-		
 <script type="text/javascript">
+    window.onload = function(){
+        showen();
+    };
 	$(document).ready(function () {
             scroll();
 			top_1();
@@ -51,7 +53,7 @@
 				<li><a href="introduction.html">公司简介</a></li>
 				<li><a href="news.html">新闻中心</a></li>
 				<li><a href="product.html">产品展示</a></li>
-				<li><a href="contact">联系我们</a></li>
+				<li><a href="contact.html">联系我们</a></li>
 				<li class="addWidth">
 					<div class="li_input">
 						<div class="li_text"><input type="text" name="" id=""  placeholder="请输入关键词" value="" /></div>
@@ -255,12 +257,11 @@
 	<h5>手机号：</h5>
 	<p>15263647456</p>
 </div>
-<div class="kefu">
-	<h2 class="tact"><img src="img/QQzxkf.jpg"><span class="cancel">×</span></h2>
+<div id="kefu">
+	<h2 class="tact"><img src="img/QQzxkf.jpg"><span id="cancel">×</span></h2>
 	<a class="kefu_0"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes"><img src="img/kefu_11.jpg"></a>
 	<h2 class="times">工作时间</h2>
-	<span class="gzsj">周一至周五:8:30-17:30</span>
-	<span class="gzsj">周六至周日:9:00-17:00</span>
+	<span class="gzsj">周一至周五:8:30-17:30</span><span class="gzsj">周六至周日:9:00-17:00</span>
 </div>
 
 <!--小插件结束-->

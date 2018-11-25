@@ -127,6 +127,8 @@ input{border:none;}
 	width:50px;
 	height:50px;
 	position:fixed;
+	border-radius: 25px;
+	background: white;
 	bottom:50px;
 	right:50px;
 	z-index: 99;
@@ -134,8 +136,10 @@ input{border:none;}
 }
 #top_weixin{
 	display: block;
+	background: white;
 	width:60px;
 	height:60px;
+	border-radius: 40px;
 	position:fixed;
 	bottom:110px;
 	right:45px;
@@ -144,8 +148,11 @@ input{border:none;}
 }
 #top_iphone{
 	display: block;
+	background: white;
 	width:60px;
 	height:60px;
+	border-radius: 30px;
+	
 	position:fixed;
 	bottom:180px;
 	right:43px;
@@ -171,7 +178,7 @@ input{border:none;}
 	background: red;
 	float:left;
 	position:fixed;
-	right:150px;
+	right:120px;
 	bottom:50px;
 	z-index: 99;
 	display:none;
@@ -183,7 +190,7 @@ input{border:none;}
 	background: #4BB344;
 	float:left;
 	position:fixed;
-	right:150px;
+	right:120px;
 	bottom:160px;
 	z-index:99;
 	display:none;
@@ -196,16 +203,21 @@ input{border:none;}
 	font-weight: 600;
 	margin-top:5px;
 }
-.kefu{
+#kefu{
 	width: 130px;
 	height: 190px;
 	position: fixed;
+	z-index:100;
 	left: 0;
 	top: 220px;
 	border-radius: 3px;
 	border-right: 1px solid #CECECE;
 	border-bottom: 1px solid #CECECE;
 	background-color: #EEECED;
+	font-size: 12px;
+	text-overflow:ellipsis;
+	padding:0 ;
+	margin: 0;
 }
 .tact{
 	width: 130px;
@@ -216,7 +228,7 @@ input{border:none;}
 	width: 130px;
 	height: 30px;
 }
-.cancel{
+#cancel{
 	width: 27px;
 	height: 27px;
 	font-weight: 800;
@@ -238,8 +250,8 @@ input{border:none;}
 	font-size: 13px;
 	font-weight: 700;
 	padding-left: 8px;
+	margin-bottom: 8px;
 }
-
 .kefu_0{
 	width: 150px;
 	height: 60px;
@@ -252,11 +264,16 @@ input{border:none;}
 }
 .gzsj{
 	text-align: center;
-	display: block;
+	display:block;
 	width: 130px;
-	height: 30px;
-	line-height: 30px;
-	font-size: 10px;
+	height: 20px;
+	line-height: 15px;
+	font-size:0.8em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
 }
 /*小插件结束*/
 
