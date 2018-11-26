@@ -31,26 +31,45 @@
 	<body>
 		<div style="margin: 15px;">
 			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-				<legend>公司简介</legend>
+				<legend>先进技术</legend>
 			</fieldset>
 
-			<form class="layui-form" action="<?php echo U('Admin/Index/exitContent');?>" enctype="multipart/form-data" method="post">
-				<?php if($data["language"] == 0 ): ?><input type="hidden" name="id" value="1">
-				    <?php else: ?> 
-					<input type="hidden" name="id" value="2"><?php endif; ?>
+			<form class="layui-form" action="<?php echo U('Admin/Index/exitTechnology');?>" enctype="multipart/form-data" method="post">
+				<input type="text" name="id" value="<?php echo ($language); ?>">
 				<div class="layui-form-item">
-					<label class="layui-form-label">公司图片</label>
+					<label class="layui-form-label">先进技术</label>
 					<div class="layui-input-block">
-						<input type="file" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input" >
-					</div>
-					<div style="text-align: center;">
-						<img src="/ruopusuye/Public/Uploads/<?php echo ($data["imgurl"]); ?>" alt="" style="width: 300px;">
+						<input type="file" name="photo[]"  lay-verify="title" autocomplete="off" placeholder="请输入先进技术" class="layui-input" >
 					</div>
 				</div>
 				<div class="layui-form-item">
-					<label class="layui-form-label">公司图片</label>
+					<label class="layui-form-label">先进技术</label>
 					<div class="layui-input-block">
-					<textarea name="content" id="info" style="width:1000px;height:500px;"><?php echo ($data["content"]); ?></textarea>  
+						<input type="file" name="photo[]"  lay-verify="title" autocomplete="off" placeholder="请输入先进技术" class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">先进技术</label>
+					<div class="layui-input-block">
+						<input type="file" name="photo[]"  lay-verify="title" autocomplete="off" placeholder="请输入先进技术" class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">先进技术</label>
+					<div class="layui-input-block">
+						<input type="file" name="photo[]"  lay-verify="title" autocomplete="off" placeholder="请输入先进技术" class="layui-input" >
+					</div>
+				</div>
+				<div style="width: 100%; text-align: center;">
+					
+					<?php if(is_array($fileData)): foreach($fileData as $key=>$vo): ?><div style="width: 20%; display: inline;">
+							<img src="/ruopusuye/Public/Uploads/<?php echo ($vo["urlimg"]); ?>" style="width: 20%; padding: 20px;">
+						</div><?php endforeach; endif; ?>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">先进技术</label>
+					<div class="layui-input-block">
+					<textarea name="content" id="info" style="width:1000px;height:500px;"><?php echo ($conData["content"]); ?></textarea>  
 					</div>
 				</div>
 				<div style="padding: 20px;">
@@ -61,6 +80,7 @@
 					</div>
 				</div>
 			</form>
+
 		</div>
 	</body>
 

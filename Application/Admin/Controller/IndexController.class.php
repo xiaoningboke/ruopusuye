@@ -82,14 +82,113 @@ class IndexController extends Controller {
         }
     }
 
+    /**
+     * 显示先进技术
+     */
     public function Technology(){
         $language = $_GET['language'];
-        
+        if($language == 0){
+            $coid = 3;
+            $fiid = 1;
+        }else if ($language == 1) {
+            $coid = 4;
+            $fiid = 2;
+        }
         $Content = new ContentModel();
+        $conData = $Content->findContent($coid);
         $File = new FileModel();
-        $fileData = $File->findFile
+        $fileData = $File->findFileByState($fiid);
+        $this->assign('language',$language);
+        $this->assign('conData',$conData);
+        $this->assign('fileData',$fileData);
         $this->display();
     }
+
+    public function exitTechnology(){
+        $id = $_POST[id];
+        $data = $_POST;
+        $Content = new ContentModel();
+        $i = $Content->exitContent($id,$data);
+         if($i>0){
+            $this->success("修改成功");
+        }else{
+            $this->error("修改失败");
+        }
+    }
+    /**
+     * 显示资质认证
+     * @return [type] [description]
+     */
+    public function qualifications(){
+        $File = new FileModel();
+        $data = $File->findFileByState(3);
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 添加资质认证
+     * @return [type] [description]
+     */
+    public function addqualifications(){
+        $urlImg = $this->upload();
+        $File = new FileModel();
+        if($urlImg !='error'){
+            $data['urlImg'] = $urlImg;
+            $data['name'] = "资质认证";
+            $data['state'] = "3";
+            $i = $File->addFile($data);
+            if($i>0){
+            $this->success("添加成功");
+            }else{
+                $this->error("添加失败");
+            }
+        }
+    }
+
+    /**
+     * 显示修改图片
+     * @return [type] [description]
+     */
+    public function exitImg(){
+        $id = $_GET['id'];
+        $File = new FileModel();
+        $fileData = $File->findFile($id);
+        $this->assign('fileData',$fileData);
+        $this->display();
+
+    }
+    /**
+     * 接受修改图片成功信息
+     * @return [type] [description]
+     */
+    public function exitByIdImg(){
+        $urlImg = $this->upload();
+        if($urlImg == 'error'){
+            $this->error("修改失败");
+        }
+        $data['id'] = $_POST['id'];
+        $data['urlImg'] = $urlImg;
+        $File = new FileModel();
+        $i = $File->exitFile($data);
+        if($i>0){
+            $this->success("修改成功");
+        }else{
+            $this->error("修改失败");
+        }
+    }
+    
+    public function delImg(){
+        $id = $_GET['id'];
+        $File = new FileModel();
+        $i = $File->delFile($id);
+        if($i>0){
+            $this->success("删除成功");
+        }else{
+            $this->error("删除失败");
+        }
+    }
+    
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//文件上传操作

@@ -28,6 +28,11 @@ var navs = [{
 		"icon": "&#xe60c;",
 		"href": "Index/technology?language=1"
 	}
+	,{
+		"title": "资质认证",
+		"icon": "&#xe60c;",
+		"href": "Index/qualifications"
+	}
 	]
 }, {
 	"title": "组件",
