@@ -1,0 +1,68 @@
+﻿<include file = "Public/header" />
+	<body>
+		<div class="admin-main">
+			<fieldset class="layui-elem-field">
+				<legend>合作伙伴</legend>
+				<div class="layui-field-box layui-form">
+				<form class="layui-form" action="{:U('Admin/Index/addpartner')}" enctype="multipart/form-data" method="post">
+				
+				<div class="layui-form-item">
+					<label class="layui-form-label">中文名称</label>
+					<div class="layui-input-block">
+						<input type="text" name="cnname"  lay-verify="title" autocomplete="off" placeholder="请输入中文名称"  class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">英文名称</label>
+					<div class="layui-input-block">
+						<input type="text" name="enname"  lay-verify="title" autocomplete="off" placeholder="请输入英文名称"  class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">选择图片</label>
+					<div class="layui-input-block">
+						<input type="file" name="photo"  lay-verify="title" autocomplete="off"  class="layui-input" >
+					</div>
+				</div>
+				<div style="padding: 20px;">
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<input type="submit" value="立即提交" class="layui-btn">
+					</div>
+				</div>
+			</form>
+					<table class="layui-table admin-table">
+						<thead>
+							<tr style="text-align: center;">
+								<th>中文名称</th>
+								<th>英文名称</th>
+								<th>图标</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody id="content">
+							<foreach name="data" item="vo">
+								<tr style="text-align: center;">
+									<td>{$vo.cnname}</td>
+									<td>{$vo.enname}</td>
+									<td><img src="__PUBLIC__/Uploads/{$vo.imgurl}" style="width: 300px;"></td>
+									<td>
+										<a href="{:U('Admin/Index/exitpartner',array('id'=>$vo['id']))}" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">编辑</a>
+										<a href="{:U('Admin/Index/delpartner',array('id'=>$vo['id']))}" data-name="{{ item.name }}" data-id="1" data-opt="del" class="layui-btn layui-btn-danger layui-btn-mini">删除</a> 
+									</td>
+								</tr>
+							</foreach>
+						</tbody>
+					</table>
+				</div>
+
+
+			</fieldset>
+			<div class="admin-table-page">
+				<div id="paged" class="page">
+				</div>
+			</div>
+		</div>
+		
+		

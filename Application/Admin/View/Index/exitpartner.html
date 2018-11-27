@@ -1,0 +1,43 @@
+﻿<include file = "Public/header" />
+	<body>
+		<div class="admin-main">
+			<fieldset class="layui-elem-field">
+				<legend>合作伙伴</legend>
+				<div class="layui-field-box layui-form">
+				<form class="layui-form" action="{:U('Admin/Index/addpartner')}" enctype="multipart/form-data" method="post">
+				
+				<div class="layui-form-item">
+					<label class="layui-form-label">中文名称</label>
+					<div class="layui-input-block">
+						<input type="text" name="cnname"  lay-verify="title" autocomplete="off" placeholder="请输入中文名称"  class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">英文名称</label>
+					<div class="layui-input-block">
+						<input type="text" name="enname"  lay-verify="title" autocomplete="off" placeholder="请输入英文名称"  class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">选择图片</label>
+					<div class="layui-input-block">
+						<input type="file" name="photo"  lay-verify="title" autocomplete="off"  class="layui-input" >
+					</div>
+				</div>
+				<div style="padding: 20px;">
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<input type="submit" value="立即提交" class="layui-btn">
+					</div>
+				</div>
+			</form>
+		</div>
+			</fieldset>
+			<div class="admin-table-page">
+				<div id="paged" class="page">
+				</div>
+			</div>
+		</div>
+		
+		

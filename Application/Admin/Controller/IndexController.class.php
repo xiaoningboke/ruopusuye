@@ -4,6 +4,8 @@ use Think\Controller;
 use Admin\Model\InformationModel;
 use Admin\Model\ContentModel;
 use Admin\Model\FileModel;
+use Admin\Model\PartnerModel;
+use Admin\Model\FenleiModel;
 class IndexController extends Controller {
     public function index(){
         $this->display();
@@ -145,7 +147,34 @@ class IndexController extends Controller {
             }
         }
     }
+    //显示合作伙伴页面
+    public function partner(){
+        $Partner = new PartnerModel();
+        $data = $Partner->selPartner();
+        $this->assign('data',$data);
+        $this->display();
+    }
 
+    /**
+     * 添加合作伙伴
+     * @return [type] [description]
+     */
+    public function addpartner(){
+        $imgurl = $this->upload();
+        if($imgurl!='error'){
+            $data = $_POST;
+            $data['imgurl'] =$imgurl;
+            $Partner = new PartnerModel();
+            $i = $Partner->addPartner($data);
+            if($i>0){
+            $this->success("添加成功");
+            }else{
+                $this->error("添加失败");
+            }
+        }else{
+                $this->error("添加失败");
+        }
+    }
     /**
      * 显示修改图片
      * @return [type] [description]
@@ -157,6 +186,107 @@ class IndexController extends Controller {
         $this->assign('fileData',$fileData);
         $this->display();
 
+    }
+    public function exitpartner(){
+        $id = $_GET['id'];
+        $Partner = new PartnerModel();
+        $data = $Partner->findById($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+    /**
+     * 根据id修改合作伙伴
+     * @return [type] [description]
+     */
+    public function exitByIdpartner(){
+        $data = $_POST;
+        $imgurl = $this->upload();
+        if($imgurl!='error'){
+            $data['imgurl'] = $imgurl;
+        }
+        $Partner = new PartnerModel();
+        $i = $Partner->exitById($data);
+         if($i>0){
+            $this->success("修改成功");
+        }else{
+            $this->error("修改失败");
+        }
+    }
+
+    public function delpartner(){
+        $id = $_GET['id'];
+        $Partner = new PartnerModel();
+        $i = $Partner->delpartner($id);
+        if($i>0){
+            $this->success("删除成功");
+        }else{
+            $this->error("删除失败");
+        }
+    }
+    /**
+     * 显示产品分类
+     * @return [type] [description]
+     */
+    public function fenlei(){
+        $Fenlei = new FenleiModel();
+        $data = $Fenlei->selFenlei();
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 添加分类
+     * @return [type] [description]
+     */
+    public function addfenlei(){
+        $data = $_POST;
+        $Fenlei = new FenleiModel();
+        $i = $Fenlei->addfenlei($data);
+        if($i>0){
+            $this->success("添加成功");
+        }else{
+            $this->error("添加失败");
+        }
+    }
+    /**
+     * 显示修改界面
+     * @return [type] [description]
+     */
+    public function exitfenlei(){
+        $id = $_GET['id'];
+        $Fenlei = new FenleiModel();
+        $data = $Fenlei->findById($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+    /**
+     * 接受修改信息
+     * @return [type] [description]
+     */
+    public function exitByIdfenlei(){
+        $data = $_POST;
+        $Fenlei = new FenleiModel();
+        $i = $Fenlei->exitfenlei($data);
+        if($i>0){
+            $this->success("修改成功",U('Admin/Index/fenlei'));
+        }else{
+            $this->error("修改失败",U('Admin/Index/fenlei'));
+        }
+    }
+
+    /**
+     * 根据id删除产品分类
+     * @return [type] [description]
+     */
+    public function delfenlei(){
+        $id = $_GET['id'];
+        $Fenlei = new FenleiModel();
+        $i = $Fenlei->delfenlei($id);
+        if($i>0){
+            $this->success("删除成功");
+        }else{
+            $this->error("删除失败");
+        }
     }
     /**
      * 接受修改图片成功信息
@@ -177,7 +307,10 @@ class IndexController extends Controller {
             $this->error("修改失败");
         }
     }
-    
+    /**
+     * 删除图片信息
+     * @return [type] [description]
+     */
     public function delImg(){
         $id = $_GET['id'];
         $File = new FileModel();

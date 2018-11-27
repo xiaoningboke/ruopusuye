@@ -33,15 +33,20 @@ var navs = [{
 		"icon": "&#xe60c;",
 		"href": "Index/qualifications"
 	}
+	,{
+		"title": "合作伙伴",
+		"icon": "&#xe60c;",
+		"href": "Index/partner"
+	}
 	]
 }, {
-	"title": "组件",
+	"title": "公司产品",
 	"icon": "fa-cogs",
 	"spread": false,
 	"children": [{
-		"title": "BTable",
+		"title": "产品分类",
 		"icon": "fa-table",
-		"href": "btable.html"
+		"href": "Index/fenlei"
 	}, {
 		"title": "Navbar组件",
 		"icon": "fa-navicon",
