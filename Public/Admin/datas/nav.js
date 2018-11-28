@@ -48,13 +48,13 @@ var navs = [{
 		"icon": "fa-table",
 		"href": "Index/fenlei"
 	}, {
-		"title": "Navbar组件",
+		"title": "添加产品",
 		"icon": "fa-navicon",
-		"href": "navbar.html"
+		"href": "Index/addproduct"
 	}, {
-		"title": "Tab组件",
+		"title": "产品列表",
 		"icon": "&#xe62a;",
-		"href": "tab.html"
+		"href": "Index/product"
 	}, {
 		"title": "Laytpl+Laypage",
 		"icon": "&#xe628;",

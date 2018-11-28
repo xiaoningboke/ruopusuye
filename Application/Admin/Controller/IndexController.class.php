@@ -7,6 +7,8 @@ use Admin\Model\FileModel;
 use Admin\Model\PartnerModel;
 use Admin\Model\FenleiModel;
 use Admin\Model\NewsModel;
+use Admin\Model\ProductModel;
+use Admin\Model\VersionModel;
 class IndexController extends Controller {
     public function index(){
         $this->display();
@@ -106,7 +108,10 @@ class IndexController extends Controller {
         $this->assign('fileData',$fileData);
         $this->display();
     }
-
+    /**
+     * 修改先进技术
+     * @return [type] [description]
+     */
     public function exitTechnology(){
         $id = $_POST[id];
         $data = $_POST;
@@ -188,6 +193,10 @@ class IndexController extends Controller {
         $this->display();
 
     }
+    /**
+     * 显示修改合作伙伴
+     * @return [type] [description]
+     */
     public function exitpartner(){
         $id = $_GET['id'];
         $Partner = new PartnerModel();
@@ -213,7 +222,10 @@ class IndexController extends Controller {
             $this->error("修改失败");
         }
     }
-
+    /**
+     * 删除合作伙伴
+     * @return [type] [description]
+     */
     public function delpartner(){
         $id = $_GET['id'];
         $Partner = new PartnerModel();
@@ -250,7 +262,7 @@ class IndexController extends Controller {
         }
     }
     /**
-     * 显示修改界面
+     * 显示产品分类修改界面
      * @return [type] [description]
      */
     public function exitfenlei(){
@@ -259,6 +271,96 @@ class IndexController extends Controller {
         $data = $Fenlei->findById($id);
         $this->assign('data',$data);
         $this->display();
+    }
+    /**
+     * 显示添加产品
+     * @return [type] [description]
+     */
+    public function addproduct(){
+        $Fenlei = new FenleiModel();
+        $data = $Fenlei->selFenlei();
+        $this->assign('data',$data);
+        $this->display();
+    }
+    /**
+     * 添加公司产品
+     * @return [type] [description]
+     */
+    public function addproductBy(){
+        $data = $_POST;
+        $Product = new ProductModel();
+        $i = $Product->addProduct($data);
+        if($i>0){
+            $this->success("添加成功");
+        }else{
+            $this->error("添加失败");
+        }
+    }
+    /**
+     * 产品列表
+     * @return [type] [description]
+     */
+    public function product(){
+        $Product = new ProductModel();
+        $data = $Product->selProduct();
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 显示产品型号
+     * @return [type] [description]
+     */
+    public function version(){
+        $id = $_GET['id'];
+        $version = new VersionModel();
+        $data = $version->findByidVersion($id);
+        $this->assign('data',$data);
+        $this->assign('id',$id);
+        $this->display();
+    }
+
+    /**
+     * 添加型号
+     * @return [type] [description]
+     */
+    public function addversion(){
+        $imgurl = $this->upload();
+        if($imgurl != 'error'){
+            $data = $_POST;
+            $data['imgurl'] = $imgurl;
+            $Version = new VersionModel();
+            $i = $Version->addVersion($data);
+            if($i>0){
+                $this->success("添加成功");
+            }else{
+                $this->error("添加失败");
+            }
+        }else{
+            $this->error("添加失败");
+        }
+    }
+    /**
+     * 显示产品修改
+     * @return [type] [description]
+     */
+    public function exitproduct(){
+        $id = $_GET["id"];
+        $Product = new ProductModel();
+        $data = $Product->findById($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    public function exitproductBy(){
+        $data = $_POST;
+        $Product = new ProductModel();
+        $i = $Product->exitproduct($data);
+        if($i>0){
+            $this->success("修改成功",U('Admin/Index/product'));
+        }else{
+            $this->error("修改失败",U('Admin/Index/product'));
+        }
     }
     /**
      * 接受修改信息
@@ -275,6 +377,20 @@ class IndexController extends Controller {
         }
     }
 
+    /**
+     * 根据id进行删除
+     * @return [type] [description]
+     */
+    public function delproduct(){
+        $id = $_GET['id'];
+        $Product = new ProductModel();
+        $i = $Product->delProduct($id);
+         if($i>0){
+            $this->success("删除成功");
+        }else{
+            $this->error("删除失败");
+        }
+    }
     /**
      * 根据id删除产品分类
      * @return [type] [description]

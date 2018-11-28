@@ -22,10 +22,16 @@
 				<form class="layui-form" action="<?php echo U('Admin/Index/exitByIdfenlei');?>" enctype="multipart/form-data" method="post">
 				
 				<div class="layui-form-item">
-					<label class="layui-form-label">产品分类</label>
+					<label class="layui-form-label">中文名称</label>
 					<div class="layui-input-block">
 						<input type="hidden" name="id" value="<?php echo ($data["id"]); ?>">
-						<input type="text" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入产品分类" value="<?php echo ($data["name"]); ?>" class="layui-input" >
+						<input type="text" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入中文名称" value="<?php echo ($data["name"]); ?>" class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">英文名称</label>
+					<div class="layui-input-block">
+						<input type="text" name="enname"  lay-verify="title" autocomplete="off" placeholder="请输入英文名称" value="<?php echo ($data["enname"]); ?>" class="layui-input" >
 					</div>
 				</div>
 				<div style="padding: 10px;">

@@ -19,18 +19,24 @@
 			<fieldset class="layui-elem-field">
 				<legend>产品分类</legend>
 				<div class="layui-field-box layui-form">
-				<form class="layui-form" action="<?php echo U('Admin/Index/addfenlei');?>" enctype="multipart/form-data" method="post">
-				
+				<form class="layui-form" action="<?php echo U('Admin/Index/addversion');?>" enctype="multipart/form-data" method="post">
+				<input type="hidden" name="product_id" value="<?php echo ($id); ?>">
 				<div class="layui-form-item">
-					<label class="layui-form-label">中文名称</label>
+					<label class="layui-form-label">产品型号</label>
 					<div class="layui-input-block">
-						<input type="text" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入中文名称"  class="layui-input" >
+						<input type="text" name="xinghao"  lay-verify="title" autocomplete="off" placeholder="请输入产品型号"  class="layui-input" >
 					</div>
 				</div>
 				<div class="layui-form-item">
-					<label class="layui-form-label">英文名称</label>
+					<label class="layui-form-label">产品价格</label>
 					<div class="layui-input-block">
-						<input type="text" name="enname"  lay-verify="title" autocomplete="off" placeholder="请输入英文名称"  class="layui-input" >
+						<input type="text" name="price"  lay-verify="title" autocomplete="off" placeholder="请输入产品价格"  class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">选择图片</label>
+					<div class="layui-input-block">
+						<input type="file" name="photo"  lay-verify="title" autocomplete="off"  class="layui-input" >
 					</div>
 				</div>
 				<div style="padding: 10px;">
@@ -44,15 +50,17 @@
 					<table class="layui-table admin-table">
 						<thead>
 							<tr style="text-align: center;">
-								<th>中文名称</th>
-								<th>英文名称</th>
+								<th>型号</th>
+								<th>图片</th>
+								<th>价格</th>
 								<th>操作</th>
 							</tr>
 						</thead>
 						<tbody id="content">
 							<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr style="text-align: center;">
-									<td><?php echo ($vo["name"]); ?></td>
-									<td><?php echo ($vo["enname"]); ?></td>
+									<td><?php echo ($vo["xinghao"]); ?></td>
+									<td><img src="/ruopusuye/Public/Uploads/<?php echo ($vo["imgurl"]); ?>" style="width: 200px;"></td>
+									<td><?php echo ($vo["price"]); ?></td>
 									<td>
 										<a href="<?php echo U('Admin/Index/exitfenlei',array('id'=>$vo['id']));?>" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">编辑</a>
 										<a href="<?php echo U('Admin/Index/delfenlei',array('id'=>$vo['id']));?>" data-name="{{ item.name }}" data-id="1" data-opt="del" class="layui-btn layui-btn-danger layui-btn-mini">删除</a> 

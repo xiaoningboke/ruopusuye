@@ -43,10 +43,24 @@ class FileModel extends Model {
 		$i = $File->add($data);
 		return $i;
 	}
-
+	/**
+	 * 根据id删除分类
+	 * @param  [type] $id [description]
+	 * @return [type]     [description]
+	 */
 	public function delFile($id){
 		$File = M("File");
 		$i = $File->where("id = $id")->delete();
 		return $i;
+	}
+
+	/**
+	 * 查询所有分类
+	 * @return [type] [description]
+	 */
+	public function selFenlei(){
+		$Fenlei = M('Fenlei');
+		$data = $Fenlei->select();
+		return $data;
 	}
 }
