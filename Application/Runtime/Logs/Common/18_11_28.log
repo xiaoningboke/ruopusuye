@@ -244,3 +244,15 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
 ERR: 无法加载模块:Public
 
+[ 2018-11-28T20:55:12+08:00 ] ::1 /ruopusuye/Public/Uploads/2018-11-28/5bfe7472cbb25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-28T20:55:29+08:00 ] ::1 /ruopusuye/Public/Uploads/%E6%B2%A1%E6%9C%89%E6%96%87%E4%BB%B6%E8%A2%AB%E4%B8%8A%E4%BC%A0%EF%BC%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Public
+

@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="/ruopusuye/Public/Admin/plugins/layui/css/layui.css" media="all" />
 		<link rel="stylesheet" href="/ruopusuye/Public/Admin/plugins/font-awesome/css/font-awesome.min.css">
 	</head>
-<link rel="stylesheet" href="/ruopusuye/Public/Admin/css/rep.css" />
+<link rel="stylesheet" href="/ruopusuye/Public/css/rep.css" />
  <body>
         <div class="admin-main">
 <form class="layui-form" action="<?php echo U('Admin/Index/newslist');?>" enctype="multipart/form-data" method="post">

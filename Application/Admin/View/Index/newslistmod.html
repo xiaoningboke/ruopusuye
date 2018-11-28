@@ -3,17 +3,6 @@
 	<js file="__ROOT__/Public/Ueditor/ueditor.config.js"/>
 	<js file="__ROOT__/Public/Ueditor/ueditor.all.min.js"/>
 	<js file="__ROOT__/Public/Ueditor/lang/zh-cn/zh-cn.js"/>
-	<script type="text/javascript" charset="utf-8">
-	   window.UEDITOR_HOME_URL = "__PUBLIC__/Ueditor/";
-	    $(document).ready(function () {
-	      UE.getEditor('info', {
-	      initialFrameHeight: 500,
-	      initialFrameWidth: 800,
-	      serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"
-	    });
-	  });
-
-	</script>
 <body>
 		<div style="margin: 15px;">
 			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
@@ -21,6 +10,34 @@
 			</fieldset>
 
 			<form class="layui-form" action="{:U('Admin/Index/exitNewslist')}" enctype="multipart/form-data" method="post">
+            <?php if($data[state]==1) { ?>
+                <script type="text/javascript" charset="utf-8">
+       window.UEDITOR_HOME_URL = "__PUBLIC__/Ueditor/";
+        $(document).ready(function () {
+          UE.getEditor('info', {
+          initialFrameHeight: 500,
+          initialFrameWidth: 800,
+          serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"
+        });
+      });
+
+    </script>
+
+            <?php }else{ ?>
+                <script type="text/javascript" charset="utf-8">
+       window.UEDITOR_HOME_URL = "__PUBLIC__/Ueditor/";
+        $(document).ready(function () {
+            $("#tututu").hide();
+          UE.getEditor('info', {
+          initialFrameHeight: 500,
+          initialFrameWidth: 800,
+          serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"
+        });
+      });
+
+    </script>
+
+            <?php }  ?>
 				<input type="hidden" name="id" value="{$data[id]}">
 				<input type="hidden" name="language" value="{$data[language]}">
 				<div class="layui-form-item">
