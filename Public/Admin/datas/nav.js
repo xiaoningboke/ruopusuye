@@ -61,14 +61,23 @@ var navs = [{
 		"href": "paging.html"
 	}]
 }, {
-	"title": "第三方组件",
+	"title": "公司新闻",
 	"icon": "&#x1002;",
 	"spread": false,
 	"children": [{
-		"title": "iCheck组件",
-		"icon": "fa-check-square-o",
-		"href": "icheck.html"
-	}]
+		"title": "新闻发布",
+		"icon": "&#xe609;",
+		"href": "Index/news"
+	}, {
+		"title": "新闻列表(中文)",
+		"icon": "&#xe609;",
+		"href": "Index/newslist?language=0"
+	},  {
+		"title": "新闻列表(英文)",
+		"icon": "&#xe609;",
+		"href": "Index/newslist?language=1"
+	},
+]
 }, {
 	"title": "地址本",
 	"icon": "fa-address-book",

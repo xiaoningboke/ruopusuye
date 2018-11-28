@@ -6,6 +6,7 @@ use Admin\Model\ContentModel;
 use Admin\Model\FileModel;
 use Admin\Model\PartnerModel;
 use Admin\Model\FenleiModel;
+use Admin\Model\NewsModel;
 class IndexController extends Controller {
     public function index(){
         $this->display();
@@ -321,7 +322,97 @@ class IndexController extends Controller {
             $this->error("删除失败");
         }
     }
-    
+    /**
+     * 新闻发布
+     * @return [type] [description]
+     */
+    public function exitNews(){
+        $data['language'] = $_POST['language'];
+        $data['title'] = $_POST['name'];
+        $data['time']=strtotime($_POST[time]);
+        $data['picture'] = $this->upload();
+        $data['state'] = $_POST['state'];
+        $data['classification'] = $_POST['classification'];
+        $data['abstracts'] = $_POST['abstracts'];
+        $data['content'] = $_POST['content'];
+        $Content = new NewsModel();
+        $i = $Content->exitNews($data);
+        if($i>0){
+            $this->success("成功");
+        }else{
+            $this->error("失败");
+        }
+    }
+    /**
+     * 新闻列表
+     * @return [type] [description]
+     */
+    public function newslist(){
+        $news = new NewsModel();
+        if($_GET['p']==NULL){
+        $p=1;
+    }else{
+        $p=$_GET['p'];
+    }
+        $keys=$_POST['keywords'];
+        $language=$_GET['language'];
+        //var_dump($language);exit;
+        $data=$news->findNewslist($p,$keys,$language);
+        $this->assign('data',$data);
+        $count = $news->countNews($keys,$language);
+        $Page = new \Think\Page($count,9);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+    }
+    /**
+     * 显示要修改的新闻内容
+     * @return [type] [description]
+     */
+     public function newslistmod(){
+      $id = $_GET["id"];
+      $news = new NewsModel();
+      $data = $news->findNews($id);
+      $this->assign('data',$data);
+      $this->display();
+    }
+    /**
+     * 修改新闻内容
+     * @return [type] [description]
+     */
+    public function exitNewslist(){
+        $id = $_POST["id"];
+        $language = $_POST['language'];
+        $data['title'] = $_POST['name'];
+        $data['time']=strtotime($_POST[time]);
+        $data['picture'] = $this->upload();
+        $data['state'] = $_POST['state'];
+        $data['classification'] = $_POST['classification'];
+        $data['abstracts'] = $_POST['abstracts'];
+        $data['content'] = $_POST['content'];
+        $data['language'] = $language;
+        $news = new NewsModel();
+        $i = $news->exitNewslist($id,$data,$language);
+        if($i>0){
+            $this->success("更新成功");
+        }else{
+            $this->error("更新失败");
+        }
+    }
+    /**
+     * 删除新闻
+     * @return [type] [description]
+     */
+    public function dell(){
+          $id= $_GET["id"];
+          $news=new NewsModel();
+       if($news->delete($id)){
+          $s= $news->del($id);
+          $this->success('删除成功！',U('Admin/index/newslist'));
+      }else{
+          $this->error('删除失败！',U('Admin/index/newslist'));
+      }
+        }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//文件上传操作
