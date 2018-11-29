@@ -16,6 +16,9 @@
     <script type="text/javascript" src="./js/public.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script>
+        window.onload = function(){
+            showen();
+        };
        $(document).ready(function () {
            showout();
            checkTArea();
@@ -115,7 +118,7 @@
             <div id="leave">
                 <form class="l-form">
                     <table>
-                        <tr><td class="td3">姓名：</td></tr>
+                        <tr><td class="td3">昵称：</td></tr>
                         <tr><td class="td4">电话：</td></tr>
                         <tr><td class="td5">地址：</td></tr>
                         <tr><td class="td6">邮箱：</td></tr>
@@ -124,7 +127,7 @@
                 </form>
                 <form class="r-form">
                     <div class="hidd">留言</div>
-                    <div class="in"><input class="put1  userName" type="text" placeholder="姓名" id="userName"  onBlur="checkUserName()"><span id="nameErr">请输入您的姓名</span></div>
+                    <div class="in"><input class="put1  userName" type="text" placeholder="昵称" id="userName"  onBlur="checkUserName()"><span id="nameErr">请输入您的昵称</span></div>
                     <div class="in"><input class="put2 userName" type="text" placeholder="电话" id="userPhone"  onBlur="checkPhone()" ><span id="phone">请输入11位电话号码</span></div>
                     <div class="in"><input class="put3" type="text" placeholder="地址" id="userArea" onblur="checkUserArea()" ><span id="dizhi">请输入您的地址</span></div>
                     <div class="in"><input class="put4" type="text" placeholder="邮箱" id="userEmail" onblur="checkUserEmail()" ><span id="emil">请输入您的邮箱</span></div>
@@ -196,7 +199,7 @@
         <h2 class="tact"><img src="img/QQzxkf.jpg"><span id="cancel">×</span></h2>
         <a class="kefu_0"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes"><img src="img/kefu_11.jpg"></a>
         <h2 class="times">工作时间</h2>
-        <span class="gzsj">周一至周五:8:30-17:30</span><span class="gzsj">周六至周日:9:00-17:00</span>
+        <div id="gzsj">7*24小时全天在线</div>
     </div>
 <!--小插件结束-->
 </div>

@@ -1,0 +1,183 @@
+.w {
+    margin:0 auto;
+}
+.picture {
+    width: 100%;
+    height: 400px;
+    /*background: pink;*/
+    /*border-bottom:solid 10px #4bb344;*/
+}
+.picture img {
+    width: 100%;
+    height: 400px;
+}
+.main{
+    width: 100%;
+    min-width:1200px;
+    padding:50px 0px ;
+    /*background: lightpink;*/
+}
+/*标题设置*/
+.title {
+    width: 280px;
+    height:50px;
+    margin:0 auto;
+    border-bottom:solid 2px #4BB344;
+    position: relative;
+    text-align: center;
+}
+.title .one{
+    background: #fff;
+    font:500 40px/40px "微软雅黑";
+    position: absolute;
+    display:inline-block;
+    width: 200px;
+    top:25px;
+    right:40px;
+
+}
+.title .two {
+    width: 400px;
+    position: absolute;
+    top:80px;
+    left:-60px;
+    color:#4BB344;
+}
+.summary {
+
+}
+
+.sum-content{
+    width: 1100px;
+    height: 500px;
+    margin:100px auto;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    font: 500 18px /40px "微软雅黑";
+    background: url("../img/594383b827a0d.png") no-repeat;
+    background-size: 100% 500px;
+
+}
+
+.sum-content p {
+    margin-bottom: 30px;
+
+}
+.photo {
+    margin:100px auto 0px auto;
+    padding:10px;
+    border: solid 1px #4bb344;;
+}
+.photo img {
+    width: 1170px;
+    height: 300px;
+}
+
+.technology {
+
+}
+.tec-contact {
+    /*width: 1200px;*/
+    margin:100px auto;
+    height: 530px;
+    background: #d3d3d3;
+    background:url("../img/22400858.jpg") no-repeat ;
+    background-size: 100% 530px;
+}
+ .rgba {
+     width: 100%;
+     height: 530px;
+     background:rgba(225,225,225,0.5);
+ }
+.leftsider {
+    float:left;
+    width: 460px;
+    height: 530px;
+    /*background: #000;*/
+    margin-right:5px;
+}
+.rightsider {
+    float:left;
+    width: 635px;
+    height: 470px;
+    padding:50px 30px
+}
+.rightsider p {
+    width: 635px;
+    font: 500 15px/30px "微软雅黑";
+    padding:10px 20px 10px 20px;
+    background: rgba(225,225,225,0.6);
+    text-indent: 2em;
+}
+.showone {
+    float:left;
+    width: 200px;
+    height: 450px;
+    /*background: pink;*/
+    margin:35px 10px 0px 20px;
+}
+.showtwo{
+    float:left;
+    width: 200px;
+    height: 450px;
+    /*background: pink;*/
+    margin: 35px 0px 0px 0px;
+
+}
+.show{
+    width: 200px;
+    height: 220px;
+    margin:0px 0px 10px 0px;
+    /*background:red;*/
+    border:solid 1px#bdbdbd;
+}
+.show img {
+    width: 200px;
+    height: 220px;
+}
+
+.iden-contact {
+    width: 1200px;
+    height: 420px;
+    margin:100px auto;
+    border:solid 2px #bdbdbd;
+}
+
+.price {
+    width: 250px;
+    height: 300px;
+    float:left;
+    margin: 50px 12.5px;
+    padding:10px;
+    border:solid 2px #bdbdbd;
+    /*background: deeppink;*/
+}
+.price img {
+    width: 250px;
+    height: 300px;
+}
+.part-contact {
+    margin:100px 0px;
+    width: 1202px;
+    height: 400px;
+    /*background: pink;*/
+    padding: 20px 0px;
+    border:solid 1px #bdbdbd;
+}
+.ten {
+    width: 200px;
+    height: 180px;
+    background: #fff;
+    float:left;
+    margin: 0px 20px 40px 20px
+}
+.ten img{
+    width: 200px;
+    height: 150px;
+}
+.ten span {
+    display: inline-block;
+    font:500 12px/12px "微软雅黑";
+    width: 200px;
+    text-align: center;
+}

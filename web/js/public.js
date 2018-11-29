@@ -3,7 +3,7 @@
 //  ==========
 function showen() {
     function animate(obj, target) {
-        clearInterval(obj.timer)
+        clearInterval(obj.timer);
         var speed = obj.offsetLeft < target ? 30 : -30;
         obj.timer = setInterval(function () {
             var result = target - obj.offsetLeft;
@@ -13,15 +13,7 @@ function showen() {
                 obj.style.left = target + "px";
             }
         }, 50);
-    };
-    // var $kefu = $("#kefu");
-    //     var kefu = $kefu;
-    //     var $cancel = $("#cancel");
-    //     var cancel = $cancel[0];
-    //     $cancel.click(function () {
-    //         var spWidth = kefu.offsetWidth;
-    //         animate(kefu, -spWidth);
-    //     });
+    }
 	var kefu = document.getElementById("kefu");
 	var cancel = document.getElementById("cancel");
     var spWidth = kefu.offsetWidth;
@@ -30,6 +22,7 @@ function showen() {
 		animate(kefu,-spWidth);
     }
 }
+
 function top_1(){
 		//二维码隐藏和显示
 			var weixin=document.getElementById("top_weixin");
@@ -39,16 +32,16 @@ function top_1(){
 			
 			weixin.onmouseover=function(){
 				kongbai.style.display="block";
-			}
+			};
 			weixin.onmouseout=function(){
 			kongbai.style.display="none";
-			}
+			};
 			iphone.onmouseover=function(){
 				kongbai1.style.display="block";
-			}
+			};
 			iphone.onmouseout=function(){
 			kongbai1.style.display="none";
-			}
+			};
 		//三个图标滑出
 			$(function() {
 			     $(window).scroll(function() {

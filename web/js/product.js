@@ -10,8 +10,8 @@ function dis() {
     });
     $left.children("a").click(function () {
         //点击相应按钮产品展示内容切换
-        $hid.children("div").eq($(this).index()-1).show();
-        $hid.children("div").eq($(this).index()-1).siblings().hide();
+        $hid.children("div").eq($(this).index()).show();
+        $hid.children("div").eq($(this).index()).siblings().hide();
         }
     );
 });
