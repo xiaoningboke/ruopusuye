@@ -2,14 +2,20 @@
 	<body>
 		<div class="admin-main">
 			<fieldset class="layui-elem-field">
-				<legend>产品分类</legend>
+				<legend>产品型号</legend>
 				<div class="layui-field-box layui-form">
 				<form class="layui-form" action="{:U('Admin/Index/addversion')}" enctype="multipart/form-data" method="post">
 				<input type="hidden" name="product_id" value="{$id}">
 				<div class="layui-form-item">
-					<label class="layui-form-label">产品型号</label>
+					<label class="layui-form-label">中文型号</label>
 					<div class="layui-input-block">
-						<input type="text" name="xinghao"  lay-verify="title" autocomplete="off" placeholder="请输入产品型号"  class="layui-input" >
+						<input type="text" name="xinghao"  lay-verify="title" autocomplete="off" placeholder="请输入中文型号"  class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">英文型号</label>
+					<div class="layui-input-block">
+						<input type="text" name="enxinghao"  lay-verify="title" autocomplete="off" placeholder="请输入英文型号"  class="layui-input" >
 					</div>
 				</div>
 				<div class="layui-form-item">
@@ -35,7 +41,8 @@
 					<table class="layui-table admin-table">
 						<thead>
 							<tr style="text-align: center;">
-								<th>型号</th>
+								<th>中文型号</th>
+								<th>英文型号</th>
 								<th>图片</th>
 								<th>价格</th>
 								<th>操作</th>
@@ -45,11 +52,12 @@
 							<foreach name="data" item="vo">
 								<tr style="text-align: center;">
 									<td>{$vo.xinghao}</td>
+									<td>{$vo.enxinghao}</td>
 									<td><img src="__PUBLIC__/Uploads/{$vo.imgurl}" style="width: 200px;"></td>
 									<td>{$vo.price}</td>
 									<td>
-										<a href="{:U('Admin/Index/exitfenlei',array('id'=>$vo['id']))}" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">编辑</a>
-										<a href="{:U('Admin/Index/delfenlei',array('id'=>$vo['id']))}" data-name="{{ item.name }}" data-id="1" data-opt="del" class="layui-btn layui-btn-danger layui-btn-mini">删除</a> 
+										<a href="{:U('Admin/Index/exitversion',array('id'=>$vo['id']))}" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">编辑</a>
+										<a href="{:U('Admin/Index/delversion',array('id'=>$vo['id']))}" data-name="{{ item.name }}" data-id="1" data-opt="del" class="layui-btn layui-btn-danger layui-btn-mini">删除</a> 
 									</td>
 								</tr>
 							</foreach>

@@ -341,6 +341,50 @@ class IndexController extends Controller {
         }
     }
     /**
+     * 显示修改产品型号
+     * @return [type] [description]
+     */
+    public function exitversion(){
+        $id = $_GET['id'];
+        $Version = new VersionModel();
+        $data = $Version->ByidVersion($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+    /**
+     * 修改型号
+     * @return [type] [description]
+     */
+    public function exversion(){
+        $data = $_POST;
+        $imgurl = $this->upload();
+        if($imgurl != 'error'){
+            $data['imgurl'] = $imgurl;
+        }
+        $Version = new VersionModel();
+        $i = $Version->exitVersion($data);
+        if($i>0){
+            $this->success("修改成功",U('Admin/Index/product'));
+        }else{
+            $this->error("修改失败",U('Admin/Index/product'));
+        }
+    }
+
+    /**
+     * 根据id进行删除
+     * @return [type] [description]
+     */
+    public function delversion(){
+        $id = $_GET['id'];
+        $Version = new VersionModel();
+        $i = $Version->delVersion($id);
+        if($i>0){
+            $this->success("删除成功");
+        }else{
+            $this->error("删除失败");
+        }
+    }
+    /**
      * 显示产品修改
      * @return [type] [description]
      */
@@ -349,9 +393,13 @@ class IndexController extends Controller {
         $Product = new ProductModel();
         $data = $Product->findById($id);
         $this->assign('data',$data);
-        $this->display();
-    }
+        $this->display(); 
 
+    }
+    /**
+     * 修改产品
+     * @return [type] [description]
+     */
     public function exitproductBy(){
         $data = $_POST;
         $Product = new ProductModel();
@@ -385,7 +433,7 @@ class IndexController extends Controller {
         $id = $_GET['id'];
         $Product = new ProductModel();
         $i = $Product->delProduct($id);
-         if($i>0){
+        if($i>0){
             $this->success("删除成功");
         }else{
             $this->error("删除失败");

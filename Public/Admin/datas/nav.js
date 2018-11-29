@@ -55,10 +55,6 @@ var navs = [{
 		"title": "产品列表",
 		"icon": "&#xe62a;",
 		"href": "Index/product"
-	}, {
-		"title": "Laytpl+Laypage",
-		"icon": "&#xe628;",
-		"href": "paging.html"
 	}]
 }, {
 	"title": "公司新闻",

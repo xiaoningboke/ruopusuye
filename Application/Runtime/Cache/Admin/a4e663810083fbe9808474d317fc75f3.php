@@ -18,17 +18,6 @@
 	<script type="text/javascript" src="/ruopusuye/Public/Ueditor/ueditor.config.js"></script>
 	<script type="text/javascript" src="/ruopusuye/Public/Ueditor/ueditor.all.min.js"></script>
 	<script type="text/javascript" src="/ruopusuye/Public/Ueditor/lang/zh-cn/zh-cn.js"></script>
-	<script type="text/javascript" charset="utf-8">
-	   window.UEDITOR_HOME_URL = "/ruopusuye/Public/Ueditor/";
-	    $(document).ready(function () {
-	      UE.getEditor('info', {
-	      initialFrameHeight: 500,
-	      initialFrameWidth: 800,
-	      serverUrl: "<?php echo U(MODULE_NAME.'/Index/save_info');?>"
-	    });
-	  });
-
-	</script>
 <body>
 		<div style="margin: 15px;">
 			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
@@ -36,6 +25,34 @@
 			</fieldset>
 
 			<form class="layui-form" action="<?php echo U('Admin/Index/exitNewslist');?>" enctype="multipart/form-data" method="post">
+            <?php if($data[state]==1) { ?>
+                <script type="text/javascript" charset="utf-8">
+       window.UEDITOR_HOME_URL = "/ruopusuye/Public/Ueditor/";
+        $(document).ready(function () {
+          UE.getEditor('info', {
+          initialFrameHeight: 500,
+          initialFrameWidth: 800,
+          serverUrl: "<?php echo U(MODULE_NAME.'/Index/save_info');?>"
+        });
+      });
+
+    </script>
+
+            <?php }else{ ?>
+                <script type="text/javascript" charset="utf-8">
+       window.UEDITOR_HOME_URL = "/ruopusuye/Public/Ueditor/";
+        $(document).ready(function () {
+            $("#tututu").hide();
+          UE.getEditor('info', {
+          initialFrameHeight: 500,
+          initialFrameWidth: 800,
+          serverUrl: "<?php echo U(MODULE_NAME.'/Index/save_info');?>"
+        });
+      });
+
+    </script>
+
+            <?php } ?>
 				<input type="hidden" name="id" value="<?php echo ($data[id]); ?>">
 				<input type="hidden" name="language" value="<?php echo ($data[language]); ?>">
 				<div class="layui-form-item">

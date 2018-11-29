@@ -1,0 +1,54 @@
+﻿<include file = "Public/header" />
+	<body>
+		<div class="admin-main">
+			<fieldset class="layui-elem-field">
+				<legend>产品型号</legend>
+				<div class="layui-field-box layui-form">
+				<form class="layui-form" action="{:U('Admin/Index/exversion')}" enctype="multipart/form-data" method="post">
+				<input type="hidden" name="id" value="{$data.id}">
+				<div class="layui-form-item">
+					<label class="layui-form-label">中文型号</label>
+					<div class="layui-input-block">
+						<input type="text" name="xinghao"  lay-verify="title" autocomplete="off" placeholder="请输入中文型号"  class="layui-input" value="{$data.xinghao}">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">英文型号</label>
+					<div class="layui-input-block">
+						<input type="text" name="enxinghao"  lay-verify="title" autocomplete="off" placeholder="请输入英文型号"  class="layui-input" value="{$data.enxinghao}">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">产品价格</label>
+					<div class="layui-input-block">
+						<input type="text" name="price"  lay-verify="title" autocomplete="off" placeholder="请输入产品价格"  class="layui-input" value="{$data.price}">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">选择图片</label>
+					<div class="layui-input-block">
+						<input type="file" name="photo"  lay-verify="title" autocomplete="off"  class="layui-input" >
+					</div>
+				</div>
+				<div style="text-align: center;">
+					<img src="__PUBLIC__/Uploads/{$data.imgurl}" style="width: 200px;">
+				</div>
+				<div style="padding: 10px;">
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<input type="submit" value="立即提交" class="layui-btn">
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+			</fieldset>
+			<div class="admin-table-page">
+				<div id="paged" class="page">
+				</div>
+			</div>
+		</div>
+		
+		
