@@ -3655,3 +3655,476 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
 ERR: 无法加载控制器:Main
 
+[ 2018-11-29T20:01:33+08:00 ] ::1 /ruopusuye/admin/Index/about?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2018-11-29T20:01:34+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543492894009
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2018-11-29T20:01:50+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0243s ]
+SQL: UPDATE `rp_content` SET `title`=NULL,`content`='<p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“， 中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司 自成立至今，引进国外先进技术， 是国内首家从事PET材料绳索的中外合资企业， 经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。 经过不断的创新和发展，各方面取得了很多国内外客户的认可， 我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">寿光市若普塑业有限责任公司集生产、销售、出口于一体， 主要生产经营以聚酯切片（PET）为主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线，施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性， 并可根据客户需求订制各种不同规格及不同型号专用绳，以此满足客户不同需求。</p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">我们本着诚信为本的态度以赢得客户的信赖，以质量谋发展、 薄利多销的经营理念使得我们产品具有质量竞争优势和价格竞争优势， 以谦卑的心态广交天下朋友。如果您对我们的产品感兴趣，期待您的来电咨询。</p><p><br/></p>' WHERE ( id = 1 ) [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2018-11-29T20:01:52+08:00 ] ::1 /ruopusuye/admin/Index/about?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2018-11-29T20:01:52+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543492912333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2018-11-29T20:06:44+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\PHPTutorial\WWW\ruopusuye\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0249s ]
+SQL: UPDATE `rp_content` SET `title`=NULL,`imgUrl`='2018-11-29/5bffd6544d3cf.png',`content`='<p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“， 中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司 自成立至今，引进国外先进技术， 是国内首家从事PET材料绳索的中外合资企业， 经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。 经过不断的创新和发展，各方面取得了很多国内外客户的认可， 我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">寿光市若普塑业有限责任公司集生产、销售、出口于一体， 主要生产经营以聚酯切片（PET）为主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线，施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性， 并可根据客户需求订制各种不同规格及不同型号专用绳，以此满足客户不同需求。</p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">我们本着诚信为本的态度以赢得客户的信赖，以质量谋发展、 薄利多销的经营理念使得我们产品具有质量竞争优势和价格竞争优势， 以谦卑的心态广交天下朋友。如果您对我们的产品感兴趣，期待您的来电咨询。</p><p><br/></p>' WHERE ( id = 1 ) [ RunTime:0.0372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2018-11-29T20:06:45+08:00 ] ::1 /ruopusuye/admin/Index/about?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2018-11-29T20:06:45+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543493205876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2018-11-29T20:17:05+08:00 ] ::1 /ruopusuye/admin/Index/technology?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_file` WHERE `state` = 1  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2018-11-29T20:17:06+08:00 ] ::1 /ruopusuye/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+ERR: 非法操作:plugins
+
+[ 2018-11-29T20:17:06+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543493826012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2018-11-29T20:17:13+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitTechnology.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 116 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0265s ]
+SQL: UPDATE `rp_content` SET `content`='<p style=\"margin-top: 0px; margin-bottom: 0px; padding: 10px 20px; width: 635px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 15px; line-height: 30px; font-family: 微软雅黑; background: rgba(225, 225, 225, 0.6); text-indent: 2em; color: rgb(85, 85, 85); white-space: normal;\">主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。 此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线， 施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性，</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 10px 20px; width: 635px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 15px; line-height: 30px; font-family: 微软雅黑; background: rgba(225, 225, 225, 0.6); text-indent: 2em; color: rgb(85, 85, 85); white-space: normal;\">主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。 此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线， 施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性，</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 10px 20px; width: 635px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 15px; line-height: 30px; font-family: 微软雅黑; background: rgba(225, 225, 225, 0.6); text-indent: 2em; color: rgb(85, 85, 85); white-space: normal;\">主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。 此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线， 施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性，</p><p><br/></p>' WHERE ( id = 3 ) [ RunTime:0.0451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002008s ]
+
+[ 2018-11-29T20:17:14+08:00 ] ::1 /ruopusuye/admin/Index/technology?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `rp_file` WHERE `state` = 1  [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2018-11-29T20:17:14+08:00 ] ::1 /ruopusuye/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+ERR: 非法操作:plugins
+
+[ 2018-11-29T20:17:14+08:00 ] ::1 /ruopusuye/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+ERR: 非法操作:plugins
+
+[ 2018-11-29T20:17:14+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543493834631
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2018-11-29T20:30:29+08:00 ] ::1 /ruopusuye/admin/Index/chInformation?language=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2018-11-29T20:30:37+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0260s ]
+SQL: UPDATE `rp_content` SET `title`=NULL,`content`='<p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“， 中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司 自成立至今，引进国外先进技术， 是国内首家从事PET材料绳索的中外合资企业， 经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。 经过不断的创新和发展，各方面取得了很多国内外客户的认可， 我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">寿光市若普塑业有限责任公司集生产、销售、出口于一体， 主要生产经营以聚酯切片（PET）为主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线，施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性， 并可根据客户需求订制各种不同规格及不同型号专用绳，以此满足客户不同需求。</p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\">我们本着诚信为本的态度以赢得客户的信赖，以质量谋发展、 薄利多销的经营理念使得我们产品具有质量竞争优势和价格竞争优势， 以谦卑的心态广交天下朋友。如果您对我们的产品感兴趣，期待您的来电咨询。</p>' WHERE ( id = 1 ) [ RunTime:0.0277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2018-11-29T20:30:39+08:00 ] ::1 /ruopusuye/admin/Index/about?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002839s ]
+
+[ 2018-11-29T20:30:40+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543494640096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2018-11-29T20:31:55+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0280s ]
+SQL: UPDATE `rp_content` SET `title`=NULL,`content`='<p><span style=\"font-size: 18px;\">寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“， 中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司 自成立至今，引进国外先进技术， 是国内首家从事PET材料绳索的中外合资企业， 经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。 经过不断的创新和发展，各方面取得了很多国内外客户的认可， 我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</span></p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"font-size: 18px;\">寿光市若普塑业有限责任公司集生产、销售、出口于一体， 主要生产经营以聚酯切片（PET）为主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线，施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性， 并可根据客户需求订制各种不同规格及不同型号专用绳，以此满足客户不同需求。</span></p><p style=\"margin-top: 0px; margin-bottom: 30px; padding: 0px; color: rgb(85, 85, 85); font-family: å¾®è½¯é›…é»‘; font-size: 18px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"font-size: 18px;\">我们本着诚信为本的态度以赢得客户的信赖，以质量谋发展、 薄利多销的经营理念使得我们产品具有质量竞争优势和价格竞争优势， 以谦卑的心态广交天下朋友。如果您对我们的产品感兴趣，期待您的来电咨询。</span></p>' WHERE ( id = 1 ) [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2018-11-29T20:31:57+08:00 ] ::1 /ruopusuye/admin/Index/about?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2018-11-29T20:31:58+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543494718097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2018-11-29T20:32:31+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/exitContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Admin\Controller\IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0237s ]
+SQL: UPDATE `rp_content` SET `title`=NULL,`content`='<p><span style=\"font-size: 18px;\">寿光市若普塑业有限责任公司坐落于风景秀美的渤海之滨，有着“菜都”之美誉“， 中国冬暖式蔬菜大棚发源地”的潍坊寿光。公司 自成立至今，引进国外先进技术， 是国内首家从事PET材料绳索的中外合资企业， 经过不断创新，已拥有较为优质的技术力量与好的销售、技术团队。 经过不断的创新和发展，各方面取得了很多国内外客户的认可， 我们也将继续秉持用心制造更高品质的产品与服务经营理念，以迎取客户更大的满意与信赖。</span></p><p><span style=\"font-size: 18px;\">寿光市若普塑业有限责任公司集生产、销售、出口于一体， 主要生产经营以聚酯切片（PET）为主要原料的PET压膜绳、线，PET船用渔网绳， 海上养殖专用用绳，盐场专用绳等一系列行业用绳。此类用绳均采用先进工艺， 使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线，施工简便， 应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）等特性， 并可根据客户需求订制各种不同规格及不同型号专用绳，以此满足客户不同需求。</span></p><p><span style=\"font-size: 18px;\">我们本着诚信为本的态度以赢得客户的信赖，以质量谋发展、 薄利多销的经营理念使得我们产品具有质量竞争优势和价格竞争优势， 以谦卑的心态广交天下朋友。如果您对我们的产品感兴趣，期待您的来电咨询。</span></p>' WHERE ( id = 1 ) [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008318s ]
+
+[ 2018-11-29T20:32:33+08:00 ] ::1 /ruopusuye/admin/Index/about?language=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2018-11-29T20:32:33+08:00 ] ::1 /ruopusuye/index.php/Admin/Index/save_info.html?action=config&&noCache=1543494753126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
