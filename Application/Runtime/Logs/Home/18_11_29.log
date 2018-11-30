@@ -1640,3 +1640,756 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
 
+[ 2018-11-29T20:35:57+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0223s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2018-11-29T20:37:29+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0298s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0273s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0278s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2018-11-29T20:38:11+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0248s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2018-11-29T20:38:23+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0217s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-11-29T20:39:45+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0215s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0214s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2018-11-29T20:40:03+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0258s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0261s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2018-11-29T20:42:20+08:00 ] ::1 /ruopusuye/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2018-11-29T20:42:32+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0270s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0261s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2018-11-29T20:42:55+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0275s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0245s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2018-11-29T20:43:05+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0217s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0217s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2018-11-29T20:43:07+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0257s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2018-11-29T20:43:16+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0205s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0214s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2018-11-29T20:43:22+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0236s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004110s ]
+
+[ 2018-11-29T20:43:46+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0275s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0266s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0269s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0256s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+
+[ 2018-11-29T20:43:46+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0251s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0237s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0237s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-11-29T20:44:10+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0242s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0253s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+NOTIC: [8] Undefined index: imgurl D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-11-29T20:44:23+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0205s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0201s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2018-11-29T20:45:58+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0235s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0220s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0228s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2018-11-29T20:46:00+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0226s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0231s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2018-11-29T20:46:15+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0217s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0211s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2018-11-29T20:46:25+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0218s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0226s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2018-11-29T20:46:59+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0227s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0231s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2018-11-29T20:47:31+08:00 ] ::1 /ruopusuye/Home/index/About
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=1 )  [ RunTime:0.0225s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=3 )  [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0219s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `rp_partner` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `rp_partner`  [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\phpStudy\PHPTutorial\WWW\ruopusuye\Application\Runtime\Cache\Home\6d3607eb5bb08f46c181686d37c47013.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+

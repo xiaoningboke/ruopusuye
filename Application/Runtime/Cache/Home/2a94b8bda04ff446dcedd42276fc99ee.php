@@ -1,4 +1,17 @@
-<?php if (!defined('THINK_PATH')) exit();?>		
+<?php if (!defined('THINK_PATH')) exit();?>		<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>若普塑业</title>
+		<!-- SEO -->
+		<meta name="description" itemprop="description" content="寿光市若普塑业有限责任公司,PET压膜绳、线，PET船用渔网绳，海上养殖专用用绳，盐场专用绳"/>
+		<meta itemprop="name" content="寿光市若普塑业有限责任公司"/>
+		<meta name="keywords" content="寿光市若普塑业有限责任公司,PET压膜绳、线，PET船用渔网绳，海上养殖专用用绳，盐场专用绳"/>
+		<meta name="generator" content="千行软件" />
+		<!--初始化-->
+		<link rel="stylesheet" href="/ruopusuye/Public/css/csh.css" />		
+		<!--头部和尾部-->
+		<link rel="stylesheet" type="text/css" href="/ruopusuye/Public/css/public.css"/>
 		<!--头部和尾部-->
 		<link rel="stylesheet" type="text/css" href="/ruopusuye/Public/css/public.css"/>
 		<!--首页页面-->

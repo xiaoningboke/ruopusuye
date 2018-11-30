@@ -91,12 +91,12 @@
                     <!--左边部分图片展示-->
                     <div class="leftsider">
                         <div class="showone">
-                            <div class="show"><img src="/ruopusuye/Public/img/8d81fe5a5165a05d5d7a4993f1ed4a83.jpg" alt=""></div>
-                            <div class="show"><img src="/ruopusuye/Public/img/0aef7a29-b824-445a-9eef-43348d827e6a.jpg" alt=""></div>
+                            <div class="show"><img src="/ruopusuye/Public/Uploads/<?php echo ($fileDataJishu[0]['urlimg']); ?>" alt=""></div>
+                            <div class="show"><img src="/ruopusuye/Public/Uploads/<?php echo ($fileDataJishu[1]['urlimg']); ?>" alt=""></div>
                         </div>
                         <div class="showtwo">
-                            <div class="show"><img src="/ruopusuye/Public/img/wKhQpFaCHz2ET7DpAAAAALnxMnc234.jpg" alt=""></div>
-                            <div class="show"><img src="/ruopusuye/Public/img/rBADs1lwmQiAAOC1AAbmCEcT2gQ309_600_600.jpg" alt=""></div>
+                            <div class="show"><img src="/ruopusuye/Public/Uploads/<?php echo ($fileDataJishu[2]['urlimg']); ?>" alt=""></div>
+                            <div class="show"><img src="/ruopusuye/Public/Uploads/<?php echo ($fileDataJishu[3]['urlimg']); ?>" alt=""></div>
                         </div>
                     </div>
                     <!--右边部分文本叙述-->
@@ -116,18 +116,10 @@
         </div>
         <!--内容-->
         <div class="iden-contact">
-                <div class="price">
-                     <img src="/ruopusuye/Public/img/51b1OOOPIC4f.jpg" alt="">
+            <?php if(is_array($fileDataZizhi)): foreach($fileDataZizhi as $k=>$vo): ?><div class="price">
+                     <img src="/ruopusuye/Public/Uploads/<?php echo ($vo["urlimg"]); ?>" alt="">
                 </div>
-                <div class="price">
-                <img src="/ruopusuye/Public/img/15197227-32b6b9bccac66e277a83c92334aff224-0.jpg" alt="">
-            </div>
-                <div class="price">
-                    <img src="/ruopusuye/Public/img/15197227-32b6b9bccac66e277a83c92334aff224-0.jpg" alt="">
-                </div>
-                <div class="price">
-                    <img src="/ruopusuye/Public/img/51b1OOOPIC4f.jpg" alt="">
-                </div>
+                <?php if(k%4==0): ?><br/><?php endif; endforeach; endif; ?>
         </div>
     </div>
     <!--合作伙伴-->
@@ -186,4 +178,73 @@
 </div>
 <!--主部结束-->
 
-footer.html
+<!--尾部开始-->
+<div id="footer">
+    <div class="footer w">
+        <div class="footer_LBox">
+            <!--<p>寿光市若普塑业有限责任公司</p>-->
+            <img src="/ruopusuye/Public/img/logo_1.png"/>
+            <!--<p>主要产品：以聚酯切片（PET）为主要原料的PET压膜绳、线，PET船用渔网绳，海上养殖专用用绳，盐场专用绳等一系列行业用绳。</p>-->
+            <!--<p>产品特性：此类用绳均采用先进工艺，使得产品具有强度高，不伸缩，防酸碱，耐高温，抗紫外线，施工简便，应用成本低，抗老化、防老化，使用寿命长（自然环境寿命使用15年以上）。</p>-->
+            <!--<p>可根据客户需求订制各种不同规格及不同型号专用绳，以此满足客户不同需求。</p>-->
+        </div>
+        <div class="footer_RBox">
+            <ul id="uls">
+                <li>
+                    <div class="footer_RBox_img"><img src="/ruopusuye/Public/img/index_footer_qq.png"/></div>
+                    <div class="footer_RBox_span"><span>联系QQ：403539296</span></div>
+                </li>
+                <li>
+
+                    <div class="footer_RBox_img"><img src="/ruopusuye/Public/img/index_footer_iPhone.png"/></div>
+                    <div class="footer_RBox_span"><span>联系电话：05365217508&nbsp;&nbsp;&nbsp;&nbsp;15263647456</span></div>
+                </li>
+                <li>
+
+                    <div class="footer_RBox_img"><img src="/ruopusuye/Public/img/index_footer_email.png"/></div>
+                    <div class="footer_RBox_span"><span>联系邮箱：403539296@qq.com</span></div>
+                </li>
+                <li>
+
+                    <div class="footer_RBox_img"><img src="/ruopusuye/Public/img/index_footer_address.png"/></div>
+                    <div class="footer_RBox_span"><span>联系地址：山东省潍坊市寿光市孙家集街道黄埔村118号</span></div>
+                </li>
+                <!--<li>4</li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="footer_1" class="bg">
+    <div class="footer_1 w">
+        @版权所有：寿光市若普塑业有限责任公司
+        <a href="http://www.miitbeian.gov.cn/">鲁ICP备06041183号-2</a></-->
+    	技术支持：千行软件工作室
+	</div>
+</div>
+<!--尾部结束-->
+<!--小插件-->
+		<a id="top_top" href="#">
+			<img src="/ruopusuye/Public/img/index_fixed_top.png" alt="" />
+		</a>
+		<a id="top_weixin" href="#">
+			<img src="/ruopusuye/Public/img/index_fixed_weixin.png" alt="" />
+		</a>
+		<a id="top_iphone" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
+			<img src="/ruopusuye/Public/img/index_fixed_iphone.png" alt="" />
+		</a>
+		<div id="kongbai_weixin"></div>
+		<div id="kongbai_iphone">
+			<h5>电话热线：</h5>
+			<p>053-6521-7508</p>
+			<h5>手机号：</h5>
+			<p>15263647456</p>
+		</div>
+<div id="kefu">
+    <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/img/kefu_11.jpg"></a>
+    <h2 class="times">工作时间</h2>
+    <div id="gzsj">7*24小时全天在线</div>
+</div>
+<!--小插件结束-->
+</body>
+</html>

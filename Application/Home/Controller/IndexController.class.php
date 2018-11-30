@@ -24,7 +24,7 @@ class IndexController extends Controller {
     	$this->assign('fileDataJishu',$fileDataJishu);
     	$this->assign('fileDataZizhi',$fileDataZizhi);
     	$this->assign('partnerData',$partnerData);
-
+    	var_dump($fileDataZizhi);
     	$this->display();
     }
 }

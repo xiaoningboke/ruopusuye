@@ -63,12 +63,12 @@
                     <!--左边部分图片展示-->
                     <div class="leftsider">
                         <div class="showone">
-                            <div class="show"><img src="__PUBLIC__/img/8d81fe5a5165a05d5d7a4993f1ed4a83.jpg" alt=""></div>
-                            <div class="show"><img src="__PUBLIC__/img/0aef7a29-b824-445a-9eef-43348d827e6a.jpg" alt=""></div>
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[0]['urlimg']}" alt=""></div>
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[1]['urlimg']}" alt=""></div>
                         </div>
                         <div class="showtwo">
-                            <div class="show"><img src="__PUBLIC__/img/wKhQpFaCHz2ET7DpAAAAALnxMnc234.jpg" alt=""></div>
-                            <div class="show"><img src="__PUBLIC__/img/rBADs1lwmQiAAOC1AAbmCEcT2gQ309_600_600.jpg" alt=""></div>
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[2]['urlimg']}" alt=""></div>
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[3]['urlimg']}" alt=""></div>
                         </div>
                     </div>
                     <!--右边部分文本叙述-->
@@ -88,18 +88,14 @@
         </div>
         <!--内容-->
         <div class="iden-contact">
+            <foreach name="fileDataZizhi" item="vo" key="k" >
                 <div class="price">
-                     <img src="__PUBLIC__/img/51b1OOOPIC4f.jpg" alt="">
+                     <img src="__PUBLIC__/Uploads/{$vo.urlimg}" alt="">
                 </div>
-                <div class="price">
-                <img src="__PUBLIC__/img/15197227-32b6b9bccac66e277a83c92334aff224-0.jpg" alt="">
-            </div>
-                <div class="price">
-                    <img src="__PUBLIC__/img/15197227-32b6b9bccac66e277a83c92334aff224-0.jpg" alt="">
-                </div>
-                <div class="price">
-                    <img src="__PUBLIC__/img/51b1OOOPIC4f.jpg" alt="">
-                </div>
+                <if condition="k%4==0">
+                    <br/>
+                </if>
+            </foreach>
         </div>
     </div>
     <!--合作伙伴-->
