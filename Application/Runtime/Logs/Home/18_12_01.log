@@ -1221,3 +1221,910 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003486s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003646s ]
 
+[ 2018-12-01T09:46:21+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0309s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0291s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002578s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/css/contact.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0351s ]
+ERR: 非法操作:css
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/logo_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/QQ.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/iPhone_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/email_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/address_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_iphone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/QQzxkf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/img/kefu_11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0364s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0407s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:46:22+08:00 ] ::1 /ruopusuye/home/index/js/jquery-1.8.3/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0506s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0487s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:46:23+08:00 ] ::1 /ruopusuye/home/index/js/contact.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0493s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0444s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0395s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:46:23+08:00 ] ::1 /ruopusuye/home/index/css/csh.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0452s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0439s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0469s ]
+ERR: 非法操作:css
+
+[ 2018-12-01T09:46:24+08:00 ] ::1 /ruopusuye/home/index/css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0522s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0427s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0355s ]
+ERR: 非法操作:css
+
+[ 2018-12-01T09:46:24+08:00 ] ::1 /ruopusuye/home/index/js/jquery-1.8.3/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0316s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0315s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:46:24+08:00 ] ::1 /ruopusuye/home/index/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0371s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0338s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:46:25+08:00 ] ::1 /ruopusuye/home/index/js/contact.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0374s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0299s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0272s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/QQ.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/logo_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/iPhone_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/email_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/address_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_iphone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/QQzxkf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/img/kefu_11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2018-12-01T09:47:59+08:00 ] ::1 /ruopusuye/home/index/css/contact.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0284s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0323s ]
+ERR: 非法操作:css
+
+[ 2018-12-01T09:48:00+08:00 ] ::1 /ruopusuye/home/index/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0243s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0224s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:00+08:00 ] ::1 /ruopusuye/home/index/js/jquery-1.8.3/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0291s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0283s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:00+08:00 ] ::1 /ruopusuye/home/index/js/contact.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0389s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0292s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:00+08:00 ] ::1 /ruopusuye/home/index/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0227s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0226s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:01+08:00 ] ::1 /ruopusuye/home/index/js/contact.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0247s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:08+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0243s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002580s ]
+
+[ 2018-12-01T09:48:08+08:00 ] ::1 /ruopusuye/home/index/img/QQ.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2018-12-01T09:48:08+08:00 ] ::1 /ruopusuye/home/index/img/logo_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/iPhone_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/email_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/address_1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_iphone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/index_fixed_weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/kefu_11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/img/QQzxkf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/css/contact.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0268s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0266s ]
+ERR: 非法操作:css
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0279s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0272s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/js/jquery-1.8.3/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0299s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0286s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0355s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:09+08:00 ] ::1 /ruopusuye/home/index/js/contact.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0225s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:10+08:00 ] ::1 /ruopusuye/home/index/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0227s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0221s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:48:10+08:00 ] ::1 /ruopusuye/home/index/js/contact.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0316s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0308s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0302s ]
+ERR: 非法操作:js
+
+[ 2018-12-01T09:49:35+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0281s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0254s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003284s ]
+
+[ 2018-12-01T09:51:33+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003892s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0275s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2018-12-01T09:52:44+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004807s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0255s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2018-12-01T09:55:11+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0264s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002601s ]
+
+[ 2018-12-01T10:02:01+08:00 ] ::1 /ruopusuye/home/index/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0272s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2018-12-01T10:02:18+08:00 ] ::1 /ruopusuye/home/index/contact?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0346s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0268s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003423s ]
+
+[ 2018-12-01T10:08:03+08:00 ] ::1 /ruopusuye/home/index/contact?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0339s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0238s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2018-12-01T10:08:03+08:00 ] ::1 /ruopusuye/index.php/Home/Index/addLiuyan.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `rp_liuyan` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `rp_liuyan` [ RunTime:0.0268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+
+[ 2018-12-01T10:08:39+08:00 ] ::1 /ruopusuye/home/index/contact?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0285s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002677s ]
+
+[ 2018-12-01T10:09:28+08:00 ] ::1 /ruopusuye/home/index/contact?username=23&userphone=17852661518&userarea=23&useremail=17852661518&usertext=17852661518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0251s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2018-12-01T10:09:53+08:00 ] ::1 /ruopusuye/home/index/contact?username=%E4%B8%BA&userphone=%E8%AF%B7%E6%88%91&userarea=%E5%8E%BB%E7%8E%A9&useremail=%E5%8E%BB%E7%8E%A9&usertext=%E9%A9%B1%E8%9A%8A%E5%99%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0261s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2018-12-01T10:10:11+08:00 ] ::1 /ruopusuye/home/index/contact?username=%E4%B8%BA&userphone=17852661518&userarea=%E5%8E%BB%E7%8E%A9&useremail=17852661518&usertext=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0242s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2018-12-01T10:10:42+08:00 ] ::1 /ruopusuye/home/index/contact?username=%E4%B8%BA&userphone=17852661518&userarea=%E5%8E%BB%E7%8E%A9&useremail=17852661518&usertext=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0233s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002835s ]
+
+[ 2018-12-01T10:10:52+08:00 ] ::1 /ruopusuye/home/index/contact?username=rjxy&userphone=17852661518&userarea=%E5%8E%BB%E7%8E%A9&useremail=17852661518&usertext=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0221s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2018-12-01T10:11:02+08:00 ] ::1 /ruopusuye/home/index/contact?username=rjxy&userphone=17852661518&userarea=%E5%8E%BB%E7%8E%A9&useremail=17852661518&usertext=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0255s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002939s ]
+
+[ 2018-12-01T10:11:04+08:00 ] ::1 /ruopusuye/home/index/contact?username=rjxy&userphone=17852661518&userarea=%E5%8E%BB%E7%8E%A9&useremail=17852661518&usertext=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0293s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0264s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2018-12-01T10:11:16+08:00 ] ::1 /ruopusuye/home/index/contact?username=&userphone=&userarea=&useremail=&usertext=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0277s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003460s ]
+

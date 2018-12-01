@@ -5,6 +5,7 @@ use Think\Controller;
 use Home\Model\ContentModel;
 use Home\Model\FileModel;
 use Home\Model\PartnerModel;
+use Home\Model\LiuyanModel;
 
 class IndexController extends CommonController {
     public function index(){
@@ -33,5 +34,16 @@ class IndexController extends CommonController {
 
     public function contact(){
     	$this->display();
+    }
+
+    public function addLiuyan(){
+    	$data = $_POST;
+    	$Liuyan = new LiuyanModel();
+    	$i = $Liuyan->addLiuyan($data);
+    	if($i>0){
+    		$this->success('留言成功');
+    	}else{
+    		$this->error('留言失败，请直接拨打联系电话');
+    	}
     }
 }
