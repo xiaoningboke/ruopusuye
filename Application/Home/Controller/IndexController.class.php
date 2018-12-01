@@ -6,11 +6,15 @@ use Home\Model\ContentModel;
 use Home\Model\FileModel;
 use Home\Model\PartnerModel;
 
-class IndexController extends Controller {
+class IndexController extends CommonController {
     public function index(){
 		$this->display();
     }
 
+    /**
+     * 关于我们
+     * @return [type] [description]
+     */
     public function about(){
     	$Content = new ContentModel();
     	$File = new FileModel();
@@ -24,7 +28,10 @@ class IndexController extends Controller {
     	$this->assign('fileDataJishu',$fileDataJishu);
     	$this->assign('fileDataZizhi',$fileDataZizhi);
     	$this->assign('partnerData',$partnerData);
-    	var_dump($fileDataZizhi);
+    	$this->display();
+    }
+
+    public function contact(){
     	$this->display();
     }
 }

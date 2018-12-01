@@ -1,3 +1,4 @@
+/* 关于我们 */
 .w {
     margin:0 auto;
 }
@@ -138,9 +139,9 @@
 
 .iden-contact {
     width: 1200px;
-    height: 420px;
     margin:100px auto;
     border:solid 2px #bdbdbd;
+    clear:both
 }
 
 .price {
@@ -150,7 +151,6 @@
     margin: 50px 12.5px;
     padding:10px;
     border:solid 2px #bdbdbd;
-    /*background: deeppink;*/
 }
 .price img {
     width: 250px;
@@ -159,7 +159,6 @@
 .part-contact {
     margin:100px 0px;
     width: 1202px;
-    height: 400px;
     /*background: pink;*/
     padding: 20px 0px;
     border:solid 1px #bdbdbd;
@@ -180,4 +179,7 @@
     font:500 12px/12px "微软雅黑";
     width: 200px;
     text-align: center;
+}
+.clear{
+    clear: both;
 }

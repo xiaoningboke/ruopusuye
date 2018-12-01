@@ -1,4 +1,4 @@
-    <include file = "Public/header" />
+    <include file = "Public/headertop" />
     <link rel="stylesheet" href="__PUBLIC__/css/introduction.css ">
 	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
     <script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
@@ -12,21 +12,7 @@
     </script>
 </head>
 <body>
-<!--头部开始-->
-<div id="header">
-    <div class="header w">
-        <div class="header_logo floatL"><img src="__PUBLIC__/img/logo.jpg"/></div>
-        <div class="header_iphone floatL">
-            <p>24小时服务热线</p>
-            <p class="green bg">053-6521-7508</p>
-        </div>
-        <div class="header_choose floatL">
-            <a class="black" href="#">中文</a>
-            <span>/</span>
-            <a href="#">英文</a>
-        </div>
-    </div>
-</div>
+
 
 <include file = "Public/nav" />
 
@@ -92,10 +78,9 @@
                 <div class="price">
                      <img src="__PUBLIC__/Uploads/{$vo.urlimg}" alt="">
                 </div>
-                <if condition="k%4==0">
-                    <br/>
-                </if>
+                
             </foreach>
+            <div class="clear"></div>
         </div>
     </div>
     <!--合作伙伴-->
@@ -107,46 +92,13 @@
         </div>
         <div class="w">
             <div class="part-contact">
-                <div class="ten">
-                    <img src="__PUBLIC__/img/1_170721154733_1.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/4cd9b04dt653398e22c26.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/43bOOOPIC56.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/2018132281733276.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/20180310220496109610.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                <img src="__PUBLIC__/img/k68_cn_2010427234739_01.png" alt="">
-                <span>语熙文化有限公司</span>
-            </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/u=2657368403,3265086084&fm=15&gp=0.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/k68_cn_2010427234739_01.png" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/20180310220496109610.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
-                <div class="ten">
-                    <img src="__PUBLIC__/img/1_170721154733_1.jpg" alt="">
-                    <span>语熙文化有限公司</span>
-                </div>
+                <foreach name="partnerData" item="vo" key="k" >
+                    <div class="ten">
+                        <img src="__PUBLIC__/Uploads/{$vo.imgurl}" alt="">
+                        <span>{$vo.cnname}</span>
+                    </div>
+                </foreach>
+                <div class="clear"></div>
             </div>
         </div>
 
