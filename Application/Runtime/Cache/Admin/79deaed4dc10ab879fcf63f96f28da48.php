@@ -60,13 +60,13 @@
 				<div class="layui-form-item">
 					<label class="layui-form-label">地址</label>
 					<div class="layui-input-block">
-						<input type="text" name="longitude" value="<?php echo ($data["longitude"]); ?>" lay-verify="required" placeholder="请输入地址" autocomplete="off" class="layui-input">
+						<input type="text" name="address" value="<?php echo ($data["address"]); ?>" lay-verify="required" placeholder="请输入地址" autocomplete="off" class="layui-input">
 					</div>
 				</div>
 				<div class="layui-form-item">
 					<label class="layui-form-label">经度</label>
 					<div class="layui-input-block">
-						<input type="text" name="address" value="<?php echo ($data["address"]); ?>" lay-verify="required" placeholder="请输入经度" autocomplete="off" class="layui-input">
+						<input type="text" name="longitude" value="<?php echo ($data["longitude"]); ?>" lay-verify="required" placeholder="请输入经度" autocomplete="off" class="layui-input">
 					</div>
 				</div>
 				<div class="layui-form-item">

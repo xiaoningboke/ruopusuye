@@ -15,7 +15,6 @@
     <link type="text/css" rel="stylesheet" href="/ruopusuye/Public/css/contact.css">
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
     <script src="/ruopusuye/Public/js/jquery-1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="/ruopusuye/Public//js/public.js"></script>
     <script type="text/javascript" src="/ruopusuye/Public/js/contact.js"></script>
     <script>
         window.onload = function(){
@@ -103,7 +102,7 @@
             </div>
             <!--右侧公司信息-->
             <div id="infor">
-                <!--公司信息-->
+            <!--公司信息-->
             <div class="about">
                 <div class="ab-1">
                 <h2><?php echo ($cninfo["name"]); ?></h2>
@@ -119,7 +118,7 @@
             </div>
             <!--留言部分-->
             <div id="leave">
-                <form id="form" class="l-form" action = "<?php echo U('Home/Index/addLiuyan');?>">
+                <form id="form" class="l-form">
                     <table>
                         <tr><td class="td3">昵称：</td></tr>
                         <tr><td class="td4">电话：</td></tr>
@@ -128,7 +127,8 @@
                         <tr><td class="td2">留言：</td></tr>
                     </table>
                 </form>
-                <form class="r-form">
+                <form class="r-form" method="post" action = "<?php echo U('Home/Index/addLiuyan');?>">
+                    <input type="hidden" name="email" value="<?php echo ($cninfo["email"]); ?>">
                     <div class="hidd">留言</div>
                     <div class="in">
                         <input class="put1  userName" type="text" placeholder="昵称" id="userName"  onBlur="checkUserName()" name="username">
@@ -137,21 +137,12 @@
                     <div class="in"><input class="put3" type="text" placeholder="地址" id="userArea" onblur="checkUserArea()" name="userarea"><span id="dizhi">请输入您的地址</span></div>
                     <div class="in"><input class="put4" type="text" placeholder="邮箱" id="userEmail" onblur="checkUserEmail()" name="useremail"><span id="emil">请输入您的邮箱</span></div>
                     <div class="in-text"><textarea typeof=""  rows="3" cols="25"  id="userText" onblur="checkText()"  name="usertext"></textarea><div class="s0"><span id="area">请输入留言内容</span></div></div>
-                <button class="bg" onclick="tj()">提交</button>
+                <button class="bg" id="#button">提交</button>
                 </form>
             </div>
         </div>
 
     </div>
-    <script>
-        function tj(){
-            console.log("wjifrin");
-            var form = document.getElementById('form');
-            //再次修改input内容
-            form.submit();
-        }
-
-    </script>
     <!--尾部开始-->
 <div id="footer">
     <div class="footer w">

@@ -32,15 +32,27 @@ class IndexController extends CommonController {
     	$this->display();
     }
 
+    /**
+     * 显示联系我们界面
+     * @return [type] [description]
+     */
     public function contact(){
     	$this->display();
     }
 
+    /**
+     * 添加留言信息
+     */
     public function addLiuyan(){
     	$data = $_POST;
+    	var_dump($data);
+    	$email = $data['email'];
+    	$con = '留言人:'.$data['username'].';<br/>留言电话：'.$data['userphone'].';<br/>留言邮箱：'.$data['useremail'].';<br/>留言内容：'.$data['usertext'];
     	$Liuyan = new LiuyanModel();
     	$i = $Liuyan->addLiuyan($data);
     	if($i>0){
+    		SendMail($email,"若普塑业",$con);
+    		var_dump($data);
     		$this->success('留言成功');
     	}else{
     		$this->error('留言失败，请直接拨打联系电话');
