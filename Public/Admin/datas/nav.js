@@ -38,6 +38,16 @@ var navs = [{
 		"icon": "&#xe60c;",
 		"href": "Index/partner"
 	}
+	,{
+		"title": "图片配置",
+		"icon": "&#xe60c;",
+		"href": "Index/picture"
+	}
+	,{
+		"title": "企业优势",
+		"icon": "&#xe60c;",
+		"href": "Index/advantage"
+	}
 	]
 }, {
 	"title": "公司产品",

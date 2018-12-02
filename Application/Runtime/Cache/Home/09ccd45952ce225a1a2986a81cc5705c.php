@@ -30,10 +30,10 @@
 <!--头部开始-->
 <div id="header">
     <div class="header w">
-        <div class="header_logo floatL"><img src="/ruopusuye/Public/img/logo.jpg"/></div>
+        <div class="header_logo floatL"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[0][urlimg]); ?>"></div>
         <div class="header_iphone floatL">
             <p>24小时服务热线</p>
-            <p class="green bg">053-6521-7508</p>
+            <p class="green bg"><?php echo ($cninfo["phone"]); ?></p>
         </div>
         <div class="header_choose floatL">
             <a class="black" href="#">中文</a>

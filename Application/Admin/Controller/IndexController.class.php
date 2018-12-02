@@ -181,6 +181,36 @@ class IndexController extends Controller {
                 $this->error("添加失败");
         }
     }
+
+    /**
+     * 显示图片配置
+     * @return [type] [description]
+     */
+    public function picture(){
+      $File = new FileModel();
+      $data = $File->findFileByState(4);
+      $this->assign('data',$data);
+      $this->display();
+    }
+
+    /**
+     * 配置添加图片（配置阶段用）
+     * @return [type] [description]
+     */
+    public function addpicture(){
+      $data = $_POST;
+      $urlImg = $this->upload();
+      if($urlImg!='error'){
+        $data['urlImg'] = $urlImg;
+      }
+      $File = new FileModel();
+      $i = $File->addFile($data);
+      if($i>0){
+        $this->success('上传成功');
+      }else{
+        $this->error('上传失败');
+      }
+    }
     /**
      * 显示修改图片
      * @return [type] [description]
@@ -288,6 +318,10 @@ class IndexController extends Controller {
      */
     public function addproductBy(){
         $data = $_POST;
+        $picture = $this->upload();
+        if($picture != 'error'){
+            $data['picture'] = $picture;
+        }
         $Product = new ProductModel();
         $i = $Product->addProduct($data);
         if($i>0){
@@ -402,6 +436,10 @@ class IndexController extends Controller {
      */
     public function exitproductBy(){
         $data = $_POST;
+        $picture = $this->upload();
+        if($picture!='error'){
+            $data['picture'] = $picture;
+        }
         $Product = new ProductModel();
         $i = $Product->exitproduct($data);
         if($i>0){

@@ -6,14 +6,25 @@ use Home\Model\ContentModel;
 use Home\Model\FileModel;
 use Home\Model\PartnerModel;
 use Home\Model\LiuyanModel;
+use Home\Model\ProductModel;
+use Home\Model\NewsModel;
 
 class IndexController extends CommonController {
     public function index(){
+        $Content = new ContentModel();
+        $Product = new ProductModel();
+        $productdata = $Product->sel();
+        $about = $Content->findByid(1);
+        $News = new NewsModel();
+        $newsData = $News->indexNews();
+        $this->assign('about',$about);
+        $this->assign('productdata',$productdata);
+        $this->assign('newsData',$newsData);
 		$this->display();
     }
 
     /**
-     * 关于我们
+       * 关于我们
      * @return [type] [description]
      */
     public function about(){
