@@ -1,0 +1,63 @@
+    <include file = "Public/headertop" title="product-{$eninfo.name}"/>
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/product.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/rep.css" />
+    <script type="text/javascript" src="__PUBLIC__/js/product.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+    <script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            dis();
+            top_1();
+        });
+    </script>
+</head>
+<body>
+<include file = "Public/ennav" />
+    <div class="back"><img src="__PUBLIC__/Uploads/{$enfileData[6][urlimg]}" alt="新闻中心"></div>
+    <div id="content">
+        <!--左侧部分-->
+        <div id="left">
+            <!--左侧标题栏-->
+            <span class="le_sp">
+                <span class="ch">product category</span>
+            </span>
+            <!--右侧内容切换按钮-->
+            <div class="L_a">
+            <volist name="data" id="data">
+            <input type="hidden" name="id" value="{$data[id]}">
+                <a href="{:U('product',array('fenlei_id'=>$data[id]))}">{$data[enname]}</a>
+<!--                 <a href="#" >PET船用渔网绳</a>
+<a href="#">海上养殖专用用绳</a>
+<a href="#">盐场专用绳</a>
+<a href="#">其他</a> -->
+            </volist>
+            </div>
+<include file = "Public/eninformation" />
+        </div>
+        <!--右侧部分-->
+        <div class="right">
+            <!--右侧头部标题-->
+            <div class="r_head">
+            <span class="sp_l">
+                <span class="ch">product</span>
+            </span>
+            </div>
+            <!--右侧公司产品-->
+            <div class="hid">
+                <div class="pro1">
+                <volist name="datas" id="datas">
+                    <div class="pic">
+                    <div class="pic_pic"><img src="__PUBLIC__/Uploads/{$datas[picture]}"></div>
+                        <h2><a href="#">{$datas[enname]}</a></h2>
+                        <a class="pic_a" href="{:U('details',array('id'=>$datas[id]))}">View details</a>
+                    </div></volist>
+                </div>
+                <div class="admin-table-page">
+                    <div class="result page">{$page}</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+ <include file = "Public/enfooter" />

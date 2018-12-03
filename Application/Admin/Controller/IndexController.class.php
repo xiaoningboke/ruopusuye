@@ -12,7 +12,12 @@ use Admin\Model\VersionModel;
 use Admin\Model\LiuyanModel;
 
 class IndexController extends CommonController {
+    public function main(){
+        $this->display();
+    }
+
     public function index(){
+        
         $this->display();
     }
     /**
@@ -706,6 +711,37 @@ class IndexController extends CommonController {
             $this->error("修改失败");
         }
     }
+     /**
+     * 显示修改密码
+     * @return [type] [description]
+     */
+    public function dispassword(){
+        $this->display();
+    }
+    /**
+     * 修改密码
+     * @return [type] [description]
+     */
+    public function exitpassword(){
+        $oldpassword = md5(md5($_POST[oldpassword]));
+        $newpassword = md5(md5($_POST[password]));
+        $pas = new UserModel();
+        $password = $pas->findUser(session('user')[id]);
+        if($password == $oldpassword){
+            $data[id] = session('user')[id];
+            $data[username] = session('user')[username];
+            $data[password] = $newpassword;
+            $i = $pas->exitpassword($data);
+            if($i>0){
+                $this->success("修改成功");
+            }else{
+                $this->error("修改失败");
+            }
+        }else{
+            $this->error("原密码错误");
+        }
+    }
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//文件上传操作
 	public function upload(){

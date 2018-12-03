@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>新闻中心-<?php echo ($cninfo["name"]); ?></title>
+		<title>industry news-<?php echo ($eninfo["name"]); ?></title>
 
 		<meta itemprop="name" content="<?php echo ($cninfo["name"]); ?>"/>
 		<meta name="keywords" content="<?php echo ($cninfo["keywords"]); ?>"/>
@@ -31,79 +31,74 @@
     <div class="header w">
         <div class="header_logo floatL"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[0][urlimg]); ?>"></div>
         <div class="header_iphone floatL">
-            <p>24小时服务热线</p>
+            <p>24 - hour service hotline</p>
             <p class="green bg"><?php echo ($cninfo["phone"]); ?></p>
         </div>
         <div class="header_choose floatL">
-            <a class="black" href="<?php echo U('Home/Index/index');?>">中文</a>
+            <a href="<?php echo U('Home/Index/index');?>">中文</a>
             <span>/</span>
-            <a href="<?php echo U('Home/English/index');?>">英文</a>
+            <a class="black" href="<?php echo U('Home/English/index');?>">English</a>
         </div>
     </div>
 </div>
 <!--导航栏开始-->
 <div id="nav" class="bg">
     <ul class="w">
-        <li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
-        <li><a href="<?php echo U('Home/Index/about');?>">公司简介</a></li>
-        <li><a href="<?php echo U('Home/Index/news');?>">新闻中心</a></li>
-        <li><a href="<?php echo U('Home/Index/product');?>">产品展示</a></li>
-        <li><a href="<?php echo U('Home/Index/contact');?>">联系我们</a></li>
+        <li><a href="<?php echo U('Home/English/index');?>">Home</a></li>
+        <li><a href="<?php echo U('Home/English/about');?>">Profile</a></li>
+        <li><a href="<?php echo U('Home/English/news');?>">News</a></li>
+        <li><a href="<?php echo U('Home/English/product');?>">Exhibition</a></li>
+        <li><a href="<?php echo U('Home/English/contact');?>">Contact Us</a></li>
         <li class="addWidth">
             <div class="li_input">
-            <form action="<?php echo U('Home/Index/product');?>"  method="post">
-            <div class="li_text"><input type="text" name="keywords" id="keywords" value="" placeholder="请输入关键词" /></div>
-            <div class="li_button"><input type="submit" name="" id="" value="搜索" /></div></form>
+            <form action="<?php echo U('Home/English/product');?>"  method="post">
+            <div class="li_text"><input type="text" name="keywords" id="keywords" value="" placeholder="Please input keywords." /></div>
+            <div class="li_button"><input type="submit" name="" id="" value="search" /></div></form>
             </div>
         </li>
     </ul>
 </div>
 <div class ="picture">
-<img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[6][urlimg]); ?>" alt="新闻中心">
+    <img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[6][urlimg]); ?>" alt="新闻中心">
 </div>
-
-<div class="main" id="">
+<div class="main">
     <div class="box">
 
         <div class="tab">
             <div class="bigtitle">
-                <a href="<?php echo U('Home/Index/news');?>">文章导航</a>
+                <a href="<?php echo U('Home/English/news');?>">Article navigation</a>
             </div>
             <div class="malltitle">
-                <a href="<?php echo U('Home/Index/industryNews');?>" >行业新闻</a>
+                <a href="<?php echo U('Home/English/industryNews');?>" >industry news</a>
             </div>
             <div class="malltitle">
-                <a href="<?php echo U('Home/Index/companyNews');?>" >公司动态</a>
+                <a href="<?php echo U('Home/English/companyNews');?>" >Contact information</a>
             </div>
              <div class="information">
-                <div class="contain">联系方式</div>
-                <div><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10][urlimg]); ?>" alt=""></div>
+                <div class="contain">Contact information</div>
+                <div><img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[10][urlimg]); ?>" alt=""></div>
                 <div>
-                    <p><?php echo ($cninfo["name"]); ?></p>
+                    <p><?php echo ($eninfo["name"]); ?></p>
                     <ul>
-                        <li><span>联系人：</span><?php echo ($cninfo["name"]); ?></li>
-                        <li><span>Q&nbsp; &nbsp;&nbsp;Q：  </span><?php echo ($cninfo["qq"]); ?></li>
-                        <li><span>电&nbsp;&nbsp;话：</span><?php echo ($cninfo["phone"]); ?></li>
-                        <li><span>微&nbsp;&nbsp;信：</span><?php echo ($cninfo["name"]); ?></li>
-                        <li><span>邮&nbsp;&nbsp;箱：</span><?php echo ($cninfo["email"]); ?></li>
-                        <!--<li><span>网&nbsp;&nbsp;址：</span></li>-->
-                        <li><span>地&nbsp;&nbsp;址：</span><?php echo ($cninfo["address"]); ?></li>
+                        <li><span>Contact：</span><?php echo ($eninfo["name"]); ?></li>
+                        <li><span>Q&nbsp; &nbsp;&nbsp;Q：  </span><?php echo ($eninfo["qq"]); ?></li>
+                        <li><span>Telephone：</span><?php echo ($eninfo["phone"]); ?></li>
+                        <li><span>WeChat：</span><?php echo ($eninfo["name"]); ?></li>
+                        <li><span>Mailbox：</span><?php echo ($eninfo["email"]); ?></li>
+                        <li><span>Address：</span><?php echo ($eninfo["address"]); ?></li>
                     </ul>
                 </div>
             </div>
 
         </div>
-        <div class="column" id="column">
+
+        <div class="column">
             <!--<div class="title">公司新闻</div>-->
-            <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="news">
-                <div class="time"><span class="id"><?php echo ($data[time]); ?></span><br><span class="sj"><?php echo ($data[time]); ?></span></div>
-                <div class="textcontent">
-                    <div class="newTitle">
-                        <a href="<?php echo U('newspage',array('id'=>$data[id]));?>#sign"><?php echo ($data[title]); ?></a>
-                    </div>
-                    <div class="newcontant">
-                        <a href="<?php echo U('newspage',array('id'=>$data[id]));?>#sign"><?php echo ($data[abstracts]); ?></a>
-                    </div>
+            <div class="title">Industry news</div>
+            <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="company-news">
+                <div class="company-newsTitle">
+                    <a href="<?php echo U('newspage',array('id'=>$data[id]));?>#sign"><?php echo ($data[title]); ?></a>
+                    <span class="sj"><?php echo ($data[time]); ?></span>
                 </div>
             </div><?php endforeach; endif; else: echo "" ;endif; ?>
             <div class="admin-table-page">
@@ -113,7 +108,6 @@
         </div>
 
     </div>
-
 </div>
 <script>
           var times = document.getElementsByClassName("sj");
@@ -127,18 +121,6 @@
         M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1);
         //D = date.getDate() + ' ';
         return Y+M;
-    }
-        var timess = document.getElementsByClassName("id");
-        for(var i = 0;i<times.length;i++){
-        timess[i].innerText =  timesStampToTime(timess[i].innerText)
-        //console.log(times[i].innerText);
-}
-    function timesStampToTime(timestamp) {
-        var date = new Date(timestamp * 1000);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
-        //Y = date.getFullYear() + '/';
-        //M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1);
-        D = date.getDate() + ' ';
-        return D;
     }
 </script>
     <!--尾部开始-->

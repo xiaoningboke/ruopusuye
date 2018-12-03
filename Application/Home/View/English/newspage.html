@@ -1,6 +1,6 @@
-    <include file = "Public/headertop" title="{$data[title]}-{$cninfo.name}"/>
+    <include file = "Public/headertop" title="{$data[title]}-{$eninfo.name}"/>
     <link rel="stylesheet" href="__PUBLIC__/css/newspage.css">
-	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
     <script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
     <script>
         window.onload = function(){
@@ -12,21 +12,21 @@
     </script>
 </head>
 <body>
-<include file = "Public/nav" />
+<include file = "Public/ennav" />
 <div class ="picture">
-    <img src="__PUBLIC__/img/22400858.jpg" alt="">
+    <img src="__PUBLIC__/Uploads/{$enfileData[6][urlimg]}" alt="新闻中心">
 </div>
 <!--头部结束-->
 <div class="container">
     <div class="title" id="sign"><h1>{$data[title]}</h1></div>
     <div class="main">
-      <span>看点：</span>
+      <span>watching focus：</span>
        {$data[content]}
        </div>
     <div class="bottom">
         <div class="end">
             <p>THE&nbsp;END </p>
-            <span>声明：本文来自媒体，不代表若普塑业的观点和立场。</span>
+            <span>Disclaimer: this article comes from media, do not represent the viewpoint of joop plastics industry and standpoint.</span>
             <p><span class="sj">{$data[time]}</span></p>
         </div>
     </div>
@@ -45,4 +45,4 @@
         return Y+M+D;
     }
 </script>
-<include file = "Public/footer" />
+<include file = "Public/enfooter" />

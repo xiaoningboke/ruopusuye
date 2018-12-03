@@ -36,9 +36,9 @@
             <p class="green bg"><?php echo ($cninfo["phone"]); ?></p>
         </div>
         <div class="header_choose floatL">
-            <a class="black" href="#">中文</a>
+            <a class="black" href="<?php echo U('Home/Index/index');?>">中文</a>
             <span>/</span>
-            <a href="#">英文</a>
+            <a href="<?php echo U('Home/English/index');?>">英文</a>
         </div>
     </div>
 </div>
@@ -196,7 +196,7 @@
 		<a id="top_weixin" href="#">
 			<img src="/ruopusuye/Public/img/index_fixed_weixin.png" alt="" />
 		</a>
-		<a id="top_iphone" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
+		<a id="top_iphone" target=blank href=tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes href="#">
 			<img src="/ruopusuye/Public/img/index_fixed_iphone.png" alt="" />
 		</a>
 		<div id="kongbai_weixin">

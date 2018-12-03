@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>About Us-<?php echo ($cninfo["name"]); ?></title>
+		<title>About Us-<?php echo ($eninfo["name"]); ?></title>
 
 		<meta itemprop="name" content="<?php echo ($cninfo["name"]); ?>"/>
 		<meta name="keywords" content="<?php echo ($cninfo["keywords"]); ?>"/>
@@ -196,7 +196,7 @@
         <a id="top_weixin" href="#">
             <img src="/ruopusuye/Public/img/index_fixed_weixin.png" alt="" />
         </a>
-        <a id="top_iphone" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
+        <a id="top_iphone" target=blank href=tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes href="#">
             <img src="/ruopusuye/Public/img/index_fixed_iphone.png" alt="" />
         </a>
         <div id="kongbai_weixin">

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>[title]</title>
+		<title><?php echo ($data[title]); ?>-<?php echo ($cninfo["name"]); ?></title>
 
 		<meta itemprop="name" content="<?php echo ($cninfo["name"]); ?>"/>
 		<meta name="keywords" content="<?php echo ($cninfo["keywords"]); ?>"/>
@@ -34,9 +34,9 @@
             <p class="green bg"><?php echo ($cninfo["phone"]); ?></p>
         </div>
         <div class="header_choose floatL">
-            <a class="black" href="#">中文</a>
+            <a class="black" href="<?php echo U('Home/Index/index');?>">中文</a>
             <span>/</span>
-            <a href="#">英文</a>
+            <a href="<?php echo U('Home/English/index');?>">英文</a>
         </div>
     </div>
 </div>
@@ -50,8 +50,9 @@
         <li><a href="<?php echo U('Home/Index/contact');?>">联系我们</a></li>
         <li class="addWidth">
             <div class="li_input">
-                <div class="li_text"><input type="text" name="" id="" value="" /></div>
-                <div class="li_button"><input type="button" name="" id="" value="搜索" /></div>
+            <form action="<?php echo U('Home/Index/product');?>"  method="post">
+            <div class="li_text"><input type="text" name="keywords" id="keywords" value="" placeholder="请输入关键词" /></div>
+            <div class="li_button"><input type="submit" name="" id="" value="搜索" /></div></form>
             </div>
         </li>
     </ul>
@@ -70,10 +71,24 @@
         <div class="end">
             <p>THE&nbsp;END </p>
             <span>声明：本文来自媒体，不代表若普塑业的观点和立场。</span>
-            <p><span>2018年11月18日</span></p>
+            <p><span class="sj"><?php echo ($data[time]); ?></span></p>
         </div>
     </div>
 </div>
+<script>
+          var times = document.getElementsByClassName("sj");
+        for(var i = 0;i<times.length;i++){
+        times[i].innerText =  timestampToTime(times[i].innerText)
+        //console.log(times[i].innerText);
+}
+    function timestampToTime(timestamp) {
+        var date = new Date(timestamp * 1000);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+        Y = date.getFullYear() + '/';
+        M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1)+ '/';
+        D = date.getDate() + ' ';
+        return Y+M+D;
+    }
+</script>
 <!--尾部开始-->
 <div id="footer">
     <div class="footer w">
@@ -125,19 +140,19 @@
 		<a id="top_weixin" href="#">
 			<img src="/ruopusuye/Public/img/index_fixed_weixin.png" alt="" />
 		</a>
-		<a id="top_iphone" target=blank href=tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes href="#">
+		<a id="top_iphone" target=blank href=tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes href="#">
 			<img src="/ruopusuye/Public/img/index_fixed_iphone.png" alt="" />
 		</a>
-		<div id="kongbai_weixin"></div>
+		<div id="kongbai_weixin">
+            <img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[8]["urlimg"]); ?>" width="220" height="220" alt="">      
+        </div>
 		<div id="kongbai_iphone">
 			<h5>电话热线：</h5>
-			<p>053-6521-7508</p>
-			<h5>手机号：</h5>
-			<p>15263647456</p>
+			<p><?php echo ($cninfo["phone"]); ?></p>
 		</div>
 <div id="kefu">
     <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
-    <a class="kefu_0"  target="blank" href="tencent://message/?uin=2234461543&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/img/kefu_11.jpg"></a>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10]["urlimg"]); ?>" alt=""> </a>
     <h2 class="times">工作时间</h2>
     <div id="gzsj">7*24小时全天在线</div>
 </div>

@@ -1,0 +1,70 @@
+    <include file = "Public/headertop" title="industry news-{$eninfo.name}"/>
+    <link rel="stylesheet" href="__PUBLIC__/css/news.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/rep.css" />
+    <script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+    <script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
+    <script>
+        window.onload = function(){
+            showen();
+        };
+       $(document).ready(function () {
+           top_1();
+       });
+    </script>
+</head>
+<body>
+<include file = "Public/ennav" />
+<div class ="picture">
+    <img src="__PUBLIC__/Uploads/{$enfileData[6][urlimg]}" alt="新闻中心">
+</div>
+<div class="main">
+    <div class="box">
+
+        <div class="tab">
+            <div class="bigtitle">
+                <a href="{:U('Home/English/news')}">Article navigation</a>
+            </div>
+            <div class="malltitle">
+                <a href="{:U('Home/English/industryNews')}" >industry news</a>
+            </div>
+            <div class="malltitle">
+                <a href="{:U('Home/English/companyNews')}" >Contact information</a>
+            </div>
+ <include file = "Public/eninformation" />
+
+        </div>
+
+        <div class="column">
+            <!--<div class="title">公司新闻</div>-->
+            <div class="title">Industry news</div>
+            <volist name="data" id="data">
+            <div class="company-news">
+                <div class="company-newsTitle">
+                    <a href="{:U('newspage',array('id'=>$data[id]))}#sign">{$data[title]}</a>
+                    <span class="sj">{$data[time]}</span>
+                </div>
+            </div>
+            </volist>
+            <div class="admin-table-page">
+                <div class="result page">{$page}</div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+          var times = document.getElementsByClassName("sj");
+        for(var i = 0;i<times.length;i++){
+        times[i].innerText =  timestampToTime(times[i].innerText)
+        //console.log(times[i].innerText);
+}
+    function timestampToTime(timestamp) {
+        var date = new Date(timestamp * 1000);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+        Y = date.getFullYear() + '/';
+        M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1);
+        //D = date.getDate() + ' ';
+        return Y+M;
+    }
+</script>
+    <include file = "Public/footer" />

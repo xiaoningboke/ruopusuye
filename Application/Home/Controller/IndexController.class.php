@@ -87,9 +87,10 @@ class IndexController extends CommonController {
     }else{
         $p=$_GET['p'];
     }
-        $data=$news->findNewslist($p);
+        $language=0;
+        $data=$news->findNewslist($p,$language);
         $this->assign('data',$data);
-        $count = $news->countNews();
+        $count = $news->countNews($language);
         $Page = new \Think\Page($count,5);
         $show = $Page->show();
         $this->assign('page',$show);
@@ -106,9 +107,10 @@ class IndexController extends CommonController {
     }else{
         $p=$_GET['p'];
     }
-        $data=$news->findindustryNewslist($p);
+        $data=$news->findindustryNewslist($p,0,1);
         $this->assign('data',$data);
-        $count = $news->countindustryNews();
+        //var_dump($language);
+        $count = $news->countindustryNews(0,1);
         $Page = new \Think\Page($count,8);
         $show = $Page->show();
         $this->assign('page',$show);
@@ -125,9 +127,10 @@ class IndexController extends CommonController {
     }else{
         $p=$_GET['p'];
     }
-        $data=$news->findcompanyNewslist($p);
+        $data=$news->findindustryNewslist($p,0,2);
+        //var_dump($classification);
         $this->assign('data',$data);
-        $count = $news->countcompanyNews();
+        $count = $news->countindustryNews(0,2);
         $Page = new \Think\Page($count,8);
         $show = $Page->show();
         $this->assign('page',$show);

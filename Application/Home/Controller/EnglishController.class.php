@@ -87,9 +87,10 @@ class EnglishController extends CommonController {
     }else{
         $p=$_GET['p'];
     }
-        $data=$news->findNewslist($p);
+        $language=1;
+        $data=$news->findNewslist($p,$language);
         $this->assign('data',$data);
-        $count = $news->countNews();
+        $count = $news->countNews($language);
         $Page = new \Think\Page($count,5);
         $show = $Page->show();
         $this->assign('page',$show);
@@ -106,9 +107,12 @@ class EnglishController extends CommonController {
     }else{
         $p=$_GET['p'];
     }
-        $data=$news->findindustryNewslist($p);
+        $classification=1;
+        $language=1;
+        $data=$news->findindustryNewslist($p,1,1);
+        //var_dump($data);
         $this->assign('data',$data);
-        $count = $news->countindustryNews();
+        $count = $news->countindustryNews(1,1);
         $Page = new \Think\Page($count,8);
         $show = $Page->show();
         $this->assign('page',$show);
@@ -125,9 +129,12 @@ class EnglishController extends CommonController {
     }else{
         $p=$_GET['p'];
     }
-        $data=$news->findcompanyNewslist($p);
+        $classification=2;
+        $language=1;
+        $data=$news->findindustryNewslist($p,1,2);
+        //var_dump($data);
         $this->assign('data',$data);
-        $count = $news->countcompanyNews();
+        $count = $news->countindustryNews(1,2);
         $Page = new \Think\Page($count,8);
         $show = $Page->show();
         $this->assign('page',$show);
@@ -180,7 +187,7 @@ class EnglishController extends CommonController {
         $price=$ver->findVerprice($id);
         $price = json_encode($price);
         $imgurl=$ver->findVerimg($id);
-        $xinghao=$ver->findVerxing($id);
+        $xinghao=$ver->findVerenxing($id);
         $this->assign('data',$data);
         $this->assign('price',$price);
         $this->assign('imgurl',$imgurl);

@@ -11,7 +11,8 @@ class UserModel extends Model {
  */
     public function findUser($username){
         $user = M("user");
-        $UsData = $user->where("username = $username")->find();
+        $map['username'] = $username;
+        $UsData = $user->where($map)->find();
         return $UsData;
     }
 }

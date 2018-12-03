@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Contact Us-<?php echo ($eninfo["name"]); ?></title>
+		<title><?php echo ($data[name]); ?>-<?php echo ($eninfo["name"]); ?></title>
 
 		<meta itemprop="name" content="<?php echo ($cninfo["name"]); ?>"/>
 		<meta name="keywords" content="<?php echo ($cninfo["keywords"]); ?>"/>
@@ -12,24 +12,22 @@
 		<link rel="stylesheet" href="/ruopusuye/Public/css/csh.css" />		
 		<!--头部和尾部-->
 		<link rel="stylesheet" type="text/css" href="/ruopusuye/Public/css/public.css"/>
-    <link type="text/css" rel="stylesheet" href="/ruopusuye/Public/css/contact.css">
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
+    <link type="text/css" rel="stylesheet" href="/ruopusuye/Public/css/details.css">
+    <script type="text/javascript" src="/ruopusuye/Public/js/public.js"></script>
     <script src="/ruopusuye/Public/js/jquery-1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="/ruopusuye/Public/js/contact.js"></script>
+<!--     <script src="/ruopusuye/Public/js/details.js"></script> -->
     <script>
         window.onload = function(){
             showen();
+            dis();
         };
        $(document).ready(function () {
-           showout();
-           checkTArea();
            top_1();
+           changce();
        });
     </script>
 </head>
 <body>
-<div id="main">
-    <!--位置地图-->
 <!--头部开始-->
 <div id="header">
     <div class="header w">
@@ -62,87 +60,104 @@
         </li>
     </ul>
 </div>
-    <div id="mapCanvas" class="map-canvas no-margin">
-        <script type="text/javascript">
-            var map = new BMap.Map("mapCanvas"); // 创建Map实例
-            var point = new BMap.Point("<?php echo ($eninfo["longitude"]); ?>","<?php echo ($eninfo["latitude"]); ?>"); // 创建点坐标
-            map.centerAndZoom(point, 15); // 初始化地图,设置中心点坐标和地图级别。
-            map.enableScrollWheelZoom(); //启用滚轮放大缩小
-            //添加缩放控件
-            map.addControl(new BMap.NavigationControl());
-            map.addControl(new BMap.ScaleControl());
-            map.addControl(new BMap.OverviewMapControl());
-
-            var marker = new BMap.Marker(point); // 创建标注
-            map.addOverlay(marker); // 将标注添加到地图中
-            var infoWindow = new BMap.InfoWindow("<?php echo ($eninfo["name"]); ?>"); // 创建信息窗口对象
-            marker.openInfoWindow(infoWindow);
-        </script>
-    </div>
-    <div id="content">
-        <!--左侧部分-->
-        <div id="left">
-            <!--左侧标题栏-->
-            <span class="le-sp">
-                <span class="ch">Contact us</span>
-            </span>
-            <!--右侧内容切换按钮-->
-            <a href="#" id="le-a0" class="show">Contact information</a>
-            <a href="#" id="le-a1">Online Message</a>
-            <!--<div class="L_pic"><img src="img/contact.jpg"></div>-->
+    <div class="content">
+        <div class="left">
+            <div id="small" class="pic_L"><?php if(is_array($imgurl)): $i = 0; $__LIST__ = $imgurl;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$imgurl): $mod = ($i % 2 );++$i;?><img src="/ruopusuye/Public/Uploads/<?php echo ($imgurl); ?>"><?php endforeach; endif; else: echo "" ;endif; ?>
+            <div id="mask" class="mask"></div>
+            </div>
+            <!--//鼠标跟随-->
         </div>
-        <!--右侧部分-->
         <div class="right">
-            <!--右侧头部标题-->
-            <div class="r-head">
-            <span class="sp-l">
-                <span class="ch">Contact us</span>
-            </span>
+            <div id="hidr">
+                <img src="">
             </div>
-            <!--右侧公司信息-->
-            <div id="infor">
-            <!--公司信息-->
-            <div class="about">
-                <div class="ab-1">
-                <h2><?php echo ($eninfo["name"]); ?></h2>
-                <table>
-                    <tr><td class="td0">Contact：</td><td class="td1"><?php echo ($eninfo["contacts"]); ?></td></tr>
-                    <tr><td class="td0">Telephone：</td><td class="td1"><?php echo ($eninfo["phone"]); ?></td></tr>
-                     <tr><td class="td0">Q&nbsp;&nbsp;&nbsp;Q：</td><td class="td1"><?php echo ($eninfo["qq"]); ?></td></tr>
-                    <tr><td class="td0">Mailbox:</td><td class="td1"><?php echo ($eninfo["email"]); ?></td></tr>
-                    <tr><td class="td0">Adress：</td><td class="td1"><?php echo ($eninfo["address"]); ?></td></tr>
-                </table>
+            <div class="r_head"><h2><?php echo ($data[enname]); ?></h2><a class="a0" href="<?php echo U('Home/English/product');?>">View other products>></a></div>
+            <div class="prise"><?php if(is_array($price)): $i = 0; $__LIST__ = $price;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$price): $mod = ($i % 2 );++$i;?><input type="hidden" name="pri" class="pri" value="<?php echo ($price); ?>"><?php endforeach; endif; else: echo "" ;endif; ?>
+            <span class="prise0"></span><span class="prise1">￥<span class="jqsp"></span>/ton</span>
+            </div>
+            <div class="yanse">
+               <div class="yanse0">Type classification</div>
+                <div class="yanse1">
+                <?php if(is_array($xinghao)): $i = 0; $__LIST__ = $xinghao;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$xinghao): $mod = ($i % 2 );++$i;?><span  class="ys0"><?php echo ($xinghao); ?></span><?php endforeach; endif; else: echo "" ;endif; ?>
                 </div>
+                <div class="clea0"></div>
             </div>
+            <div class="r_a0">
+                <a class="r_a1"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes">customer service</a>
+                <a class="r_a2" href="<?php echo U('Home/English/contact');?>#">message</a>
             </div>
-            <!--留言部分-->
-            <div id="leave">
-                <form id="form" class="l-form">
-                    <table>
-                        <tr><td class="td3">Nickname:</td></tr>
-                        <tr><td class="td4">Telephone：</td></tr>
-                        <tr><td class="td5">Address：</td></tr>
-                        <tr><td class="td6">Mailbox:</td></tr>
-                        <tr><td class="td2">Message</td></tr>
-                    </table>
-                </form>
-                <form class="r-form" method="post" action = "<?php echo U('Home/English/addLiuyan');?>">
-                    <input type="hidden" name="email" value="<?php echo ($eninfo["email"]); ?>">
-                    <div class="hidd">Message</div>
-                    <div class="in">
-                        <input class="put1  userName" type="text" placeholder="Nickname" id="userName"  onBlur="checkUserName()" name="username">
-                        <span id="nameErr">Error</span></div>
-                    <div class="in"><input class="put2 userName" type="text" placeholder="Telephone" id="userPhone"  onBlur="checkPhone()" name="userphone"><span id="phone">Error</span></div>
-                    <div class="in"><input class="put3" type="text" placeholder="Address" id="userArea" onblur="checkUserArea()" name="userarea"><span id="dizhi">Error</span></div>
-                    <div class="in"><input class="put4" type="text" placeholder="Mailbox" id="userEmail" onblur="checkUserEmail()" name="useremail"><span id="emil">Error</span></div>
-                    <div class="in-text"><textarea typeof=""  rows="3" cols="25"  id="userText" onblur="checkText()"  name="usertext"></textarea><div class="s0"><span id="area">Error</span></div></div>
-                <button class="bg" id="#button">Submit</button>
-                </form>
+            <div class="in_p">
+            <?php echo ($data[content]); ?>
             </div>
         </div>
-
+        <div class="clea"></div>
     </div>
-    <!--尾部开始-->
+    <script>
+        //通过切换产品型号，修改展示图片
+function changce() {
+      var $ys = $(".yanse1");
+      var $picl = $(".pic_L");
+      var $price =<?php echo ($price); ?>;
+      var $jqsp = $(".jqsp");
+      $jqsp.text($price[0]);
+      $hidr = $("#hidr img");
+      var $loat = $picl.children("img").eq(0).attr("src");
+      $hidr.attr("src",$loat);
+    $ys.children("span").click(function () {
+            //点击相应按钮产品展示内容切换
+            $picl.children("img").eq($(this).index()).show();
+            $picl.children("img").eq($(this).index()).siblings().hide();
+            $jqsp.text($price[$(this).index()]);
+            var $url = $picl.children("img").eq($(this).index()).attr("src");
+            $hidr.attr("src",$url);
+        }
+    );
+}
+//产品展示放大镜效果
+function dis() {
+    var small = document.getElementById("small");
+    var mask = document.getElementById("mask");
+    var hidr = document.getElementById("hidr");
+    var hidimg = hidr.getElementsByTagName("img");
+    small.onmouseenter=function(){
+       mask.style.display = "block";
+       hidr.style.display = "block";
+    };
+    small.onmouseleave=function(){
+        mask.style.display = "none";
+        hidr.style.display = "none";
+    };
+    small.onmousemove = function (event) {
+        event = event || window.event;
+        var pagex = event.pageX || scroll().left + event.clientX;
+        var pagey = event.pageY || scroll().top + event.clientY;
+        var x = pagex - small.offsetLeft - mask.offsetWidth/2;
+        var y = pagey - small.offsetTop - mask.offsetHeight/2;
+        // var x=window.pageXOffset+event.clientX-small.offsetLeft-mask.offsetWidth/2;
+        // var y=window.pageYOffset+event.clientY-small.offsetTop-mask.offsetHeight/2;
+        if(x<0){
+            x = 0;
+        }
+        if(x>small.offsetWidth-mask.offsetWidth){
+            x = small.offsetWidth-mask.offsetWidth;
+        }
+        if(y<0){
+            y = 0;
+        }
+        if(y>small.offsetHeight-mask.offsetHeight){
+            y = small.offsetHeight-mask.offsetHeight;
+        }
+        mask.style.left = x + "px";
+        mask.style.top = y + "px";
+        var bili = hidimg[0].offsetWidth/small.offsetWidth;
+        var xx = bili*x;
+        var yy = bili*y;
+        hidimg[0].style.marginTop = -yy+"px";
+        hidimg[0].style.marginLeft = -xx+"px";
+    };
+}
+    </script>
+ <!--尾部开始-->
 <div id="footer">
     <div class="footer w">
         <div class="footer_LBox">

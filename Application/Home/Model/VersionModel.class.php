@@ -41,4 +41,14 @@ class VersionModel extends Model {
         $xinghao=$ver->where("product_id=$id")->getField('xinghao',true);
         return $xinghao;
     }
+    /**
+     * 查询不同型号的型号英文名称
+     * @param  [type] $id [description]
+     * @return [type]     [description]
+     */
+    public function findVerenxing($id){
+        $ver = M('version');
+        $xinghao=$ver->where("product_id=$id")->getField('enxinghao',true);
+        return $xinghao;
+    }
 }
