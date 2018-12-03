@@ -1,0 +1,109 @@
+    <include file = "Public/headertop" title="About Us-{$cninfo.name}"/>
+    <link rel="stylesheet" href="__PUBLIC__/css/introduction.css ">
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+    <script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
+    <script>
+        window.onload = function(){
+            showen();
+        };
+       $(document).ready(function () {
+           top_1();
+       });
+    </script>
+</head>
+<body>
+
+
+<include file = "Public/ennav" />
+
+<div class ="picture">
+    <img src="__PUBLIC__/img/22400858.jpg" alt="">
+</div>
+<!--头部结束-->
+<!--主部开始-->
+<div class="main">
+    <!--关于我们-->
+    <div class="summary" id="aboutUs">
+            <div class="box"></div>
+            <!--大标题-->
+            <div class="title">
+                <span class="one">About Us</span>
+                <span class="two">ino-foreign joint ventures/high-quality technical force/quality for development/small profits and high sales</span>
+            </div>
+            <!--内容-->
+            <div class="sum-content">
+               {$data.about.content}
+            </div>
+    </div>
+    <!--所用技术-->
+    <div class="technology">
+        <!--大标题-->
+        <div class="title">
+            <span class="one">所用技术</span>
+            <span class="two">强度高/不伸缩/防酸碱/耐高温/抗紫外线/抗老化/防老化</span>
+        </div>
+        <!--内容-->
+        <div class="tec-contact">
+            <div class="rgba">
+                <div class="w">
+                    <!--左边部分图片展示-->
+                    <div class="leftsider">
+                        <div class="showone">
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[0]['urlimg']}" alt=""></div>
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[1]['urlimg']}" alt=""></div>
+                        </div>
+                        <div class="showtwo">
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[2]['urlimg']}" alt=""></div>
+                            <div class="show"><img src="__PUBLIC__/Uploads/{$fileDataJishu[3]['urlimg']}" alt=""></div>
+                        </div>
+                    </div>
+                    <!--右边部分文本叙述-->
+                    <div class="rightsider">
+                        {$data.jishu.content}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--资质认证-->
+    <div class="identification">
+        <!--大标题-->
+        <div class="title">
+            <span class="one">资质认证</span>
+            <span class="two">中外合资企业/优质的技术力量/以质量谋发展/薄利多销</span>
+        </div>
+        <!--内容-->
+        <div class="iden-contact">
+            <foreach name="fileDataZizhi" item="vo" key="k" >
+                <div class="price">
+                     <img src="__PUBLIC__/Uploads/{$vo.urlimg}" alt="">
+                </div>
+                
+            </foreach>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--合作伙伴-->
+    <div class="partner">
+        <!--大标题-->
+        <div class="title">
+            <span class="one">合作伙伴</span>
+            <span class="two">中外合资企业/优质的技术力量/以质量谋发展/薄利多销</span>
+        </div>
+        <div class="w">
+            <div class="part-contact">
+                <foreach name="partnerData" item="vo" key="k" >
+                    <div class="ten">
+                        <img src="__PUBLIC__/Uploads/{$vo.imgurl}" alt="">
+                        <span>{$vo.cnname}</span>
+                    </div>
+                </foreach>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--主部结束-->
+
+<include file = "Public/enfooter" />

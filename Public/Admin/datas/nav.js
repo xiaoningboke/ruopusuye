@@ -44,10 +44,16 @@ var navs = [{
 		"href": "Index/picture"
 	}
 	,{
-		"title": "企业优势",
+		"title": "公司优势(中文)",
 		"icon": "&#xe60c;",
-		"href": "Index/advantage"
+		"href": "Index/advantage?state=6"
 	}
+	,{
+		"title": "公司优势(英文)",
+		"icon": "&#xe60c;",
+		"href": "Index/advantage?state=7"
+	}
+
 	]
 }, {
 	"title": "公司产品",
@@ -85,40 +91,14 @@ var navs = [{
 	},
 ]
 }, {
-	"title": "地址本",
+	"title": "留言",
 	"icon": "fa-address-book",
 	"href": "",
 	"spread": false,
 	"children": [{
-		"title": "Github",
-		"icon": "fa-github",
-		"href": "https://www.github.com/"
-	}, {
-		"title": "QQ",
-		"icon": "fa-qq",
-		"href": "http://www.qq.com/"
-	}, {
-		"title": "Fly社区",
-		"icon": "&#xe609;",
-		"href": "http://fly.layui.com/"
-	}, {
-		"title": "新浪微博",
-		"icon": "fa-weibo",
-		"href": "http://weibo.com/"
-	}]
-}, {
-	"title": "这是一级导航",
-	"icon": "fa-stop-circle",
-	"href": "https://www.baidu.com",
-	"spread": false
-}, {
-	"title": "其他",
-	"icon": "fa-stop-circle",
-	"href": "#",
-	"spread": false,
-	"children": [{
-		"title": "子窗体中打开选项卡",
-		"icon": "fa-github",
-		"href": "cop.html"
-	}]
+		"title": "查看留言",
+		"icon": "&#xe60c;",
+		"href": "Index/messlist"
+	}
+]
 }];

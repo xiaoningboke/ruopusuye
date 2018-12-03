@@ -1,0 +1,46 @@
+﻿<include file = "Public/header" />
+	<body>
+		<div class="admin-main">
+			<fieldset class="layui-elem-field">
+				<legend>公司优势</legend>
+				<div class="layui-field-box layui-form">
+				<form class="layui-form" action="{:U('Admin/Index/exitByIdadva')}" enctype="multipart/form-data" method="post">
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">名称</label>
+					<div class="layui-input-block">
+						<input type="text" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入名称" value="{$data.name}" class="layui-input" >
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">选择图片</label>
+					<div class="layui-input-block">
+						<input type="file" name="urlimg"  lay-verify="title" autocomplete="off" placeholder="" class="layui-input"  value="{$data.urlimg}">
+					</div>
+				</div>
+				<input type="hidden" name = "id" value="{$data.id}">
+				<img src="__PUBLIC__/Uploads/{$data.urlimg}" style="width: 20%; padding: 20px;">
+				<div class="layui-form-item">
+					<label class="layui-form-label">备注</label>
+					<div class="layui-input-block">
+						<input type="text" name="remarks"  lay-verify="title" autocomplete="off" placeholder="请输入备注" value="{$data.remarks}" class="layui-input" >
+					</div>
+				</div>
+				<div style="padding: 10px;">
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<input type="submit" value="立即提交" class="layui-btn">
+					</div>
+				</div>
+			</form>
+				</div>
+
+
+			</fieldset>
+			<div class="admin-table-page">
+				<div id="paged" class="page">
+				</div>
+			</div>
+		</div>
+

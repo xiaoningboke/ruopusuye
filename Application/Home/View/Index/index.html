@@ -1,4 +1,4 @@
-		<include file = "Public/headertop" />
+		<include file = "Public/headertop" title="{$cninfo.keywords}-{$cninfo.name}"/>
 		<!--首页页面-->
 		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css"/>
 		<!--首页-->
@@ -95,32 +95,24 @@
 					</foreach>
 					</div>
 					<div class="main_4_bottom">
-						<a class="more" href="news.html">更多新闻</a>
+						<a class="more" href="{:U('Home/Index/news')}">更多新闻</a>
 					</div>
 
 					
 				</li>
-			<!--企业优势-->
+		<!--企业优势-->
 				<li class="main_3 w">
 					<div class="main_2_top">
 						<img src="__PUBLIC__/img/index_main_4.png"/>
 						<p>企业优势</p>
 					</div>
 					<div class="main_3_bottom w">
+					<volist name="data" id="data">
 						<div class="main_3_bottom_Box">
-							<img src="__PUBLIC__/img/优势_1.jpg"/>
-							<p>图片：（350-380）*（200-300）</p>
-						</div>
-						<div class="main_3_bottom_Box">
-							<img src="__PUBLIC__/img/优势_3.jpg"/>
-							
-							<p>图片：（350-380）*（200-300）</p>
-						</div>
-						<div class="main_3_bottom_Box">
-							<img src="__PUBLIC__/img/优势_2.jpg"/>
-							<p>图片：（350-380）*（200-300）</p>
-						</div>
-						
+							<img src="__PUBLIC__/Uploads/{$data.urlimg}"/>
+							<p>{$data.name}</p>
+						</div></volist>
+
 					</div>
 				</li>
 			

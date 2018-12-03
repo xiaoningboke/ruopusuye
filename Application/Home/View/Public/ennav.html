@@ -1,0 +1,32 @@
+<!--头部开始-->
+<div id="header">
+    <div class="header w">
+        <div class="header_logo floatL"><img src="__PUBLIC__/Uploads/{$cnfileData[0][urlimg]}"></div>
+        <div class="header_iphone floatL">
+            <p>24 - hour service hotline</p>
+            <p class="green bg">{$cninfo.phone}</p>
+        </div>
+        <div class="header_choose floatL">
+            <a href="{:U('Home/Index/index')}">中文</a>
+            <span>/</span>
+            <a class="black" href="{:U('Home/English/index')}">English</a>
+        </div>
+    </div>
+</div>
+<!--导航栏开始-->
+<div id="nav" class="bg">
+    <ul class="w">
+        <li><a href="{:U('Home/English/index')}">Home</a></li>
+        <li><a href="{:U('Home/English/about')}">Profile</a></li>
+        <li><a href="{:U('Home/English/news')}">News</a></li>
+        <li><a href="{:U('Home/English/product')}">Exhibition</a></li>
+        <li><a href="{:U('Home/English/contact')}">Contact Us</a></li>
+        <li class="addWidth">
+            <div class="li_input">
+            <form action="{:U('Home/English/product')}"  method="post">
+            <div class="li_text"><input type="text" name="keywords" id="keywords" value="" placeholder="Please input keywords." /></div>
+            <div class="li_button"><input type="submit" name="" id="" value="search" /></div></form>
+            </div>
+        </li>
+    </ul>
+</div>

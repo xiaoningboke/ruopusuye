@@ -15,7 +15,6 @@ class CommonController extends Controller{
         $this->assign('cninfo',$cninfo);
         $this->assign('eninfo',$eninfo);
         $this->assign('cnfileData',$cnfileData);
-        var_dump($cnfileData);
         $this->assign('enfileData',$enfileData);
    }
 }

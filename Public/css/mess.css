@@ -1,0 +1,24 @@
+.message{
+    margin-top:20px;
+
+}
+ table{
+            border-collapse: collapse;
+            margin: 0 auto;
+            text-align: left;
+        }
+        table td, table th,table tr{
+            color: #666;
+            height: 60px;
+        }
+        table thead th{
+            width: 400px;
+        }
+        table tbody td{
+            color: #666;
+            width: 400px;
+        }
+.tit{
+    width:150px;
+    font-weight: bold;
+}

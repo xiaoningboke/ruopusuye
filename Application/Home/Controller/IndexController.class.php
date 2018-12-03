@@ -8,20 +8,27 @@ use Home\Model\PartnerModel;
 use Home\Model\LiuyanModel;
 use Home\Model\ProductModel;
 use Home\Model\NewsModel;
+use Home\Model\FenleiModel;
+use Home\Model\VersionModel;
+
 
 class IndexController extends CommonController {
-    public function index(){
+   public function index(){
         $Content = new ContentModel();
         $Product = new ProductModel();
+        $file=new FileModel();
         $productdata = $Product->sel();
         $about = $Content->findByid(1);
+        $data=$file->selBystate(6);
         $News = new NewsModel();
         $newsData = $News->indexNews();
         $this->assign('about',$about);
         $this->assign('productdata',$productdata);
         $this->assign('newsData',$newsData);
-		$this->display();
+        $this->assign('data',$data);
+        $this->display();
     }
+
 
     /**
        * 关于我们
@@ -69,4 +76,117 @@ class IndexController extends CommonController {
     		$this->error('留言失败，请直接拨打联系电话');
     	}
     }
+    /**
+     * 新闻列表显示
+     * @return [type] [description]
+     */
+    public function news(){
+        $news=new NewsModel();
+        if($_GET['p']==NULL){
+        $p=1;
+    }else{
+        $p=$_GET['p'];
+    }
+        $data=$news->findNewslist($p);
+        $this->assign('data',$data);
+        $count = $news->countNews();
+        $Page = new \Think\Page($count,5);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+    }
+    /**
+     * 行业新闻显示
+     * @return [type] [description]
+     */
+    public function industryNews(){
+        $news=new NewsModel();
+        if($_GET['p']==NULL){
+        $p=1;
+    }else{
+        $p=$_GET['p'];
+    }
+        $data=$news->findindustryNewslist($p);
+        $this->assign('data',$data);
+        $count = $news->countindustryNews();
+        $Page = new \Think\Page($count,8);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+    }
+    /**
+     * 公司动态显示
+     * @return [type] [description]
+     */
+    public function companyNews(){
+        $news=new NewsModel();
+        if($_GET['p']==NULL){
+        $p=1;
+    }else{
+        $p=$_GET['p'];
+    }
+        $data=$news->findcompanyNewslist($p);
+        $this->assign('data',$data);
+        $count = $news->countcompanyNews();
+        $Page = new \Think\Page($count,8);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+    }
+    /**
+     * 根据Id查找新闻
+     * @return [type] [description]
+     */
+    public function newspage(){
+      $id = $_GET["id"];
+      $news = new NewsModel();
+      $data = $news->findNews($id);
+      $this->assign('data',$data);
+      $this->display();
+    }
+    /**
+     * 产品展示页面
+     * @return [type] [description]
+     */
+    public function product(){
+        $fen=new FenleiModel();
+        $pro=new ProductModel();
+        if($_GET['p']==NULL){
+        $p=1;
+    }else{
+        $p=$_GET['p'];
+    }
+        $keys=$_POST['keywords'];
+        $fenlei_id = $_GET["fenlei_id"];
+        $data=$fen->findclass();
+        $datas=$pro->findProlist($p,$keys,$fenlei_id);
+        $this->assign('data',$data);
+        $this->assign('datas',$datas);
+        $count = $pro->countPro($keys);
+        $Page = new \Think\Page($count,9);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+    }
+    /**
+     * 根据id查看产品详情
+     * @return [type] [description]
+     */
+    public function details(){
+        $id = $_GET["id"];
+        $pro=new ProductModel();
+        $ver=new VersionModel();
+        $data=$pro->findDetail($id);
+        $price=$ver->findVerprice($id);
+        $price = json_encode($price);
+        $imgurl=$ver->findVerimg($id);
+        $xinghao=$ver->findVerxing($id);
+        $this->assign('data',$data);
+        $this->assign('price',$price);
+        $this->assign('imgurl',$imgurl);
+        $this->assign('xinghao',$xinghao);
+        $this->display();
+    }
+
+
 }

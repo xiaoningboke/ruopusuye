@@ -118,7 +118,7 @@
     background: #f0f0f0;
     font: 500 15px/15px "微软雅黑";
 }
-.time span {
+.time .id {
     font: 500 25px/25px "微软雅黑";
 }
 .textcontent {

@@ -1,0 +1,122 @@
+		<include file = "Public/headertop" title="{$eninfo.keywords}-{$eninfo.name}"/>
+		<!--首页页面-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css"/>
+		<!--首页-->
+		<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/lunbo.js"></script>
+		<script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    window.onload = function(){
+        showen();
+    };
+	$(document).ready(function () {
+            scroll();
+			top_1();
+			lunbo();
+    });
+</script>
+	</head>
+	<body>
+	
+<include file = "Public/ennav" />
+<!--轮播图开始-->
+		<div id="lunbobox">
+		        <div id="toleft">&lt;</div>
+		        <div class="lunbo">
+		                <a href="#"><img src="__PUBLIC__/Uploads/{$enfileData[2][urlimg]}"></a>
+		                <a href="#"><img src="__PUBLIC__/Uploads/{$enfileData[3][urlimg]}"></a>
+		                <a href="#"><img src="__PUBLIC__/Uploads/{$enfileData[4][urlimg]}"></a>
+		        </div>
+		        <div id="toright">&gt;</div>
+		        <ul>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		        </ul>
+		        <span></span>
+    </div>
+<!--轮播图结束-->
+
+<!--内容开始-->
+		<div id="main" class="w">
+			<ul class="w">
+			<!--公司简介-->
+				<li class="main_1 w">
+					<div class="main_1_top">
+						<img src="__PUBLIC__/img/index_main_1.png"/>
+						<p>Company Profile</p>
+					</div>
+					<div class="main_1_bottom w">
+						<div class="main_1_bottom_LBox">
+							<img src="__PUBLIC__/Uploads/{$about.imgurl}"/>
+						</div>
+						<div class="main_1_bottom_RBox">
+							<h1>{$eninfo.name}</h1>
+							<div style="max-height: 400px;overflow: hidden;text-overflow: ellipsis;" >{$about.content}</div>
+							
+							<a class="more" href="{:U('Home/English/about')}">More</a>
+						</div>
+					</div>
+				</li>
+			<!--产品展示-->
+				<li class="main_2 w">
+					<div class="main_2_top">
+						<img class="box" src="__PUBLIC__/img/index_main_2.png"/>
+						<p>Product Exhibition</p>
+					</div>
+					<div class="main_2_bottom w">
+						<ul>
+						   <foreach name="productdata" item="vo">
+						    <li class="liss">
+						    	<img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}">
+						    	<h4>{$vo.enname}</h4>
+						    	<a href="{:U('Home/English/details',array('id'=>$vo[id]))}">More</a>
+						    	
+						    </li>
+						  </foreach>
+						</ul>
+						
+					</div>
+				</li>
+			<!--新闻资讯-->
+				<li class="main_4 w">
+					<div class="main_2_top w">
+						<img src="__PUBLIC__/img/index_main_3.png"/>
+						<p>News And Information</p>
+					</div>
+					<div class="main_4_center w">
+						
+						<foreach name="newsData" item="vo">
+						<a class="main_4_center_Box w" href="{:U('English/Index/newspage',array('id'=>$data[id]))}#sign">
+							<img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.title}" />
+							<h6>{$vo.title}</h6>
+							<p>{$vo.content}</p>
+						</a>
+					</foreach>
+					</div>
+					<div class="main_4_bottom">
+						<a class="more" href="{:U('English/Index/news')}">More</a>
+					</div>
+
+					
+				</li>
+		<!--企业优势-->
+				<li class="main_3 w">
+					<div class="main_2_top">
+						<img src="__PUBLIC__/img/index_main_4.png"/>
+						<p>Advantage</p>
+					</div>
+					<div class="main_3_bottom w">
+					<volist name="data" id="data">
+						<div class="main_3_bottom_Box">
+							<img src="__PUBLIC__/Uploads/{$data.urlimg}"/>
+							<p>{$data.name}</p>
+						</div></volist>
+
+					</div>
+				</li>
+			
+			</ul>
+		</div>
+<!--内容结束-->
+<include file = "Public/enfooter" />

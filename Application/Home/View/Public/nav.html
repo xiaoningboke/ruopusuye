@@ -7,24 +7,25 @@
             <p class="green bg">{$cninfo.phone}</p>
         </div>
         <div class="header_choose floatL">
-            <a class="black" href="#">中文</a>
+            <a class="black" href="{:U('Home/Index/index')}">中文</a>
             <span>/</span>
-            <a href="#">英文</a>
+            <a href="{:U('Home/English/index')}">英文</a>
         </div>
     </div>
 </div>
 <!--导航栏开始-->
 <div id="nav" class="bg">
     <ul class="w">
-        <li><a href="./index.html">首页</a></li>
-        <li><a href="./introduction.html">公司简介</a></li>
-        <li><a href="./news.html">新闻中心</a></li>
-        <li><a href="./product.html">产品展示</a></li>
-        <li><a href="./contact.html">联系我们</a></li>
+        <li><a href="{:U('Home/Index/index')}">首页</a></li>
+        <li><a href="{:U('Home/Index/about')}">公司简介</a></li>
+        <li><a href="{:U('Home/Index/news')}">新闻中心</a></li>
+        <li><a href="{:U('Home/Index/product')}">产品展示</a></li>
+        <li><a href="{:U('Home/Index/contact')}">联系我们</a></li>
         <li class="addWidth">
             <div class="li_input">
-                <div class="li_text"><input type="text" name="" id="" value="" /></div>
-                <div class="li_button"><input type="button" name="" id="" value="搜索" /></div>
+            <form action="{:U('Home/Index/product')}"  method="post">
+            <div class="li_text"><input type="text" name="keywords" id="keywords" value="" placeholder="请输入关键词" /></div>
+            <div class="li_button"><input type="submit" name="" id="" value="搜索" /></div></form>
             </div>
         </li>
     </ul>

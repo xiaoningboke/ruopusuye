@@ -19,34 +19,34 @@
 			<fieldset class="layui-elem-field">
 				<legend>图片配置</legend>
 				<div class="layui-field-box layui-form">
- 				<form class="layui-form" action="<?php echo U('Admin/Index/addpicture');?>" enctype="multipart/form-data" method="post">
-				<div class="layui-form-item">
-					<label class="layui-form-label">文件名称</label>
-					<div class="layui-input-block">
-						<input type="text" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入文件名称"  class="layui-input" >
-					</div>
-				</div>
-				<div class="layui-form-item">
-					<label class="layui-form-label">语言</label>
-					<div class="layui-input-block">
-						<input type="radio" name="state" value="4"  title="中文" lay-filter="yesno">
-						<input type="radio" name="state" value="5"  title="英文" lay-filter="yesno" >
-					</div>
-				</div>
-				<div class="layui-form-item">
-					<label class="layui-form-label">选择图片</label>
-					<div class="layui-input-block">
-						<input type="file" name="photo"  lay-verify="title" autocomplete="off"  class="layui-input" >
-					</div>
-				</div>
-				<div style="padding: 20px;">
-				</div>
-				<div class="layui-form-item">
-					<div class="layui-input-block">
-						<input type="submit" value="立即提交" class="layui-btn">
-					</div>
-				</div>
-			</form>
+<!-- 				<form class="layui-form" action="<?php echo U('Admin/Index/addpicture');?>" enctype="multipart/form-data" method="post">
+<div class="layui-form-item">
+	<label class="layui-form-label">文件名称</label>
+	<div class="layui-input-block">
+		<input type="text" name="name"  lay-verify="title" autocomplete="off" placeholder="请输入文件名称"  class="layui-input" >
+	</div>
+</div>
+<div class="layui-form-item">
+	<label class="layui-form-label">语言</label>
+	<div class="layui-input-block">
+		<input type="radio" name="state" value="4"  title="中文" lay-filter="yesno">
+		<input type="radio" name="state" value="5"  title="英文" lay-filter="yesno" >
+	</div>
+</div>
+<div class="layui-form-item">
+	<label class="layui-form-label">选择图片</label>
+	<div class="layui-input-block">
+		<input type="file" name="photo"  lay-verify="title" autocomplete="off"  class="layui-input" >
+	</div>
+</div>
+<div style="padding: 20px;">
+</div>
+<div class="layui-form-item">
+	<div class="layui-input-block">
+		<input type="submit" value="立即提交" class="layui-btn">
+	</div>
+</div>
+			</form> -->
 					<table class="layui-table admin-table">
 						<thead>
 							<tr style="text-align: center;">

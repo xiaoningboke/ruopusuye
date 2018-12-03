@@ -1,0 +1,38 @@
+﻿<include file = "Public/header" />
+	<body>
+		<div class="admin-main">
+			<fieldset class="layui-elem-field">
+				<legend>公司优势</legend>
+				<div class="layui-field-box layui-form">
+					<table class="layui-table admin-table">
+						<thead>
+							<tr style="text-align: center;">
+								<th>名称</th>
+								<th>图片</th>
+								<th>备注</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody id="content">
+							<foreach name="data" item="data">
+								<tr style="text-align: center;">
+									<td>{$data.name}</td>
+									<td><img src="__PUBLIC__/Uploads/{$data.urlimg}" style="width: 200px;"></td>
+									<td>{$data.remarks}</td>
+									<td>
+										<a href="{:U('Admin/Index/exitadva',array('id'=>$data['id']))}" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">编辑</a>
+									</td>
+								</tr>
+							</foreach>
+						</tbody>
+					</table>
+				</div>
+
+
+			</fieldset>
+			<div class="admin-table-page">
+				<div id="paged" class="page">
+				</div>
+			</div>
+		</div>
+

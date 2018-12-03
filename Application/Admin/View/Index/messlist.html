@@ -1,0 +1,43 @@
+<include file = "Public/header" />
+<link rel="stylesheet" href="__PUBLIC__/css/rep.css" />
+ <body>
+        <div class="admin-main">
+            <fieldset class="layui-elem-field">
+                <legend>数据列表</legend>
+                <div class="layui-field-box layui-form">
+                    <table class="layui-table admin-table" id="admin-table">
+                        <thead>
+                            <tr>
+                                <th>用户名</th>
+                                <th>联系电话</th>
+                                <th>联系地址</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+       <tbody id="content">
+          <volist name="data" id="data">
+
+            <tr>
+                <td>{$data[username]}</td>
+                <td>{$data[userphone]}</td>
+                <td>{$data[userarea]}</td>
+
+                <td>
+                    <a  href="{:U('message',array('id'=>$data[id]))}" class="layui-btn layui-btn-mini">查看详情</a>
+                    <a href="{:U('messdell',array('id'=>$data[id]))}" data-id="1" data-opt="del" class="layui-btn layui-btn-danger layui-btn-mini">删除</a>
+                </td>
+            </tr>
+            </volist>
+            <input type="hidden" name="id" value="{$data[id]}">
+
+    </tbody>
+  </table>
+</div>
+            </fieldset>
+            <div class="admin-table-page">
+                <div class="result page">{$page}</div>
+            </div>
+        </div>
+    </body>
+
+</html>

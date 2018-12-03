@@ -9,7 +9,9 @@ use Admin\Model\FenleiModel;
 use Admin\Model\NewsModel;
 use Admin\Model\ProductModel;
 use Admin\Model\VersionModel;
-class IndexController extends Controller {
+use Admin\Model\LiuyanModel;
+
+class IndexController extends CommonController {
     public function index(){
         $this->display();
     }
@@ -615,7 +617,95 @@ class IndexController extends Controller {
           $this->error('删除失败！',U('Admin/index/newslist'));
       }
         }
+    /**
+     * 查看留言列表
+     * @return [type] [description]
+     */
+      public function messlist(){
+        $liuyan=new LiuyanModel();
+        if($_GET['p']==NULL){
+        $p=1;
+    }else{
+        $p=$_GET['p'];
+    }
+        //var_dump($language);exit;
+        $data=$liuyan->findliuyanlist($p);
+        //var_dump($data);exit;
+        $this->assign('data',$data);
+        $count = $liuyan->countliuyan();
+        $Page = new \Think\Page($count,9);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+    }
+    /**
+     * 查看留言详情
+     * @return [type] [description]
+     */
+    public function message(){
+      $id = $_GET["id"];
+      $news = new LiuyanModel();
+      $data = $news->findliuyan($id);
+      $this->assign('data',$data);
+      $this->display();
+    }
+    /**
+     * 删除留言
+     * @return [type] [description]
+     */
+    public function messdell(){
+          $id= $_GET["id"];
+          $liuyan=new LiuyanModel();
+       if($liuyan->delete($id)){
+          $s= $liuyan->del($id);
+          $this->success('删除成功！',U('Admin/index/messlist'));
+      }else{
+          $this->error('删除失败！',U('Admin/index/messlist'));
+      }
+  }
+    /**
+   * 显示公司优势列表
+   * @return [type] [description]
+   */
+    public function advantage(){
+        $file = new FileModel();
+        $state = $_GET['state'];
+        $data = $file->findAdva($state);
+        $this->assign('data',$data);
+        $this->display();
+    }
 
+    /**
+     * 显示要修改的公司优势内容
+     * @return [type] [description]
+     */
+    public function exitadva(){
+        $id = $_GET['id'];
+        $file = new FileModel();
+        $data = $file->findById($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+    /**
+     * 修改公司优势
+     * @return [type] [description]
+     */
+    public function exitByIdadva(){
+        $urlImg = $this->upload();
+        if($urlImg != 'error'){
+            $data['urlImg'] = $urlImg;
+        }
+        $data['id'] = $_POST['id'];
+        $data['remarks'] = $_POST['remarks'];
+        $data['name'] = $_POST['name'];
+        $File = new FileModel();
+        $i = $File->exitavda($data);
+        if($i>0){
+            $this->success("修改成功");
+        }else{
+            $this->error("修改失败");
+        }
+    }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//文件上传操作
 	public function upload(){

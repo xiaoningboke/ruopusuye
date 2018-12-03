@@ -70,6 +70,10 @@ class NewsModel extends Model {
         return $data;
     }
 
+    /**
+     * 首页新闻数据
+     * @return [type] [description]
+     */
     public function indexNews(){
         $news = M('News');
         $map['state'] = 1;

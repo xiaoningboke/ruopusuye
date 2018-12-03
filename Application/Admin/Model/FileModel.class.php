@@ -63,4 +63,35 @@ class FileModel extends Model {
 		$data = $Fenlei->select();
 		return $data;
 	}
+	/**
+	 * 显示公司优势列表
+	 * @return [type] [description]
+	 */
+	public function findAdva($state){
+		$file = M('File');
+		$data = $file->where("state = $state")->select();
+		return $data;
+	}
+
+	/**
+	 * 根据Id显示要修改的公司优势内容
+	 * @param  [type] $id [description]
+	 * @return [type]     [description]
+	 */
+	public function findById($id){
+		$file = M('File');
+		$data = $file->where("id = $id")->find();
+		return $data;
+	}
+	/**
+	 * 修改公司优势
+	 * @param  [type] $data [description]
+	 * @return [type]       [description]
+	 */
+	public function exitavda($data){
+		$File = M("File");
+		$id = $data['id'];
+		$i = $File->where("id = $id")->save($data);
+		return $i;
+	}
 }
