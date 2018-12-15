@@ -5,6 +5,9 @@
     <script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
     <script src="__PUBLIC__/js/jquery-1.8.3/jquery.min.js"></script>
     <script>
+        window.onload = function(){
+            showen();
+        };
         $(document).ready(function () {
             dis();
             top_1();
@@ -13,7 +16,9 @@
 </head>
 <body>
 <include file = "Public/ennav" />
-    <div class="back"><img src="__PUBLIC__/Uploads/{$enfileData[6][urlimg]}" alt="新闻中心"></div>
+    <div class ="picture">
+        <img src="__PUBLIC__/Uploads/{$enfileData[6][urlimg]}">
+    </div>
     <div id="content">
         <!--左侧部分-->
         <div id="left">
@@ -60,4 +65,5 @@
         </div>
 
     </div>
+     <div class="clear"></div>
  <include file = "Public/enfooter" />

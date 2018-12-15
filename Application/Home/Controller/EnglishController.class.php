@@ -21,7 +21,7 @@ class EnglishController extends CommonController {
         $about = $Content->findByid(2);
         $data=$file->selBystate(7);
         $News = new NewsModel();
-        $newsData = $News->indexNews();
+        $newsData = $News->indexNews(1);
         $this->assign('about',$about);
         $this->assign('productdata',$productdata);
         $this->assign('newsData',$newsData);

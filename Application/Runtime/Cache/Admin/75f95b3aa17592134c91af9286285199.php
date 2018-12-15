@@ -63,6 +63,13 @@
 										<a href="<?php echo U('Admin/Index/exitImg',array('id'=>$vo['id']));?>" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">更换</a>
 									</td>
 								</tr><?php endforeach; endif; ?>
+							<?php if(is_array($endata)): foreach($endata as $key=>$vo): ?><tr style="text-align: center;">
+									<td><?php echo ($vo["name"]); ?></td>
+									<td><img src="/ruopusuye/Public/Uploads/<?php echo ($vo["urlimg"]); ?>" style="width: 300px;"></td>
+									<td>
+										<a href="<?php echo U('Admin/Index/exitImg',array('id'=>$vo['id']));?>" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">更换</a>
+									</td>
+								</tr><?php endforeach; endif; ?>
 						</tbody>
 					</table>
 				</div>

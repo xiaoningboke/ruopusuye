@@ -61,7 +61,7 @@
 </div>
 
 <div class ="picture">
-    <img src="/ruopusuye/Public/img/22400858.jpg" alt="">
+    <img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[4][urlimg]); ?>">
 </div>
 <!--头部结束-->
 <!--主部开始-->
@@ -208,7 +208,7 @@
 		</div>
 <div id="kefu">
     <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
-    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10]["urlimg"]); ?>" alt=""> </a>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[9]["urlimg"]); ?>" alt=""> </a>
     <h2 class="times">工作时间</h2>
     <div id="gzsj">7*24小时全天在线</div>
 </div>

@@ -1,0 +1,35 @@
+<include file="Public/header"  webtitle="{$data[0][title]}_{$info.company}"/>
+<link rel="stylesheet" href="__PUBLIC__/m/css/about.css">
+<div class="main">
+	<div class="bigImgDiv">
+		<img src="__PUBLIC__/Uploads/{$data[0][photouri]}" alt="" class="bigImg">
+	</div>
+	<div class="w con">
+
+
+	<div>	
+		<div class="Conright">
+			<div class="leftTopTitle">{$data[0][title]}</div>
+			
+    
+	<section>  
+		<figure id="full_feature" class="swipslider">
+		    <ul class="sw-slides">
+
+
+		    	<foreach name="picdata" item="vo"  key="k">
+		    		<li class="sw-slide">
+			            <img src="__PUBLIC__/Uploads/{$vo.picname}" alt="{$data[0][title]}">
+			        </li>
+				</foreach>
+		    </ul>
+		</figure>   
+	</section>
+	<div class="rightCon">
+				{$data[0][content]}
+			</div>
+</div>
+	</div>	
+	</div>
+</div>
+<include file="Public/footer" />

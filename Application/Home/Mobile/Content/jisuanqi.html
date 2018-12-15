@@ -1,0 +1,52 @@
+<include file="Public/header" webtitle="重量计算器_{$info.company}"/>
+<link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap-theme.css">
+    <div id="">
+                <div style="text-align: center;font-size: 20px;padding: 20px">重量计算器</div>
+                <div class="" style="">
+                    <script LANGUAGE="JavaScript"> 
+                    function enfocus()
+                    {
+                        var t1 = $("input[name='Data']").val();
+                        var t2 = $("input[name='Data2']").val();
+                        var t3 = $("input[name='Data3']").val();
+                        var t4 = $("input[name='Data4']").val();
+
+                    if(t1!="" && t2!="" && t3!=""){
+
+                    document.getElementById("copy").value =( parseFloat(t1) - parseFloat(t2)) * parseFloat(t2)*0.02466*parseFloat(t3);
+                    }
+                    else {document.getElementById("copy").value = "";}
+                    }
+
+                    </script>
+                    <form>
+                    	<div class="form-group">
+						    <label for="inputEmail3" class="col-sm-2 control-label">外径(mm):</label>
+						    <div class="col-sm-10">
+						      <input type="text" class="form-control" placeholder="请输入外径(mm)" autocomplete="off" class="layui-input" type="text" name="Data" onkeyup="enfocus()">
+						    </div>
+						  </div>
+						<div class="form-group">
+						    <label for="inputEmail3" class="col-sm-2 control-label">壁厚(mm):</label>
+						    <div class="col-sm-10">
+						      <input type="text" class="form-control" placeholder="请输入壁厚(mm)" autocomplete="off" class="layui-input" type="text" name="Data2" onkeyup="enfocus()">
+						    </div>
+						  </div>
+						<div class="form-group">
+						    <label for="inputEmail3" class="col-sm-2 control-label">长度(M):</label>
+						    <div class="col-sm-10">
+						      <input type="text" class="form-control" placeholder="请输入长度(M)" autocomplete="off" class="layui-input" type="text" name="Data3" onkeyup="enfocus()">
+						    </div>
+						  </div>
+						<div class="form-group">
+						    <label for="inputEmail3" class="col-sm-2 control-label">重量(KG):</label>
+						    <div class="col-sm-10">
+						      <input type="text" class="form-control" placeholder="0" autocomplete="off" class="layui-input" type="text"id="copy" onkeyup="enfocus()">
+						    </div>
+						  </div>
+
+                      </form>
+                </div>
+        </div>
+<include file="Public/footer" />

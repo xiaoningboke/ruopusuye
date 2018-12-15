@@ -1,0 +1,89 @@
+<include file="Public/header" />
+<body>
+<div class="margin clearfix">
+ <div class="stystems_style">
+  <div class="tabbable">
+    <div class="tab-content">
+      <form action="{:U('Admin/Index/exitInformation')}" method="post" id="test_form">
+		<div id="home" class="tab-pane active">
+         <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>公司名称： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="控制在25个字、50个字节以内" name = "company" value="{$data.company}" class="col-xs-10 "></div>
+          </div>
+           <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>联系人： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入联系人" name="people" value="{$data.people}" class="col-xs-10 "></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>关键词： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="4个左右,8汉字以内,用英文,隔开" name="keywords" value="{$data.keywords}" class="col-xs-10 "></div>
+          </div>
+	      <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>网站描述： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="空制在80个汉字，160个字符以内" name="content" value="{$data.content}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>网址： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的域名，以http://或者https://开头" name="url" value="{$data.url}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>电话1： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的电话" name="phone" value="{$data.phone}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>电话2： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的电话" name="tell" value="{$data.tell}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>QQ： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的QQ" name="qq" value="{$data.qq}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>客服QQ： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的QQ" name="kefu" value="{$data.kefu}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>邮箱： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的邮箱" name="email" value="{$data.email}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>微信： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的微信" name="wetch" value="{$data.wetch}" class="col-xs-10"></div>
+          </div><div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>地址： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="请输入您的地址" name="address" value="{$data.address}" class="col-xs-10"></div>
+          </div><div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>产品： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="空制在80个汉字，160个字符以内" name="protact" value="{$data.protact}" class="col-xs-10"></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>底部版权信息： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="" name="banquan" value="{$data.banquan}" class="col-xs-10 "></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>备案号： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="" name="beian" value="{$data.beian}" class="col-xs-10 "></div>
+          </div>
+           <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>经度： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="" name="jingdu" value="{$data.jingdu}" class="col-xs-10 "></div>
+          </div>
+           <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>纬度： </label>
+          <div class="col-sm-9"><input type="text" id="website-title" placeholder="" name="weidu" value="{$data.weidu}" class="col-xs-10 "></div>
+          </div>
+          <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>公司简介： </label>
+          <div class="col-sm-9"><textarea class="textarea" name="jianjie">{$data.jianjie}</textarea></div>
+          </div>
+           <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>统计代码： </label>
+          <div class="col-sm-9"><textarea class="textarea" name="tongji">{$data.tongji}</textarea></div>
+          </div>
+          <div class="Button_operation"> 
+				<button onclick="submit_form();" class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i>&nbsp;保存</button>
+			</div>
+        </div>
+        <div id="profile" class="tab-pane ">
+        
+        </div>
+        <div id="dropdown" class="tab-pane">
+          </form>
+		</div>
+		</div>
+		</div>
+ </div>
+
+</div>
+</body>
+</html>
+<script>
+
+  function submit_form(argument) {
+    var form = document.getElementById('test_form');
+
+    form.submit();
+  }
+
+</script>

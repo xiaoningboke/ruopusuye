@@ -21,7 +21,7 @@ class IndexController extends CommonController {
         $about = $Content->findByid(1);
         $data=$file->selBystate(6);
         $News = new NewsModel();
-        $newsData = $News->indexNews();
+        $newsData = $News->indexNews(0);
         $this->assign('about',$about);
         $this->assign('productdata',$productdata);
         $this->assign('newsData',$newsData);

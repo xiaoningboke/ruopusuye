@@ -1,4 +1,4 @@
-function showout() {
+﻿function showout() {
     //点击按钮，按钮属性改变
     var $lea0 = $("#le-a0");
     var $lea1 = $("#le-a1");
@@ -14,9 +14,6 @@ function showout() {
         //右侧留言及信息内容切换
         $infor.css("display", "block");
         $leave.css("display", "none");
-        //切换页面整体高度变化
-        $main.css("height", "1400");
-        $content.css("height", "600");
     });
     $lea1.click(function () {
         $lea1.addClass("show");

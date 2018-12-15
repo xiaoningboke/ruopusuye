@@ -1,0 +1,15 @@
+<include file="Public/header" webtitle="{$data[0][title]}_{$info.company}" />
+<link rel="stylesheet" href="__PUBLIC__/m/css/about.css">
+<div class="main">
+	<div class="bigImgDiv">
+		<img src="__PUBLIC__/Uploads/{$data[0][photouri]}" alt="" class="bigImg">
+	</div>
+	<div class="Conright">
+			<div class="leftTopTitle">{$data[0][title]}</div>
+			<div class="rightCon">
+				{$data[0][content]}
+			</div>
+	</div>
+</div>
+
+<include file="Public/footer" />

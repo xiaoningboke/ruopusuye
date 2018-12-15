@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>		<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿		<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -67,9 +67,9 @@
 		<div id="lunbobox">
 		        <div id="toleft">&lt;</div>
 		        <div class="lunbo">
+		                <a href="#"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[1][urlimg]); ?>"></a>
 		                <a href="#"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[2][urlimg]); ?>"></a>
 		                <a href="#"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[3][urlimg]); ?>"></a>
-		                <a href="#"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[4 ][urlimg]); ?>"></a>
 		        </div>
 		        <div id="toright">&gt;</div>
 		        <ul>
@@ -128,10 +128,10 @@
 					</div>
 					<div class="main_4_center w">
 						
-						<?php if(is_array($newsData)): foreach($newsData as $key=>$vo): ?><a class="main_4_center_Box w" href="<?php echo U('Home/Index/newspage',array('id'=>$data[id]));?>#sign">
+						<?php if(is_array($newsData)): foreach($newsData as $key=>$vo): ?><a class="main_4_center_Box w" href="<?php echo U('Home/Index/newspage',array('id'=>$vo[id]));?>#sign">
 							<img src="/ruopusuye/Public/Uploads/<?php echo ($vo["picture"]); ?>" alt="<?php echo ($vo["title"]); ?>" />
 							<h6><?php echo ($vo["title"]); ?></h6>
-							<p><?php echo ($vo["content"]); ?></p>
+							<p><?php echo ($vo["abstracts"]); ?></p>
 						</a><?php endforeach; endif; ?>
 					</div>
 					<div class="main_4_bottom">
@@ -221,7 +221,7 @@
 		</div>
 <div id="kefu">
     <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
-    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10]["urlimg"]); ?>" alt=""> </a>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[9]["urlimg"]); ?>" alt=""> </a>
     <h2 class="times">工作时间</h2>
     <div id="gzsj">7*24小时全天在线</div>
 </div>

@@ -196,7 +196,9 @@ class IndexController extends CommonController {
     public function picture(){
       $File = new FileModel();
       $data = $File->findFileByState(4);
+      $endata = $File->findFileByState(5);
       $this->assign('data',$data);
+      $this->assign('endata',$endata);
       $this->display();
     }
 

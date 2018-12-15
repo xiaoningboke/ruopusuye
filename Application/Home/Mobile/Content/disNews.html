@@ -1,0 +1,23 @@
+<include file="Public/header" webtitle="{$data.title}_{$info.company}"/>
+<link rel="stylesheet" href="__PUBLIC__/m/css/about.css">
+
+
+<div class="main">
+	<div class="bigImgDiv">
+		<img src="__PUBLIC__/img/two.jpg" alt="" class="bigImg">
+	</div>
+
+	<div class="w con">
+
+		<div class="Conright">
+			<div class="leftTopTitle">新闻中心</div>
+			<div class="rightCon">
+				<h4 style="text-align: center;">{$data.title}</h4>
+				<p style="text-align: center;line-height: 30px;">发布时间：{$data.time}</p>
+				{$data.content}
+			</div>
+		</div>
+	</div>
+</div>
+
+<include file="Public/footer" />

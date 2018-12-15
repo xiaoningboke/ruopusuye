@@ -26,7 +26,7 @@ function showen() {
 	var cancel = document.getElementById("cancel");
     var spWidth = kefu.offsetWidth;
 	cancel.onclick = function () {
-        console.log(spWidth);
+        //console.log(spWidth);
 		animate(kefu,-spWidth);
     }
 }

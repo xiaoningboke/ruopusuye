@@ -1,0 +1,32 @@
+<include file="Public/header" webtitle="{$data.title}_{$info.company}"/>
+<link rel="stylesheet" href="__PUBLIC__/m/css/about.css">
+<div class="main">
+	<div class="bigImgDiv">
+		<if condition="($title eq '钢管知识') "> 
+				<img src="__PUBLIC__/Uploads/{$photodata[9].photouri}" alt="" class="bigImg">
+			<else />
+				<img src="__PUBLIC__/Uploads/{$photodata[10].photouri}" alt="" class="bigImg">
+		</if>
+	</div>
+	<div class="w con">
+		<div class="Conright">
+			<div class="leftTopTitle newsleftTopTitle">{$title}</div>
+			<div class="rightCon">
+				<div class="newsList">
+					<ul class="news tuijian">
+						<foreach name="tuijian" item="vo" >
+							<li><a href="{:U('Home/Content/disNews',array('id'=>$vo[id]))}"><span>[推荐]</span> {$vo.title}</a></li>
+						</foreach>
+					</ul>
+					<ul class="news">
+						<foreach name="list" item="vo" >
+						<li><a href="{:U('Home/Content/disNews',array('id'=>$vo[id]))}">{$vo.title}</a></li>
+						</foreach>
+					</ul>
+					<div class="result page">{$page}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<include file="Public/footer" />

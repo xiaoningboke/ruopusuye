@@ -1,0 +1,80 @@
+<include file="Public/header"  webtitle="咨询建议_{$info.company}"/>
+<link rel="stylesheet" href="__PUBLIC__/m/css/about.css">
+	<link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap-theme.css">
+<div class="main">
+	<div class="bigImgDiv">
+		<img src="__PUBLIC__/Uploads/{$photodata[13].photouri}" alt="" class="bigImg">
+	</div>
+
+	<div class="w con">
+
+		<div class="Conright">
+			<div class="leftTopTitle">咨询建议</div>
+			<div class="rightCon" style="padding: 40px;">
+				<form class="form-horizontal" method="post" action="{:U('Home/Content/tijiaojianyi')}" onsubmit = "return checkUser();" id = "userMsg">
+				  <div class="form-group">
+				    <label for="inputEmail3" class="col-sm-2 control-label">昵称：</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" placeholder="请输入昵称" id="nickname" name="nickname">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-2 control-label">电话：</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" placeholder="请输入电话" name="phone" id="phone">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-2 control-label">邮箱：</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control"  placeholder="请输入邮箱" name="email" id="email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-2 control-label">内容：</label>
+				    <div class="col-sm-10">
+				      <textarea class="form-control" rows="5" name="content"></textarea>
+				    </div>
+				  </div>
+				  <div class="form-group" style="text-align: center;">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button  onclick = "checkUser()" class="btn btn-default">提交</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	function checkUser(){
+   var nickname = document.getElementById("nickname").value;
+   var phone = document.getElementById("phone").value;
+   var email = document.getElementById("email").value;
+
+   if(nickname == ""  ){
+     alert("昵称不能为空");
+     return false;
+   }
+
+  if(phone == ""  ){
+     alert("手机号不能为空");
+     return false;
+   }
+  if(email == ""  ){
+     alert("邮箱不能为空");
+     return false;
+   }
+
+
+    var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"); //正则表达式
+　　if(!reg.test(email)){ //正则验证不通过，格式不对
+　　　　alert("请输入正确的邮箱!");
+　　　　return false;
+　　}
+  
+  document.getElementById("userMsg").submit();
+}
+</script>
+<include file="Public/footer" />

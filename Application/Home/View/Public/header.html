@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>[webtitle]</title>
+		<!-- SEO -->
+	<meta name="description" content="{$info.content}" />
+	<meta name="keywords" content="{$info.keywords}" />
+	<meta name="generator" content="千宇软件" />
+	<meta name="template" content="Zero" />
+	<link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/header.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/about.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/kefu.css">
+	<script src="__PUBLIC__/jquery/jquery.js"></script>
+	<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+	<script src="__PUBLIC__/js/swsy.js"></script>
+	<script>
+		$(function () {
+	    $(".dropdown").mouseover(function () {
+	        $(this).addClass("open");
+	    });
+
+	    $(".dropdown").mouseleave(function(){
+		        $(this).removeClass("open");
+		    })
+
+		})
+        $(window).ready(function () {
+            $(".tab>li").mouseenter(function () {
+                $(".product>div").eq($(this).index()).addClass("selected").siblings("div").removeClass("selected");
+            });
+            $(".tabs>li").mouseenter(function () {
+                $(".products>div").eq($(this).index()).addClass("selected").siblings("div").removeClass("selected");
+            });
+        });
+	</script>
+	</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<!--顶部的banner-->
+			<div class="header-top">
+				<div class="w">
+					<p class="header-top-left">欢迎访问{$info.company}官网！ ！ ！ 主要销售：{$info.protact}</p>
+					<p class="header-top-right">
+						<a href=# rel="sidebar"onclick="SetHome(this,window.location)" >设为首页</a>
+						<a href=# rel="sidebar" onclick="javascript:addFavorite2()">加入收藏</a>
+					</p>
+				</div>
+			</div>
+			<!--logo-->
+			<div class="logo w">
+				<img src="__PUBLIC__/Uploads/{$photodata[0].photouri}" alt="">
+			</div>
+			<div class="nav w">
+				<nav class="navbar navbar-default  ww">
+				  <div class="container-fluid w " >
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="dropdown"><a href="{:U('Home/Index/index')}">网站首页</a></li>			
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们 <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="{:U('Home/Content/index',array('classification'=>1))}">企业概况</a></li>
+				            <li><a href="{:U('Home/Content/index',array('classification'=>2))}">总经理致辞</a></li>	            
+				          </ul>
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品中心 <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="{:U('Home/Content/product',array('classification'=>3,'fenlei'=>1))}">无缝钢管</a></li>
+				            <li><a href="{:U('Home/Content/product',array('classification'=>4,'fenlei'=>2))}">精密钢管</a></li>
+				            <li><a href="{:U('Home/Content/product',array('classification'=>5,'fenlei'=>3))}">合金钢管</a></li>
+				          </ul>
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新闻中心 <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				          	<li><a href="{:U('Home/Content/newsList',array('classification'=>17))}">热点资讯</a></li>
+				            <li><a href="{:U('Home/Content/newsList',array('classification'=>6))}">钢管知识</a></li>
+				            <li><a href="{:U('Home/Content/newsList',array('classification'=>7))}">行业动态</a></li>
+				            
+				          </ul>
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">钢管加工 <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="{:U('Home/Content/product',array('classification'=>8,'fenlei'=>4))}">自动切割</a></li>
+				            <li><a href="{:U('Home/Content/product',array('classification'=>9,'fenlei'=>5))}">锯床切割</a></li>
+				            <li><a href="{:U('Home/Content/product',array('classification'=>10,'fenlei'=>6))}">无缝方管</a></li>
+				          </ul>
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">行业应用 <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="{:U('Home/Content/index',array('classification'=>11))}">电力领域</a></li>
+				            <li><a href="{:U('Home/Content/index',array('classification'=>12))}">石化领域</a></li>
+				            <li><a href="{:U('Home/Content/index',array('classification'=>13))}">冶金领域</a></li>
+				            <li><a href="{:U('Home/Content/index',array('classification'=>14))}">机械领域</a></li>
+				            <li><a href="{:U('Home/Content/index',array('classification'=>15))}">汽车领域</a></li>
+				            <li><a href="{:U('Home/Content/index',array('classification'=>16))}">其他领域</a></li>
+
+				          </ul>
+				        </li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">联系我们 <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="{:U('Home/Content/lianxi')}">联系方式</a></li>
+				            <li><a href="{:U('Home/Content/ditu')}">电子地图</a></li>
+				            <li><a href="{:U('Home/Content/zixun')}">资讯建议</a></li>
+				          </ul>
+				        </li>
+				        <li class="dropdown"><a href="{:U('Home/Content/xiazai')}">下载中心</a></li>
+				      </ul>
+				      <form class="navbar-form navbar-left" action="{:U('Home/Content/sousuo')}" method="post">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="搜索内容" name="ss">
+				        </div>
+				        <button type="submit" class="btn btn-default">搜索</button>
+				      </form>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</div>

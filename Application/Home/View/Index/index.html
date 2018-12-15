@@ -1,4 +1,4 @@
-		<include file = "Public/headertop" title="{$cninfo.keywords}-{$cninfo.name}"/>
+﻿		<include file = "Public/headertop" title="{$cninfo.keywords}-{$cninfo.name}"/>
 		<!--首页页面-->
 		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css"/>
 		<!--首页-->
@@ -23,9 +23,9 @@
 		<div id="lunbobox">
 		        <div id="toleft">&lt;</div>
 		        <div class="lunbo">
+		                <a href="#"><img src="__PUBLIC__/Uploads/{$cnfileData[1][urlimg]}"></a>
 		                <a href="#"><img src="__PUBLIC__/Uploads/{$cnfileData[2][urlimg]}"></a>
 		                <a href="#"><img src="__PUBLIC__/Uploads/{$cnfileData[3][urlimg]}"></a>
-		                <a href="#"><img src="__PUBLIC__/Uploads/{$cnfileData[4 ][urlimg]}"></a>
 		        </div>
 		        <div id="toright">&gt;</div>
 		        <ul>
@@ -87,10 +87,10 @@
 					<div class="main_4_center w">
 						
 						<foreach name="newsData" item="vo">
-						<a class="main_4_center_Box w" href="{:U('Home/Index/newspage',array('id'=>$data[id]))}#sign">
+						<a class="main_4_center_Box w" href="{:U('Home/Index/newspage',array('id'=>$vo[id]))}#sign">
 							<img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.title}" />
 							<h6>{$vo.title}</h6>
-							<p>{$vo.content}</p>
+							<p>{$vo.abstracts}</p>
 						</a>
 					</foreach>
 					</div>

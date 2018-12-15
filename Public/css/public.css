@@ -1,4 +1,4 @@
-input{border:none;}
+﻿input{border:none;}
 /* ========== */
 /* = 头部 = */
 /* ========== */
@@ -364,5 +364,11 @@ input{border:none;}
 	margin-right:30px;
 	
 }
+
+.picture img {
+    width: 100%;
+    height: 400px;
+}
+
 
 

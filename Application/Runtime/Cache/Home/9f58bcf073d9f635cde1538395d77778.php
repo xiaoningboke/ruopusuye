@@ -29,7 +29,7 @@
 <!--头部开始-->
 <div id="header">
     <div class="header w">
-        <div class="header_logo floatL"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[0][urlimg]); ?>"></div>
+        <div class="header_logo floatL"><img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[0][urlimg]); ?>"></div>
         <div class="header_iphone floatL">
             <p>24 - hour service hotline</p>
             <p class="green bg"><?php echo ($cninfo["phone"]); ?></p>
@@ -59,7 +59,7 @@
     </ul>
 </div>
 <div class ="picture">
-    <img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[6][urlimg]); ?>" alt="新闻中心">
+    <img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[5][urlimg]); ?>" alt="新闻中心">
 </div>
 <div class="main">
     <div class="box">
@@ -76,7 +76,7 @@
             </div>
              <div class="information">
                 <div class="contain">Contact information</div>
-                <div><img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[10][urlimg]); ?>" alt=""></div>
+                <div><img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[7][urlimg]); ?>" alt=""></div>
                 <div>
                     <p><?php echo ($eninfo["name"]); ?></p>
                     <ul>
@@ -186,7 +186,7 @@
 		</div>
 <div id="kefu">
     <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
-    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10]["urlimg"]); ?>" alt=""> </a>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[9]["urlimg"]); ?>" alt=""> </a>
     <h2 class="times">工作时间</h2>
     <div id="gzsj">7*24小时全天在线</div>
 </div>

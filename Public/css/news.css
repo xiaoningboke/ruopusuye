@@ -1,4 +1,4 @@
-.picture {
+﻿.picture {
     width: 100%;
     height: 400px;
     /*background: pink;*/
@@ -55,7 +55,6 @@
 }
 .information li {
     width: 235px;
-    height: 30px;
     color:#ababab;
     font:500 12px/30px "微软雅黑";
     padding: 0px 15px 0px 15px;

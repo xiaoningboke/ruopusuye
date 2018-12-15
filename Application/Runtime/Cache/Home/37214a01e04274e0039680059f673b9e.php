@@ -212,7 +212,7 @@ function dis() {
 			<img src="/ruopusuye/Public/img/index_fixed_iphone.png" alt="" />
 		</a>
 		<div id="kongbai_weixin">
-            <img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[8]["urlimg"]); ?>" width="220" height="220" alt="">      
+            <img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[9]["urlimg"]); ?>" width="220" height="220" alt="">      
         </div>
 		<div id="kongbai_iphone">
 			<h5>电话热线：</h5>

@@ -1,4 +1,4 @@
-    <include file = "Public/headertop" title="产品展示-{$cninfo.name}"/>
+﻿    <include file = "Public/headertop" title="产品展示-{$cninfo.name}"/>
     <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/product.css">
     <link rel="stylesheet" href="__PUBLIC__/css/rep.css" />
     <script type="text/javascript" src="__PUBLIC__/js/product.js"></script>
@@ -13,7 +13,9 @@
 </head>
 <body>
 <include file = "Public/nav" />
-    <div class="back"><img src="__PUBLIC__/Uploads/{$cnfileData[6][urlimg]}" alt="新闻中心"></div>
+    <div class ="picture">
+        <img src="__PUBLIC__/Uploads/{$cnfileData[6][urlimg]}">
+    </div>
     <div id="content">
         <!--左侧部分-->
         <div id="left">
@@ -61,4 +63,6 @@
         </div>
 
     </div>
+ <div class="clear"></div>
+
  <include file = "Public/footer" />

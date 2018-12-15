@@ -57,9 +57,10 @@ class NewsModel extends Model {
      * 首页新闻数据
      * @return [type] [description]
      */
-    public function indexNews(){
+    public function indexNews($language){
         $news = M('News');
         $map['state'] = 1;
+        $map['language'] = $language;
         $data = $news->where($map)->order('id desc')->limit(3)->select();
         return $data;
     }

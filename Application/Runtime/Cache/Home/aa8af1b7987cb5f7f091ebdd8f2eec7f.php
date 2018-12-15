@@ -30,7 +30,7 @@
 <!--头部开始-->
 <div id="header">
     <div class="header w">
-        <div class="header_logo floatL"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[0][urlimg]); ?>"></div>
+        <div class="header_logo floatL"><img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[0][urlimg]); ?>"></div>
         <div class="header_iphone floatL">
             <p>24 - hour service hotline</p>
             <p class="green bg"><?php echo ($cninfo["phone"]); ?></p>
@@ -61,7 +61,7 @@
 </div>
 
 <div class ="picture">
-    <img src="/ruopusuye/Public/img/22400858.jpg" alt="">
+    <img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[4][urlimg]); ?>">
 </div>
 <!--头部结束-->
 <!--主部开始-->
@@ -145,7 +145,7 @@
 </div>
 <!--主部结束-->
 
-<!--尾部开始-->
+﻿<!--尾部开始-->
 <div id="footer">
     <div class="footer w">
         <div class="footer_LBox">
@@ -196,11 +196,11 @@
         <a id="top_weixin" href="#">
             <img src="/ruopusuye/Public/img/index_fixed_weixin.png" alt="" />
         </a>
-        <a id="top_iphone" target=blank href=tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes href="#">
+        <a id="top_iphone" target=blank href=tencent://message/?uin=<?php echo ($eninfo["qq"]); ?>&Site=im.qq.com&Menu=yes href="#">
             <img src="/ruopusuye/Public/img/index_fixed_iphone.png" alt="" />
         </a>
         <div id="kongbai_weixin">
-            <img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[8]["urlimg"]); ?>" width="220" height="220" alt="">
+            <img src="/ruopusuye/Public/Uploads/<?php echo ($enfileData[8]["urlimg"]); ?>" width="220" height="220" alt="">
         </div>
         <div id="kongbai_iphone">
             <h5>Telephone hotline：</h5>
@@ -208,7 +208,7 @@
         </div>
 <div id="kefu">
     <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
-    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($eninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10]["urlimg"]); ?>" alt=""> </a>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($eninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[9]["urlimg"]); ?>" alt=""> </a>
     <h2 class="times">working hours</h2>
     <div id="gzsj">24 - hour service hotline</div>
 </div>

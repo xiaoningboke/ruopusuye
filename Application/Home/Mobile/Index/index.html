@@ -1,0 +1,97 @@
+<include file="Public/header" webtitle="{$info.keywords}{$info.company}"/>
+<div>		    
+	<section>  
+		<figure id="full_feature" class="swipslider">
+		    <ul class="sw-slides">
+		        <li class="sw-slide">
+		            <img src="__PUBLIC__/Uploads/{$photodata[1].photouri}" alt="Summer beach concept">
+		        </li>
+		        <li class="sw-slide">
+		            <img src="__PUBLIC__/Uploads/{$photodata[2].photouri}" alt="Lang from Yie Ar Kung Fu">
+		        </li>       
+		        <li class="sw-slide">
+		            <img src="__PUBLIC__/Uploads/{$photodata[3].photouri}" alt="Tiny Tina">
+		        </li>
+		    </ul>
+		</figure>   
+	</section>
+</div>
+<!-- 小导航 -->
+<div class="xdh">
+	<div class="xdhIcon">
+		<a href="{:U('Home/Content/index',array('classification'=>1))}">
+			<img src="__PUBLIC__/img/icon_gywm.png" alt="">
+			<p>公司简介</p>
+		</a>
+	</div>
+	<div class="xdhIcon">
+		<a href="{:U('Home/Content/lianxi')}">
+			<img src="__PUBLIC__/img/icon_lxwm.png" alt="">
+			<p>联系我们</p>
+		</a>
+	</div>
+	<div class="xdhIcon">
+		<a href="{:U('Home/Content/jisuanqi')}">
+			<img src="__PUBLIC__/img/icon_jsq.png" alt="">
+			<p>重量计算器</p>
+		</a>
+	</div>
+	<div class="xdhIcon">
+		<a href="{:U('Home/Content/product',array('classification'=>3,'fenlei'=>1))}">
+			<img src="__PUBLIC__/img/icon_cpzs.png" alt="">
+			<p>产品展示</p>
+		</a>
+	</div>
+</div>
+<!-- 公司简介 -->
+<div class="gsjj">
+	<h3>公司简介</h3>
+	<p>{$info.jianjie}</p>
+	<h5><a href="{:U('Home/Content/index',array('classification'=>1))}" style="color: #FFF">查看更多+</a> </h5>
+</div>
+	
+<!-- 产品展示 -->
+	<div>
+		<h4>产品展示</h4>
+	</div>
+	<div id="div1">
+		<ul>
+			<li>
+				<foreach name = "wufeng" item = "vo">
+					<a href="{:U('Home/Content/product',array('classification'=>3,'fenlei'=>1))}">
+					    <img src="__PUBLIC__/Uploads/{$vo.picname}" alt="">
+					    <p>无缝钢管</p>
+					</a>
+				</foreach>
+			</li>
+			<li>
+				<foreach name = "jingmi" item = "vo">
+				<a href="{:U('Home/Content/product',array('classification'=>4,'fenlei'=>2))}">
+				    <img src="__PUBLIC__/Uploads/{$vo.picname}" alt="">
+				    <p>精密钢管</p>
+				</a>
+				</foreach>
+			</li>
+			<li>
+				<foreach name = "hejin" item = "vo">
+				<a href="{:U('Home/Content/product',array('classification'=>5,'fenlei'=>3))}">
+				    <img src="__PUBLIC__/Uploads/{$vo.picname}" alt="">
+				    <p>合金钢管</p>
+				</a>
+				</foreach>
+			</li>
+		</ul>			
+	</div>
+	<!-- 新闻中心 -->
+	<div>
+		<h4>新闻中心</h4>
+	</div>
+	<div class="listCon">
+		<ul>
+			<foreach name = "news" item = "vo">
+				<li><a href="{:U('Home/Content/disNews',array('id'=>$vo[id]))}">{$vo.title}</a></li>
+			</foreach>
+		</ul>
+	</div>
+<include file="Public/footer" />
+	

@@ -59,7 +59,7 @@
     </ul>
 </div>
 <div class ="picture">
-<img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[6][urlimg]); ?>" alt="新闻中心">
+<img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[5][urlimg]); ?>" alt="新闻中心">
 </div>
 
 <div class="main" id="">
@@ -77,7 +77,7 @@
             </div>
              <div class="information">
                 <div class="contain">联系方式</div>
-                <div><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10][urlimg]); ?>" alt=""></div>
+                <div><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[7][urlimg]); ?>" alt=""></div>
                 <div>
                     <p><?php echo ($cninfo["name"]); ?></p>
                     <ul>
@@ -204,7 +204,7 @@
 		</div>
 <div id="kefu">
     <h2 class="tact"><img src="/ruopusuye/Public/img/QQzxkf.jpg"><span id="cancel">×</span></h2>
-    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[10]["urlimg"]); ?>" alt=""> </a>
+    <a class="kefu_0"  target="blank" href="tencent://message/?uin=<?php echo ($cninfo["qq"]); ?>&Site=im.qq.com&Menu=yes"><img src="/ruopusuye/Public/Uploads/<?php echo ($cnfileData[9]["urlimg"]); ?>" alt=""> </a>
     <h2 class="times">工作时间</h2>
     <div id="gzsj">7*24小时全天在线</div>
 </div>

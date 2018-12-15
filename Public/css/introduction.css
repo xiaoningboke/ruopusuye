@@ -1,4 +1,4 @@
-/* 关于我们 */
+﻿/* 关于我们 */
 .w {
     margin:0 auto;
 }
@@ -20,7 +20,7 @@
 }
 /*标题设置*/
 .title {
-    width: 280px;
+    width: 290px;
     height:50px;
     margin:0 auto;
     border-bottom:solid 2px #4BB344;
@@ -32,7 +32,7 @@
     font:500 40px/40px "微软雅黑";
     position: absolute;
     display:inline-block;
-    width: 200px;
+    width: 220px;
     top:25px;
     right:40px;
 

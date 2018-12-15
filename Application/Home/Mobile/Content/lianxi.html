@@ -1,0 +1,28 @@
+<include file="Public/header" webtitle="联系方式_{$info.company}" />
+<link rel="stylesheet" href="__PUBLIC__/m/css/about.css">
+
+<div class="main">
+	<div class="bigImgDiv">
+		<img src="__PUBLIC__/Uploads/{$photodata[11].photouri}" alt="" class="bigImg">
+	</div>
+
+	<div class="w con">
+
+		<div class="Conright">
+			<div class="leftTopTitle">联系方式</div>
+			<div class="rightCon">
+				<div style="padding:30px;padding-top:0px;font-size: 20px;">
+					<p><span style="font-weight: 700;">联系人：</span>{$info.people}</p>
+					<p><span style="font-weight: 700;">QQ：</span>{$info.qq}</p>
+					<p><span style="font-weight: 700;">电话：</span>{$info.phone}</p>
+					<p><span style="font-weight: 700;">微信：</span>{$info.wetch}</p>
+					<p><span style="font-weight: 700;">邮箱：</span>{$info.email}</p>
+					<p><span style="font-weight: 700;">网址：</span>{$info.url}</p>
+					<p><span style="font-weight: 700;">地址：</span>{$info.address}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<include file="Public/footer" />

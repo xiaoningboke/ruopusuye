@@ -1,0 +1,846 @@
+[ 2018-12-14T02:20:16+08:00 ] 123.125.71.47 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2018-12-14T03:20:57+08:00 ] 47.92.140.160 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2018-12-14T07:55:27+08:00 ] 47.100.161.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-12-14T07:55:27+08:00 ] 47.100.161.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2018-12-14T07:55:27+08:00 ] 47.100.161.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-12-14T10:09:55+08:00 ] 220.181.108.159 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-12-14T10:57:51+08:00 ] 173.212.240.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2018-12-14T11:04:12+08:00 ] 47.100.57.133 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-12-14T11:09:19+08:00 ] 118.31.15.238 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-12-14T15:01:44+08:00 ] 112.253.21.74 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-12-14T15:02:18+08:00 ] 112.253.21.74 /index.php/Home/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_fenlei` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: p C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php 第 157 行.
+NOTIC: [8] Undefined index: keywords C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: fenlei_id C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `rp_fenlei` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_fenlei`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_product` WHERE `name` LIKE '%%' ORDER BY id desc LIMIT 0,9   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductModel::countPro(), called in C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php on line 168 and defined C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Model\ProductModel.class.php 第 24 行.
+NOTIC: [8] Undefined variable: fenlei_id C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Model\ProductModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: p C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Model\ProductModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: limit C:\phpStudy4IIS\WWW\ruopusuye\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `rp_product` WHERE `name` LIKE '%%' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rp_product` WHERE `name` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 31 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 81 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 81 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 111 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 111 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 111 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 129 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-12-14T15:32:31+08:00 ] 112.253.21.74 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2018-12-14T15:32:39+08:00 ] 112.253.21.74 /index.php/Home/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_fenlei` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: p C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php 第 157 行.
+NOTIC: [8] Undefined index: keywords C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Undefined index: fenlei_id C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `rp_fenlei` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_fenlei`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_product` WHERE `name` LIKE '%%' ORDER BY id desc LIMIT 0,9   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ProductModel::countPro(), called in C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Controller\IndexController.class.php on line 168 and defined C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Model\ProductModel.class.php 第 24 行.
+NOTIC: [8] Undefined variable: fenlei_id C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Model\ProductModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: p C:\phpStudy4IIS\WWW\ruopusuye\Application\Home\Model\ProductModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: limit C:\phpStudy4IIS\WWW\ruopusuye\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `rp_product` WHERE `name` LIKE '%%' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rp_product` WHERE `name` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 31 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 73 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 81 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 81 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 111 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 111 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 111 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 129 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2f4de9210f0faaf5e0fea0bc42744adb.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-12-14T18:07:55+08:00 ] 36.110.199.12 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2018-12-14T18:11:13+08:00 ] 123.125.71.114 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-12-14T23:37:41+08:00 ] 36.110.199.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_information` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_information` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_file` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `rp_product` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rp_content` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rp_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `rp_file` WHERE ( state=6 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `rp_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rp_news` WHERE `state` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 131 行.
+NOTIC: [8] Use of undefined constant urlimg - assumed 'urlimg' C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined offset: 10 C:\phpStudy4IIS\WWW\ruopusuye\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
